@@ -5,7 +5,7 @@ from flask import (
 )
 from werkzeug.security import check_password_hash, generate_password_hash
 from explorationproj.database import db_session
-from explorationproj.models import User
+from explorationproj.database import User
 
 bp = Blueprint('officers', __name__, url_prefix='/')
 
