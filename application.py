@@ -1,5 +1,3 @@
-# HELLOOOOO THIS IS A CHANGE
-
 import os
 import re
 import random
@@ -25,6 +23,16 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_name
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
 
+class User(db.Model):
+    id = db.Column('student_id', db.Integer, primary_key = True)
+    first_name = db.Column(db.String, nullable=False)
+    last_name = db.Column(db.String, nullable=False)
+    email = db.Column(db.String, unique=True, nullable=False)
+    username = db.Column(db.String, unique=True, nullable=False)
+    password = db.Column(db.String, nullable=False)
+
+db.create_all()
+
 # Ensure responses aren't cached
 @app.after_request
 def after_request(response):
@@ -41,6 +49,9 @@ Session(app)
 
 # TODO: CONFIGURE SQL
 # db = SQL("sqlite:///exploration.db")
+
+# To run: export FLASK_APP=application.py
+# 
     
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -74,8 +85,10 @@ def register():
 
 # home page
 @app.route("/", methods=["GET", "POST"])
-@login_required
 def index():
     # sample_db query 
-    # python_list = db.execute('SELECT something FROM table')
+    # db.session.add(User(first_name="Flask", email="example@example.com"))
+    # db.session.commit()
+    users = User.query.all()
+    print(users[0].first_name)
     return render_template('index.html')
