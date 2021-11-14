@@ -15,6 +15,8 @@ def init_db():
     Base.metadata.create_all(bind=engine)
     db_session.commit()
 
+# sql-alchemy
+
 class User(Base):
     __tablename__ = 'users'
     __table_args__ = {'extend_existing': True} 
