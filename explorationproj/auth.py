@@ -12,10 +12,11 @@ bp = Blueprint('auth', __name__, url_prefix='/')
 @bp.route("/login", methods=["GET", "POST"])
 def login():
     """Log user in"""
+    # Used for testing db (uncomment as needed)
     # u = User('Bob', 'Jones', 'bob@gmail.com', 'user_bob', 'password')
-    u = User(first_name='Bob', last_name='Jones', email='bob@gmail.com', username='user_bob', password='password')
-    db_session.add(u)
-    db_session.commit()
+    # u = User(first_name='Bob', last_name='Jones', email='bob@gmail.com', username='user_bob', password='password')
+    # db_session.add(u)
+    # db_session.commit()
 
     print(User.query.all())
     # Forget any user_id

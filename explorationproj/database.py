@@ -12,7 +12,6 @@ Base = declarative_base()
 Base.query = db_session.query_property()
 
 def init_db():
-    import explorationproj.models
     Base.metadata.create_all(bind=engine)
     db_session.commit()
 
