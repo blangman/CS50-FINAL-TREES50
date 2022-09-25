@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-from explorationproj.database import init_db
+from webapp.database import init_db
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()

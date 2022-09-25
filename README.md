@@ -1,13 +1,13 @@
 # Exploration Team
 
-Flask Github for Exploration Fall 2021.
+Flask Github for Exploration Fall 2022.
 
 # Getting Started
 
 Check if you have pip by running <br/>
 `pip --version` <br/>
 If pip is not installed, you will get an error that looks like "pip not found". Install pip using [Online Guide](https://www.geeksforgeeks.org/download-and-install-pip-latest-version/) <br/>
-### Make sure you are in explorationproj folder
+### Make sure you are in webapp folder
 
 Execute: <br/>
 `pip install -r requirements.txt`
