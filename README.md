@@ -18,6 +18,6 @@ Execute: <br/>
 
 To start Flask, execute these three lines: <br/>
 
-`export FLASK_APP=explorationproj` <br/>
+`export FLASK_APP=webapp` <br/>
 `export FLASK_ENV=development` <br/>
 `flask run`
