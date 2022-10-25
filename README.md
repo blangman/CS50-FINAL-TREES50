@@ -14,7 +14,7 @@ Execute: <br/>
 
 # Running Flask
 
-### Make sure you are in f2021-t4sg-exploration folder
+### Make sure you are in f22-t4sg-psetbuddy
 
 To start Flask, execute these three lines: <br/>
 
