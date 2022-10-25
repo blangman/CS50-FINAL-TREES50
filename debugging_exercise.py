@@ -1,6 +1,5 @@
 def function1():
     function2(4)
-    function2(5)
     function2(6)
     print("function1 done successfully")
 
