@@ -14,10 +14,14 @@ Execute: <br/>
 
 # Running Flask
 
-### Make sure you are in f2021-t4sg-exploration folder
+### Make sure you are in f22-t4sg-psetbuddy
 
 To start Flask, execute these three lines: <br/>
 
 `export FLASK_APP=webapp` <br/>
 `export FLASK_ENV=development` <br/>
 `flask run`
+
+Note if `flask run` doesn't work, you can try: <br/>
+`python3 -m flask run`
+
