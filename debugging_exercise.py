@@ -10,3 +10,4 @@ def function2(x):
 
 function1()
 function2(4)
+# i am a merge conflict
