@@ -30,4 +30,3 @@ Note: if you are using Windows, use the following commands instead: <br/>
 
 Note if `flask run` doesn't work, you can try: <br/>
 `python3 -m flask run`
-
