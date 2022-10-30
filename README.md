@@ -22,6 +22,12 @@ To start Flask, execute these three lines: <br/>
 `export FLASK_ENV=development` <br/>
 `flask run`
 
+Note: if you are using Windows, use the following commands instead: <br/>
+
+`$env:FLASK_APP = "webapp"` <br/>
+`$env:FLASK_ENV = "development"` <br/>
+`python -m flask run`
+
 Note if `flask run` doesn't work, you can try: <br/>
 `python3 -m flask run`
 
