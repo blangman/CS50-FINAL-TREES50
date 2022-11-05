@@ -35,10 +35,11 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
-    from . import auth, student_routes, club_officer_routes
+    from . import auth, group1, group2, group3
     app.register_blueprint(auth.bp)
-    app.register_blueprint(student_routes.bp)
-    app.register_blueprint(club_officer_routes.bp)
+    app.register_blueprint(group1.bp)
+    app.register_blueprint(group2.bp)
+    app.register_blueprint(group3.bp)
 
     db.init_app(app)
 

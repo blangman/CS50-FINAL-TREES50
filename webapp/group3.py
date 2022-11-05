@@ -7,8 +7,10 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from webapp.database import db_session
 from webapp.database import User
 
-bp = Blueprint('officers', __name__, url_prefix='/')
+bp = Blueprint('group3', __name__, url_prefix='/')
 
-@bp.route("/sample-endpoint2", methods=["GET", "POST"])
+@bp.route("/sample-endpoint3", methods=["GET", "POST"])
 def sample():
-    return "not implemented"
+    """i am a sample plz change me"""
+    # Change what template is being rendered
+    return render_template("register.html")
