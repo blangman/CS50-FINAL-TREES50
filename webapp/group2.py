@@ -14,3 +14,9 @@ def sample():
     """i am a sample plz change me"""
     # Change what template is being rendered
     return render_template("register.html")
+
+
+@bp.route("/rank_preferences", methods=["GET", "POST"])
+def rank_preferences():
+    """i am a sample plz change me"""
+    return render_template("rank_preferences.html")
