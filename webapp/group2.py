@@ -16,7 +16,7 @@ def sample():
     return render_template("register.html")
 
 
-@bp.route("/rank_preferences", methods=["GET", "POST"])
-def rank_preferences():
+@bp.route("/availabilities", methods=["GET", "POST"])
+def availabilities():
     """i am a sample plz change me"""
-    return render_template("rank_preferences.html")
+    return render_template("availabilities.html")
