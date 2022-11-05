@@ -16,3 +16,13 @@ paragraph {
 }
 
 /* Andrew */
+button {
+    background-color: #0CDA90;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 12pt;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+}
