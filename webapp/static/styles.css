@@ -18,3 +18,16 @@ plus sign{
     font-size: 20px;
     
 }
+
+.plus{
+    font-size: 20px;
+    left:80px; 
+    top:2px;
+}
+
+.h2{
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    color: #0CDA90;
+}
