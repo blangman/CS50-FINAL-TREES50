@@ -9,8 +9,8 @@ from webapp.database import User
 
 bp = Blueprint('group3', __name__, url_prefix='/')
 
-@bp.route("contact", methods=["GET", "POST"])
+@bp.route("index", methods=["GET", "POST"])
 def sample():
     """render_pages"""
     # Change what template is being rendered
-    return render_template("contact.html")
+    return render_template("index.html")
