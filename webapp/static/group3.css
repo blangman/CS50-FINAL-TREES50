@@ -18,7 +18,8 @@ h1 {
     border-style: solid;
     border-width: 2px;
     border-color: #0CDA90;
-    font-family: 'Poppins'
+    font-family: 'Poppins';
+    margin: 35px;
     ;
 }
 
