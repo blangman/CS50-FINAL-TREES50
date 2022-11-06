@@ -24,16 +24,19 @@ h1 {
 }
 
 #date {
+    font-family: 'Poppins';
     font-size: 10px;
     text-align: left;
 }
 
 #center {
+    font-family: 'Poppins';
     font-size: 10px;
     text-align: center;
 }
 
 #location {
+    font-family: 'Poppins';
     font-size: 10px;
     text-align: right;
 }
