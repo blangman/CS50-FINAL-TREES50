@@ -3,6 +3,7 @@ body {
 }
 
 table {
+    padding: 0;
     border-collapse: separate;
     border-spacing: 0 15px;
 }
@@ -14,10 +15,10 @@ h1 {
 }
 
 #block {
-    font-family: 'Poppins'
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #0CDA90;
+    font-family: 'Poppins'
     ;
 }
 
