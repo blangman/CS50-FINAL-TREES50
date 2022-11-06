@@ -56,3 +56,7 @@ li{
    font-family: 'Poppins';
     margin: 15px 0;
 }
+
+img {
+    border-radius: 50%;
+  }
