@@ -16,7 +16,17 @@ def sample():
     return render_template("register.html")
 
 
-@bp.route("/availabilities", methods=["GET", "POST"])
-def availabilities():
+@bp.route("/rank-preferences", methods=["GET", "POST"])
+def rank_preferences():
     """i am a sample plz change me"""
-    return render_template("availabilities.html")
+    return render_template("rank_preferences.html")
+
+@bp.route("/availability", methods=["GET", "POST"])
+def availability():
+    """i am a sample plz change me"""
+    return render_template("availability.html")
+
+@bp.route("/choose-classes", methods=["GET", "POST"])
+def choose_classes():
+    """i am a sample plz change me"""
+    return render_template("choose_classes.html")

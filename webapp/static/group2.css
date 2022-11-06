@@ -11,7 +11,6 @@ b{
 font-family: verdana;
 font-size: 20px;
 text-align: center;
-color: #0CDA90;
 }
 
 plus sign{
@@ -19,19 +18,99 @@ font-size: 20px;
 
 }
 
-.plus{
+.button{
 font-size: 20px;
-left:80px; 
+position: relative;
+left:300px; 
 top:2px;
 }
 
-.h2{
+h2{
 font-family: verdana;
 font-size: 20px;
-text-align: center;
 color: #0CDA90;
 }
 
-header {
+h1{
+    color: #0CDA90;
+    text-align: center;
+    font-size: 30px;
+    font-family: verdana;
+}
+
+input {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #0CDA90;
+    border-radius: 4px;
+    margin: auto
+}
+
+.time {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #0CDA90;
+    border-radius: 4px;
+    margin: auto;
+    display: inline-block;
+}
+
+form {
+    text-align: center;
+    white-space: nowrap; 
+}
+
+#parent {
+    white-space: nowrap; 
+}
+
+.child{
+    display: inline-block;
+}
+
+.center{
+    text-align: center;
+}
+
+.color{
+    font-family: verdana;
+    font-size: 20px;
     color: #0CDA90;
 }
+
+.rcorners1 {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+    box-sizing: border-box;
+    border: 2px solid #0CDA90;
+    border-radius: 4px;
+    display: inline-block;
+  }
+
+  button1{
+    border-radius: 25px;
+    background: #0CDA90;
+    padding: 25px;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    right: 0; 
+    bottom:0;
+  }
+
+  button2{
+    border-radius: 25px;
+    background: #0CDA90;
+    padding: 25px;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    left: 0; 
+    bottom:0;
+  }
