@@ -3,14 +3,14 @@ body {
 }
 
 heading {
-    font-size: 24px;
+    font-size: 1.50rem;
     color: #0CDA90;
     font-weight: bold;
     text-align: center;
 }
 
 paragraph {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #000000;
     text-align: left;
 }
@@ -20,8 +20,7 @@ button {
     color: #FFFFFF;
     border: 1px solid transparent;
     border-radius: 0.25rem;
-    font-size: 12pt;
-    line-height: 1.5;
+    font-size: 0.75rem;
     text-align: center;
     vertical-align: middle;
 }
