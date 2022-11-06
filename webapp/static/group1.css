@@ -24,3 +24,18 @@ button {
     text-align: center;
     vertical-align: middle;
 }
+
+input [type="text"]{
+    background-color: #d9edff;
+    border: 1px solid transparent #0CDA90;
+    border-radius: 0.25rem;
+    font-size: 12pt;
+    line-height: 1.5;
+    width: 25%;
+    vertical-align: middle;
+}
+
+input[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
