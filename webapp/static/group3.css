@@ -7,8 +7,37 @@ table {
     border-collapse: separate;
     border-spacing: 0 15px;
 }
+
 h1 {
     font-size: 30px;
+    color: #0CDA90;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #0CDA90;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #0CDA90;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-size: 16px;
+    color: #0CDA90;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    font-size: 12px;
     color: #0CDA90;
     font-weight: bold;
     text-align: center;
@@ -52,11 +81,11 @@ button {
     vertical-align: middle;
 }
 
-li{
-   font-family: 'Poppins';
+li {
+    font-family: 'Poppins';
     margin: 15px 0;
 }
 
 img {
     border-radius: 50%;
-  }
+}
