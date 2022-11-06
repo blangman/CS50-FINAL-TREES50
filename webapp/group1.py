@@ -14,11 +14,11 @@ def signup():
     return render_template("signup.html")
 
 @bp.route("profile", methods=["GET", "POST"])
-def your_groups():
+def profile():
     return render_template("profile.html")
 
 @bp.route("login", methods=["GET", "POST"])
-def your_groups():
+def login():
     return render_template("login.html")
 
 @bp.route("terms-of-service", methods=["GET", "POST"])
