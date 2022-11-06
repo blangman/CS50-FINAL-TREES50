@@ -9,7 +9,7 @@ from webapp.database import User
 
 bp = Blueprint('group2', __name__, url_prefix='/')
 
-@bp.route("/rank_preferences", methods=["GET", "POST"])
+@bp.route("/rank-preferences", methods=["GET", "POST"])
 def rank_preferences():
     """render pages"""
     return render_template("rank_preferences.html")
@@ -43,3 +43,13 @@ def session_length():
 def work_habits():
     """choose work habits"""
     return render_template("work_habits.html")
+
+@bp.route("/availability", methods=["GET", "POST"])
+def availability():
+    """i am a sample plz change me"""
+    return render_template("availability.html")
+
+@bp.route("/choose-classes", methods=["GET", "POST"])
+def choose_classes():
+    """i am a sample plz change me"""
+    return render_template("choose_classes.html")

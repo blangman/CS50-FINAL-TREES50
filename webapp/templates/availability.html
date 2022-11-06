@@ -1,39 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style> 
-        input[type=text] {
-          width: 20%;
-          padding: 12px 20px;
-          margin: 8px 0;
-          box-sizing: border-box;
-          border: 2px solid #0CDA90;
-          border-radius: 4px;
-          margin: auto;
-        }
-        </style>
+      <title>Availability</title>
+      <link rel="stylesheet" href="../static/group2.css">
     </head>
 
         <body>
         
-        <center><h2>Add your availabilities</h2></center>
+        <h2>Add your availabilities:</h2>
         
-        <center><form>
-          
+        <form id="parent">
+
           <input type="text" placeholder="Day" id="fname" name="fname"> 
           
-          <input type="text" placeholder="Time" id="lname" name="lname">
-        </form></center>
+          <span class="child">
+            <input class="time" type="text" placeholder="Time" id="lname" name="lname">
+            
+            <label class="color">to<input class="time" type="text" placeholder="Time" id="lname" name="lname"></label>
+          </span>
+
+        </form>
         
         </body>
 
-        <plus>
+        <div class="button">
           &#8853;
-        </plus>
-
-    <head>
-        <title>Availability</title>
-        <link rel="stylesheet" href="webapp/static/styles.css">
-    </head>
-
+        </div>
+        <button1>&rarr;</button1>
+        <button2>&larr;</button2>
 </html>
