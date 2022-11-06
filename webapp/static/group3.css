@@ -13,11 +13,10 @@ h1 {
     text-align: center;
 }
 
-h3 {
-    font-size: 16px;
-    color: #000000;
-    font-weight: bold;
-    text-align: center;
+#block {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0CDA90;
 }
 
 #date {
