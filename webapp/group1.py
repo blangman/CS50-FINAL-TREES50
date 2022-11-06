@@ -13,6 +13,14 @@ bp = Blueprint('group1', __name__, url_prefix='/')
 def signup():
     return render_template("signup.html")
 
+@bp.route("profile", methods=["GET", "POST"])
+def your_groups():
+    return render_template("profile.html")
+
+@bp.route("login", methods=["GET", "POST"])
+def your_groups():
+    return render_template("login.html")
+
 @bp.route("terms-of-service", methods=["GET", "POST"])
 def terms_of_service():
     return render_template("terms-of-service.html")
