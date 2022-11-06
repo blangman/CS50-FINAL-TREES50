@@ -13,6 +13,13 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
 #date {
     font-size: 10px;
     text-align: left;
