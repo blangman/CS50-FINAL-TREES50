@@ -68,4 +68,6 @@ button {
 li{
    font-family: 'Poppins';
     margin: 15px 0;
+    font-weight: bold;
+    text-align: center;
 }
