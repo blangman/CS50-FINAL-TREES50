@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins';
+    line-height: 1.5;
+    margin: 0;
 }
 
 h1 {
@@ -15,7 +17,7 @@ p {
     text-align: left;
 }
 
-.paragraph2 {
+p2 {
     background-color: #d9edff;
     border: 1px solid transparent #0CDA90;
     border-radius: 0.25rem;
@@ -41,7 +43,8 @@ input [type="text"]{
     border: 2px solid #0CDA90;
     border-radius: 0.25rem;
     font-size: 12pt;
-    line-height: 1.5;
+    line-height: 1.8;
+    width: 25%;
     padding: 0.375rem 0.75rem;
     vertical-align: middle;
     text-align: center;
