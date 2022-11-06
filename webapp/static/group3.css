@@ -9,17 +9,17 @@ title {
     text-align: center;
 }
 
-date {
+#date {
     font-size: 10px;
     text-align: left;
 }
 
-time {
+#time {
     font-size: 10px;
     text-align: center;
 }
 
-location {
+#location {
     font-size: 10px;
     text-align: right;
 }
