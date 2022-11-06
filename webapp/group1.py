@@ -9,8 +9,6 @@ from webapp.database import User
 
 bp = Blueprint('group1', __name__, url_prefix='/')
 
-@bp.route("/sample-endpoint1", methods=["GET", "POST"])
-def sample():
-    """i am a sample plz change me"""
-    # Change what template is being rendered
-    return render_template("register.html")
+@bp.route("/terms-of-service", methods=["GET", "POST"])
+def terms_of_service():
+    return render_template("terms-of-service.html")
