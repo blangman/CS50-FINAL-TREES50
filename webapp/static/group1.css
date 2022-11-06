@@ -15,7 +15,7 @@ p {
     text-align: left;
 }
 
-p2 {
+.paragraph2 {
     background-color: #d9edff;
     border: 1px solid transparent #0CDA90;
     border-radius: 0.25rem;
