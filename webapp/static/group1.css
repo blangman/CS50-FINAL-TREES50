@@ -28,7 +28,8 @@ h2 {
     width: 25%;
     vertical-align: middle;
     text-align: center;
-    margin:0;
+    margin-left:0;
+    margin-right:0;
 }
 
 button {
