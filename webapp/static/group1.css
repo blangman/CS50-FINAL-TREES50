@@ -2,14 +2,14 @@ body {
     font-family: 'Poppins';
 }
 
-heading {
+h1 {
     font-size: 1.50rem;
     color: #0CDA90;
     font-weight: bold;
     text-align: center;
 }
 
-paragraph {
+p {
     font-size: 0.75rem;
     color: #000000;
     text-align: left;
