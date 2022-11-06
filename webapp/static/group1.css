@@ -15,10 +15,20 @@ p {
     text-align: left;
 }
 
+p2 {
+    background-color: #d9edff;
+    border: 1px solid transparent #0CDA90;
+    border-radius: 0.25rem;
+    font-size: 12pt;
+    line-height: 1.5;
+    width: 25%;
+    vertical-align: middle;
+}
+
 button {
     background-color: #0CDA90;
     color: #FFFFFF;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 0.25rem;
     font-size: 0.75rem;
     text-align: center;
@@ -27,7 +37,7 @@ button {
 
 input [type="text"]{
     background-color: #d9edff;
-    border: 1px solid transparent #0CDA90;
+    border: 1px solid #0CDA90;
     border-radius: 0.25rem;
     font-size: 12pt;
     line-height: 1.5;
