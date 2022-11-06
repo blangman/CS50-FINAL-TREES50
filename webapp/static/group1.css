@@ -38,12 +38,13 @@ button {
 
 input [type="text"]{
     background-color: #d9edff;
-    border: 1px solid #0CDA90;
+    border: 2px solid #0CDA90;
     border-radius: 0.25rem;
     font-size: 12pt;
     line-height: 1.5;
-    width: 25%;
+    padding: 0.375rem 0.75rem;
     vertical-align: middle;
+    text-align: center;
 }
 
 input[type="text"]:hover {
