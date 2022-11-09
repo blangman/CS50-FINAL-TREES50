@@ -10,7 +10,7 @@ table {
 h1 {
     font-size: 30px;
     color: #0CDA90;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
 }
 
@@ -84,6 +84,8 @@ button {
 li {
     font-family: 'Poppins';
     margin: 15px 0;
+    font-weight: bold;
+    font-size: 10px;
 }
 
 img {
@@ -101,4 +103,8 @@ hr {
     background-color: #0CDA90;
     height: 1px;
     border: 0;
+}
+
+.right-align {
+    text-align: right;
 }
