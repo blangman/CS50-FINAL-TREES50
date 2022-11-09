@@ -47,6 +47,7 @@ h5 {
     border-width: 4px;
     border-color: #0CDA90;
     border-radius: 0.25rem;
+    border-left-width: 30px;
     padding: 0.5em;
     font-family: 'Poppins';
     margin: 80px 100px 80px 100px;
@@ -85,7 +86,7 @@ li {
     font-family: 'Poppins';
     margin: 15px 0;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 img {
@@ -107,4 +108,8 @@ hr {
 
 .right-align {
     text-align: right;
+}
+
+pre {
+    font-family: "Poppins"
 }
