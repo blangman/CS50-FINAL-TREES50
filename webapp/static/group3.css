@@ -5,7 +5,6 @@ body {
 table {
     padding: 0;
     border-collapse: separate;
-    border-spacing: 0 15px;
 }
 
 h1 {
@@ -48,9 +47,9 @@ h5 {
     border-width: 4px;
     border-color: #0CDA90;
     border-radius: 0.25rem;
+    padding: 0.5em;
     font-family: 'Poppins';
-    margin: 50px 100px 50px 100px;
-    ;
+    margin: 80px 100px 80px 100px;
 }
 
 #date {
@@ -94,6 +93,12 @@ img {
 th {
   width: 400px;
   text-align: center;
-  padding: 5px;
   font-family: 'Poppins'
+}
+
+hr {
+    border-color: #0CDA90;
+    background-color: #0CDA90;
+    height: 1px;
+    border: 0;
 }
