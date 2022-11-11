@@ -96,7 +96,7 @@ img {
 th {
   width: 400px;
   text-align: center;
-  font-family: 'Poppins'
+  font-family: 'Poppins';
 }
 
 hr {
@@ -125,4 +125,10 @@ pre {
 .center {
     display: flex;
     justify-content: center;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 0rem;
 }
