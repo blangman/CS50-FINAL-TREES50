@@ -113,3 +113,16 @@ hr {
 pre {
     font-family: "Poppins"
 }
+
+.small-image {
+    width: 10%
+}
+
+.big-image {
+    width: 15%
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
