@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins';
     line-height: 1.5;
     margin: 0;
+    text-align: center;
 }
 
 h1 {
@@ -17,40 +18,31 @@ p {
     text-align: left;
 }
 
-h2 {
-    background-color: white;
-    border: 1px solid #0CDA90;
-    color: black;
-    font-weight: normal;
-    border-radius: 0.25rem;
-    font-size: 12pt;
-    line-height: 1.5;
-    width: 25%;
-    vertical-align: middle;
-    text-align: center;
-    margin:0 auto;
-}
-
-h3 {
-    background-color: white;
-    border: 1px solid #0CDA90;
-    color: black;
-    font-weight: normal;
-    border-radius: 0.25rem;
-    font-size: 12pt;
-    line-height: 1.5;
-    width: 25%;
-    vertical-align: middle;
+.left {
     text-align: left;
+}
+
+.textbox {
+    background-color: white;
+    border:  1px solid #0CDA90;
+    color: black;
+    font-weight: normal;
+    border-radius: 0.25rem;
+    font-size: 12pt;
+    line-height: 1.5;
+    width: 25%;
+    vertical-align: middle;
     margin:0 auto;
 }
 
-button {
+.button {
     background-color: #0CDA90;
     color: #FFFFFF;
     border: none;
     border-radius: 0.25rem;
     font-size: 0.75rem;
+    width: .25rem;
+    height: .50rem;
     text-align: center;
     vertical-align: middle;
 }
