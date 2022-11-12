@@ -1,4 +1,4 @@
-textbox{
+textbox {
     width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -7,35 +7,43 @@ textbox{
     border-radius: 4px;
 }
 
-b{
+b {
 font-family: verdana;
 font-size: 20px;
 text-align: center;
 }
 
-plus sign{
+plus_sign {
 font-size: 20px;
 
 }
 
-.button{
+.button {
 font-size: 20px;
 position: relative;
 left:300px; 
 top:2px;
 }
 
-h2{
+h2 {
+color: black;
 font-family: verdana;
 font-size: 20px;
-color: #0CDA90;
+color: black;
 text-align: center;
 }
 
-h1{
-    color: #0CDA90;
+h1 {
+    color: black;
     text-align: center;
     font-size: 30px;
+    font-family: verdana;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
     font-family: verdana;
 }
 
@@ -46,7 +54,7 @@ input {
     box-sizing: border-box;
     border: 2px solid #0CDA90;
     border-radius: 4px;
-    margin: auto
+    margin: auto;
 }
 
 .time {
@@ -69,15 +77,15 @@ form {
     white-space: nowrap; 
 }
 
-.child{
+.child {
     display: inline-block;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.color{
+.color {
     font-family: verdana;
     font-size: 20px;
     color: #0CDA90;
@@ -94,7 +102,7 @@ form {
     display: inline-block;
   }
 
-  button1{
+  button1 {
     border-radius: 5px;
     background: #0CDA90;
     padding: 10px;
@@ -105,7 +113,7 @@ form {
     bottom:0;
   }
 
-  button2{
+  button2 {
     border-radius: 5px;
     background: #0CDA90;
     padding: 10px;
@@ -115,3 +123,25 @@ form {
     left: 0; 
     bottom:0;
   }
+
+.button 
+{
+    background-color: white;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .button5 {
+    font: black;
+    font-size: 16px;
+    text-align: center;
+    border-color: #0CDA90;
+    border-width: 2px;
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
