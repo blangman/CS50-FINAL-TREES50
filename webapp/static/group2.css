@@ -124,6 +124,14 @@ form {
     bottom:0;
   }
 
+  .box {
+    width: 120px;
+    height: 30px;
+    border: 3px solid #0CDA90;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
 .button {
     background-color: white;
     border: black;
