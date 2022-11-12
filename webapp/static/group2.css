@@ -124,8 +124,7 @@ form {
     bottom:0;
   }
 
-.button 
-{
+.button {
     background-color: white;
     border: black;
     color: white;
@@ -133,12 +132,13 @@ form {
     text-align: center;
     font-size: 12px;
   }
-  .button5 {
+
+  .button_preferences {
     font: black;
     font-size: 16px;
     text-align: center;
     border-color: #0CDA90;
-    border-width: 2px;
+    border-radius: 25px;
     background-color: white;
     height: 50px;
     width: 300px;
