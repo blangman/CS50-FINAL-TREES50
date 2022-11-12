@@ -11,45 +11,45 @@ bp = Blueprint('group2', __name__, url_prefix='/')
 
 @bp.route("/rank-preferences", methods=["GET", "POST"])
 def rank_preferences():
-    """render pages"""
+    """Rank importance of preferences"""
     return render_template("rank_preferences.html")
 
 @bp.route("/grade_selection", methods=["GET", "POST"])
 def grade_selection():
-    """choose grade of matches"""
+    """Select grade level of matches"""
     return render_template("grade_selection.html")
 
 @bp.route("/group_size", methods=["GET", "POST"])
 def group_size():
-    """choose group size"""
+    """Select group size"""
     return render_template("group_size.html")
 
 @bp.route("/location_type", methods=["GET", "POST"])
 def group_location():
-    """choose location type"""
+    """Select location type"""
     return render_template("group_location.html")
 
 @bp.route("/location", methods=["GET", "POST"])
 def location():
-    """choose location"""
+    """Select location"""
     return render_template("location.html")
 
 @bp.route("/session_length", methods=["GET", "POST"])
 def session_length():
-    """choose session length"""
+    """Select session length"""
     return render_template("session_length.html")
 
 @bp.route("/work_habits", methods=["GET", "POST"])
 def work_habits():
-    """choose work habits"""
+    """Select work habits"""
     return render_template("work_habits.html")
 
 @bp.route("/availability", methods=["GET", "POST"])
 def availability():
-    """i am a sample plz change me"""
+    """Select availability (day and time)"""
     return render_template("availability.html")
 
 @bp.route("/choose-classes", methods=["GET", "POST"])
 def choose_classes():
-    """i am a sample plz change me"""
+    """Select classes in search of"""
     return render_template("choose_classes.html")
