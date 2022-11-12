@@ -41,8 +41,8 @@ p {
     border: none;
     border-radius: 0.25rem;
     font-size: 0.75rem;
-    width: .25rem;
-    height: .50rem;
+    width: 0.25rem;
+    height: 0.1rem;
     text-align: center;
     vertical-align: middle;
 }
