@@ -59,7 +59,34 @@ def logout():
     # Redirect user to login form
     return redirect("/")
 
-@bp.route("/register", methods=["GET", "POST"])
+@bp.route("/example2", methods=["GET", "POST"])
 def register():
-    """Register user"""
-    return render_template("register.html")
+    """Registers a new user"""
+    session.clear()
+    if request.method == "POST":
+        # Create variables to get the data from the registration form
+        firstname = request.form.get("firstname")
+        lastname = request.form.get("lastname")
+        email = request.form.get("email")
+        username = request.form.get("username")
+        password = request.form.get("password")
+        confirmation = request.form.get("confirmation")
+        
+        # Ensure that the password is the same as the confirmation
+        if password == confirmation:
+            
+            # Generate a hash to store into the database
+            hash = generate_password_hash(password)
+            
+            # Create a newUser variable that stores the user object
+            newUser = User(first_name=firstname, last_name=lastname, email=email, username=username, password=hash)
+            
+            # Add the newUser object to the database
+            db_session.add(newUser)
+           
+            # Update the database
+            db_session.commit()
+        return redirect("/login")
+
+    else:
+        return render_template("register.html")
