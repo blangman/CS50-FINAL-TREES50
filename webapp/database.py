@@ -193,3 +193,16 @@ class ClubEvent(Base):
 
     def __repr__(self):
         return f'<User {self.id, self.club_id, self.event_id!r}>'
+
+
+# Group 1 adds necessary tables here.
+
+
+
+# Group 2 adds necessary tables here.
+
+
+
+# Group 3 adds necessary tables here.
+
+

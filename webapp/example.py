@@ -9,22 +9,40 @@ from .database import User
 
 bp = Blueprint('auth', __name__, url_prefix='/')
 
-@bp.route("/login", methods=["GET", "POST"])
-def login():
+@bp.route("/example", methods=["GET", "POST"])
+def example():
     """Log user in"""
-    # Used for testing db (uncomment as needed)
-    # u = User('Bob', 'Jones', 'bob@gmail.com', 'user_bob', 'password')
-    # u = User(first_name='Bob', last_name='Jones', email='bob@gmail.com', username='user_bob', password='password')
-    # db_session.add(u)
-    # db_session.commit()
-
     print(User.query.all())
+    
     # Forget any user_id
     session.clear()
 
     # User reached route via POST (as by submitting a form via POST)
     if request.method == "POST":
-        # TODO
+        
+        # Ensure username was submitted
+        if not request.form.get("username"):
+            return
+            # return apology("must provide username", 403)
+
+        # Ensure password was submitted
+        elif not request.form.get("password"):
+            return
+            # return apology("must provide password", 403)
+
+        # Query database for username
+        rows = User.query.filter_by(username=request.form.get("username")).all()
+        print (rows)
+
+        # Ensure username exists and password is correct
+        if len(rows) != 1 or not check_password_hash(rows[0].password, request.form.get("password")):
+            return
+            # return apology("invalid username and/or password", 403)
+        
+        # Remember which user has logged in
+        session["user_id"] = rows[0].id
+
+        # Redirect user to home page
         return redirect("/")
 
     # User reached route via GET (as by clicking a link or via redirect)
