@@ -1,0 +1,155 @@
+textbox {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #0CDA90;
+    border-radius: 4px;
+}
+
+b {
+font-family: verdana;
+font-size: 20px;
+text-align: center;
+}
+
+plus_sign {
+font-size: 20px;
+
+}
+
+.button {
+font-size: 20px;
+position: relative;
+left:300px; 
+top:2px;
+}
+
+h2 {
+color: black;
+font-family: verdana;
+font-size: 20px;
+color: black;
+text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: verdana;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+input {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #0CDA90;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.time {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #0CDA90;
+    border-radius: 4px;
+    margin: auto;
+    display: inline-block;
+}
+
+form {
+    text-align: center;
+    white-space: nowrap; 
+}
+
+#parent {
+    white-space: nowrap; 
+}
+
+.child {
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.color {
+    font-family: verdana;
+    font-size: 20px;
+    color: #0CDA90;
+}
+
+.rcorners1 {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+    box-sizing: border-box;
+    border: 2px solid #0CDA90;
+    border-radius: 4px;
+    display: inline-block;
+  }
+
+  button1 {
+    border-radius: 5px;
+    background: #0CDA90;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    right: 0; 
+    bottom:0;
+  }
+
+  button2 {
+    border-radius: 5px;
+    background: #0CDA90;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    left: 0; 
+    bottom:0;
+  }
+
+  .box {
+    width: 120px;
+    height: 30px;
+    border: 3px solid #0CDA90;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+.button {
+    background-color: white;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .button_preferences {
+    font: black;
+    font-size: 16px;
+    text-align: center;
+    border-color: #0CDA90;
+    border-radius: 25px;
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
