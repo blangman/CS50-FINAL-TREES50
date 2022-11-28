@@ -1,6 +1,6 @@
-# Exploration Team
+# Ben and Dan Final Project
 
-Flask Github for Exploration Fall 2022.
+Flask Github for CS50 Fall 2022.
 
 # Getting Started
 
