@@ -35,11 +35,9 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
-    from . import auth, group1, group2, group3
+    from . import auth, tree
     app.register_blueprint(auth.bp)
-    app.register_blueprint(group1.bp)
-    app.register_blueprint(group2.bp)
-    app.register_blueprint(group3.bp)
+    app.register_blueprint(tree.bp)
 
     db.init_app(app)
 
