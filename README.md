@@ -14,7 +14,7 @@ Execute: <br/>
 
 # Running Flask
 
-### Make sure you are in f22-t4sg-psetbuddy
+### Make sure you are in cs50-final-trees50
 
 To start Flask, execute these three lines: <br/>
 
