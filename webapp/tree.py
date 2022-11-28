@@ -9,7 +9,7 @@ from webapp.database import User
 
 bp = Blueprint('group1', __name__, url_prefix='/')
 
-@bp.route("signup", methods=["GET", "POST"])
+@bp.route("login", methods=["GET", "POST"])
 def signup():
     '''Renders the signup page.'''
-    return render_template("signup.html")
+    return render_template("login.html")

@@ -35,8 +35,7 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
-    from . import auth, tree
-    app.register_blueprint(auth.bp)
+    from . import tree
     app.register_blueprint(tree.bp)
 
     db.init_app(app)
