@@ -7,14 +7,12 @@
 h1 {
     font-size: 100px;
     text-align: center;
-    display: table-cell;
     vertical-align: middle;
 }
 
 h2 {
     font-size: 75px;
     text-align: center;
-    display: table-cell;
     vertical-align: middle;
 }
 
