@@ -20,3 +20,10 @@ body {
     background-image: url('trees.jpeg');
     color: #030303;
 }
+
+.center-text {
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(37, 180, 37);
+    width: 50%;
+}
