@@ -11,6 +11,13 @@ h1 {
     vertical-align: middle;
 }
 
+h2 {
+    font-size: 75px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 body {
     background-image: url('trees.jpeg');
     color: #030303;
