@@ -14,25 +14,25 @@ def index():
     return render_template("index.html")
 
 @bp.route('/lobed', methods=["GET", "POST"])
-def index():
+def lobed():
     return render_template("lobed.html")
 
 @bp.route('/pointed', methods=["GET", "POST"])
-def index():
+def pointed():
     return render_template("pointed.html")
 
 @bp.route('/misc', methods=["GET", "POST"])
-def index():
+def misc():
     return render_template("misc.html")
 
 @bp.route('/needles', methods=["GET", "POST"])
-def index():
+def needles():
     return render_template("needles.html")
 
 @bp.route('/string', methods=["GET", "POST"])
-def index():
+def string():
     return render_template("string.html")
 
 @bp.route('/teardrop', methods=["GET", "POST"])
-def index():
+def teardrop():
     return render_template("teardrop.html")

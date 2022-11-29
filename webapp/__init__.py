@@ -30,7 +30,6 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-
     from . import tree
     app.register_blueprint(tree.bp)
 
