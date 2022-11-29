@@ -9,7 +9,6 @@ from webapp.database import User
 
 bp = Blueprint('group1', __name__, url_prefix='/')
 
-@bp.route("index", methods=["GET", "POST"])
-def signup():
-    '''Renders the index page.'''
+@bp.route('/', methods=["GET", "POST"])
+def index():
     return render_template("index.html")
