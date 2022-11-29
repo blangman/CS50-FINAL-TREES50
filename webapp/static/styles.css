@@ -24,6 +24,7 @@ body {
 .center-text {
     text-align: center;
     vertical-align: middle;
+    margin: auto;
     background-color: rgb(37, 180, 37);
     font-size:18px;
     width: 50%;
