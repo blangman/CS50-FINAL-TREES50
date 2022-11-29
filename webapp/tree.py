@@ -16,5 +16,5 @@ def signup():
 
 @bp.route("index", methods=["GET", "POST"])
 def signup():
-    '''Renders the signup page.'''
+    '''Renders the index page.'''
     return render_template("index.html")
