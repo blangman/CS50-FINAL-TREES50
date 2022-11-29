@@ -1,8 +1,9 @@
 import os
 
 from flask import Flask
-from webapp.database import init_db
 from flask_sqlalchemy import SQLAlchemy
+from webapp.database import init_db
+
 
 db = SQLAlchemy()
 
