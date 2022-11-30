@@ -39,5 +39,36 @@ button {
     font-size: 12pt;
     line-height: 1.5;
     text-align: center;
+    position: relative;
+    float: right;
+    right:10%;
+    width: 50%;
+    font-size:18px;
+}
+
+.left-text {
+    text-align: center;
+    position: relative;
+    left:10%;
+    width:50%;
+    font-size:18px;
+    float: left;
+}
+
+.accordion-image {
+    width: 50%;
+    float:left;
+}
+
+.tree-name {
+    font-size:30px;
+    position:relative;
+    background-color: darkgreen;
+    color: white;
     vertical-align: middle;
+}
+
+.next-tree {
+    position:relative;
+    margin-top: 20px;
 }
