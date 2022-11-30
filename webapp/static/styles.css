@@ -20,6 +20,8 @@ h2 {
 body {
     background-image: url('trees.jpeg');
     color: #030303;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 .center-text {
@@ -29,6 +31,7 @@ body {
     background-color: rgb(37, 180, 37);
     font-size:18px;
     width: 50%;
+    border-radius: 0.25rem;
 }
 
 button {
@@ -76,4 +79,9 @@ button {
 .next-tree {
     position:relative;
     margin-top: 20px;
+}
+
+img {
+    border-radius: 0.25rem;
+    border-style: border-box;
 }
