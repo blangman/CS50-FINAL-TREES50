@@ -47,6 +47,7 @@ button {
     right:10%;
     width: 50%;
     font-size:18px;
+    overflow:auto;
 }
 
 .left-text {
@@ -55,6 +56,7 @@ button {
     left:10%;
     width:50%;
     font-size:18px;
+    overflow:auto;
     float: left;
 }
 
