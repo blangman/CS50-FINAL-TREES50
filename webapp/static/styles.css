@@ -65,7 +65,7 @@ button {
 
 .tree-name {
     font-size:30px;
-    position:relative;
+    position:absolute;
     background-color: darkgreen;
     color: white;
     vertical-align: middle;
