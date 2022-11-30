@@ -18,13 +18,13 @@ def init_db():
 # sql-alchemy
 
 # users db
-class User(Base):
-    __tablename__ = 'users'
+class Tree(Base):
+    __tablename__ = 'tree'
     __table_args__ = {'extend_existing': True} 
 
-    id = Column(Integer, primary_key=True)
-    first_name = Column(String, nullable=False)
-    last_name = Column(String, nullable=False)
+    tree_id = Column(Integer, primary_key=True)
+    tree_name = Column(String, nullable=False)
+    tree_species = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
     username = Column(String, unique=True, nullable=False)
     password = Column(String, nullable=False)
