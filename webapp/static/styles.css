@@ -51,7 +51,7 @@ button {
 
 .left-text {
     text-align: center;
-    position: relative;
+    position:absolute;
     left:10%;
     width:50%;
     font-size:18px;
