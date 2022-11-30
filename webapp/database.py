@@ -18,7 +18,7 @@ def init_db():
 # sql-alchemy
 
 # users db
-class Tree(Base):
+class User(Base):
     __tablename__ = 'tree'
     __table_args__ = {'extend_existing': True} 
 
