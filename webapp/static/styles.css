@@ -42,7 +42,7 @@ button {
 
 .right-text {
     text-align: center;
-    position: relative;
+    position: absolute;
     float: right;
     right:10%;
     width: 50%;
