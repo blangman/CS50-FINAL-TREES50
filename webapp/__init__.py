@@ -1,8 +1,9 @@
 import os
 
 from flask import Flask
-from webapp.database import init_db
 from flask_sqlalchemy import SQLAlchemy
+from webapp.database import init_db
+
 
 db = SQLAlchemy()
 
@@ -29,11 +30,6 @@ def create_app(test_config=None):
         os.makedirs(app.instance_path)
     except OSError:
         pass
-
-    # a simple page that says hello
-    @app.route('/')
-    def hello():
-        return 'Hello, World!'
 
     from . import tree
     app.register_blueprint(tree.bp)
