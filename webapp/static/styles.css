@@ -2,13 +2,11 @@
     text-align: center;
     font-family: 'Oi';
     color: #1e231d;
+    vertical-align: middle;
 }
 
 h1 {
     font-size: 100px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
 }
 
 body {
