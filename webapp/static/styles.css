@@ -34,7 +34,23 @@ body {
 .right-text {
     text-align: center;
     position: absolute;
+    float: right;
     right:20px;
     width: 50%;
     font-size:18px;
+}
+
+.left-text {
+    text-align: center;
+    position: absolute;
+    left:20px;
+    width: 50%;
+    font-size:18px;
+    float: left;
+}
+
+.tree-name {
+    font-size:30px;
+    background-color: darkgreen;
+    color: white;
 }
