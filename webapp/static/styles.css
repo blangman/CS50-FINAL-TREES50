@@ -83,7 +83,7 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 5px;
+    margin-block: 500px;
     padding: 0;
     overflow: hidden;
     background-color: #0cda90;
@@ -91,12 +91,11 @@ ul {
 
 li {
     float: right;
-    text-align: right;
 }
 
 li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -120,4 +119,8 @@ li a:hover {
 hr {
     color: black;
     width: 60%;
+}
+
+nav {
+    color: green;
 }
