@@ -13,8 +13,6 @@ h1 {
 
 body {
     background-image: url('trees.jpeg');
-    background-position: bottom;
-    background-size: cover;
     backdrop-filter: blur(6px);
 }
 
@@ -63,9 +61,10 @@ body {
 }
 
 .accordion-image {
-    width: 50%;
+    width: 40%;
     float: left;
     border-radius: 0.5rem;
+    border: 4px solid #0CDA90;
 }
 
 .tree-name {
@@ -115,10 +114,11 @@ li a:hover {
     border-color: #0CDA90;
     border-radius: 0.25rem;
     font-family: 'Poppins';
-    margin: 80px 100px 80px 100px;
+    padding: 2px;
 }
 
-img {
-    border: 5px solid #0CDA90;
-    border-radius: 0.4rem;
+hr {
+    color: #0CDA90;
+    width: 60%;
+    align: center;
 }
