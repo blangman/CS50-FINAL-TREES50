@@ -1,17 +1,11 @@
 .header {
     text-align: center;
-    font-family: 'Forest';
+    font-family: 'Vidaloka';
     color: #1e231d;
     vertical-align: middle;
 }
 
 h1 {
-    font-size: 100px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-h2 {
     font-size: 75px;
     text-align: center;
     vertical-align: middle;
