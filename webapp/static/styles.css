@@ -1,6 +1,6 @@
 .header {
     text-align: center;
-    font-family: 'Oi';
+    font-family: 'Forest';
     color: #1e231d;
     vertical-align: middle;
 }
@@ -106,9 +106,10 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Lora';
   }
   
-  /* Change the link color to #111 (black) on hover */
+  /* Change the link color to green on hover */
   li a:hover {
     background-color: darkgreen;
   }
