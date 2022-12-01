@@ -19,6 +19,8 @@ h2 {
 
 body {
     background-image: url('trees.jpeg');
+    background-position: bottom;
+    background-size: cover;
     backdrop-filter: blur(6px);
 }
 
@@ -29,6 +31,8 @@ body {
     background-color: rgb(37, 180, 37);
     font-size:18px;
     width: 50%;
+    font-family: 'Montserrat';
+    padding: 5px;
 }
 
 .button {
@@ -48,6 +52,8 @@ body {
     width: 50%;
     font-size:18px;
     overflow:auto;
+    font-family: 'Montserrat';
+    padding: 5px;
 }
 
 .left-text {
@@ -58,12 +64,14 @@ body {
     font-size:18px;
     overflow:auto;
     float: left;
+    font-family: 'Montserrat';
+    padding: 5px;
 }
 
 .accordion-image {
     width: 50%;
     float:left;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
 }
 
 .tree-name {
@@ -72,9 +80,35 @@ body {
     background-color: darkgreen;
     color: white;
     vertical-align: middle;
+    font-family: 'Lora'
 }
 
 .next-tree {
     position:relative;
     margin-top: 20px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0cda90;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: darkgreen;
+  }
