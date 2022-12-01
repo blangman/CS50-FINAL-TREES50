@@ -1,264 +1,266 @@
 {% extends "layout.html" %}
 
 {% block main %}
-    <h1 class="header">Lobed Leaves</h1>
+  <h1 class="header">Lobed Leaves</h1>
 
-    <img src="static/img/lobed.jpg" class="w-50 center">
+  <img src="static/img/lobed.jpg" class="w-50 center">
 
-    <div class="center-text">
-            One common type of leaf is a lobed leaf, which is very common among the Oak family specifically,
-            within Harvard Yard, there are 5 different species of trees that have lobed leaves. 
-    </div>
+  <div class="center-text">
+    One common type of leaf is a lobed leaf, which is very common among the Oak family specifically,
+    within Harvard Yard, there are 5 different species of trees that have lobed leaves. 
+  </div>
     
-    <br>
-    <br>
+  <br>
+  <br>
 
-    <!-- Red Oak image and accordion with info-->
-    <div style="margin-bottom:50%">
-      <!-- Red Oak Image-->
-      <div style="text-align:left">
-        <img src="static/img/red-oak.jpg" class="w-25 left-text">
-        <h3 class="tree-name left-text w-25">Red Oak</h3>
+  <!-- Red Oak image and accordion with info-->
+  <div style="margin-bottom:50%">
+    <!-- Red Oak Image-->
+    <div style="text-align:left">
+      <img src="static/img/red-oak.jpg" class="w-25 left-text">
+      <h3 class="tree-name left-text w-25">Red Oak</h3>
+    </div>
+    <!-- Red Oak Accordion with all info-->
+    <div class="accordion right-text w-50" id="ROAccordion" style="display:inline-block">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="ROHeading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse1" aria-expanded="true" aria-controls="ROCollapse1">
+            Leaves
+          </button>
+        </h2>
+        <div id="ROCollapse1" class="accordion-collapse collapse show" aria-labelledby="ROHeading1" data-bs-parent="#ROAccordion">
+          <div class="accordion-body" style="text-align:center">
+            <img src="static/img/red-oak-leaf.jpg" class="accordion-image">
+            <strong>The Leaf of the Red Oak has pointed lobes.</strong>
+            The lobes of the leaf refers to the different compartments of the leaf that appear to be protruding out.
+            In the Red Oak, these lobes are pointed. Normally, there are between 7 to 11 lobes on each leaf of a Red Oak,
+            and these leaves can vary in size, with large leaves growing up to 9 inches long!
+          </div>
+        </div>
       </div>
-      <!-- Red Oak Accordion with all info-->
-      <div class="accordion right-text w-50" id="ROAccordion" style="display:inline-block">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="ROHeading1">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse1" aria-expanded="true" aria-controls="ROCollapse1">
-              Leaves
-            </button>
-          </h2>
-          <div id="ROCollapse1" class="accordion-collapse collapse show" aria-labelledby="ROHeading1" data-bs-parent="#ROAccordion">
-            <div class="accordion-body" style="text-align:center">
-              <img src="static/img/red-oak-leaf.jpg" class="accordion-image">
-              <strong>The Leaf of the Red Oak has pointed lobes.</strong>
-              The lobes of the leaf refers to the different compartments of the leaf that appear to be protruding out.
-              In the Red Oak, these lobes are pointed. Normally, there are between 7 to 11 lobes on each leaf of a Red Oak,
-              and these leaves can vary in size, with large leaves growing up to 9 inches long!
-            </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="ROHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse2" aria-expanded="false" aria-controls="ROCollapse2">
+            Bark
+          </button>
+        </h2>
+        <div id="ROCollapse2" class="accordion-collapse collapse" aria-labelledby="ROHeading2" data-bs-parent="#ROAccordion">
+          <div class="accordion-body" style="text-align:center">
+            <img src="static/img/red-oak-bark.jpg" class="accordion-image" style="float:right">
+            <strong>The bark of the Red Oak is quite unique.</strong>
+            Red Oak bark is usually (unsurprisingly) red in color but has lines of silver that run through the bark.
+            As the tree ages, fisures form which appear as "cracks" in the tree. These cracks contribute to the scaly
+            appearance of the Red Oak. 
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="ROHeading2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse2" aria-expanded="false" aria-controls="ROCollapse2">
-              Bark
-            </button>
-          </h2>
-          <div id="ROCollapse2" class="accordion-collapse collapse" aria-labelledby="ROHeading2" data-bs-parent="#ROAccordion">
-            <div class="accordion-body" style="text-align:center">
-              <img src="static/img/red-oak-bark.jpg" class="accordion-image" style="float:right">
-              <strong>The bark of the Red Oak is quite unique.</strong>
-              Red Oak bark is usually (unsurprisingly) red in color but has lines of silver that run through the bark.
-              As the tree ages, fisures form which appear as "cracks" in the tree. These cracks contribute to the scaly
-              appearance of the Red Oak. 
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="ROHeading3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse3" aria-expanded="false" aria-controls="ROCollapse3">
-              Fun Facts
-            </button>
-          </h2>
-          <div id="ROCollapse3" class="accordion-collapse collapse" aria-labelledby="ROHeading3" data-bs-parent="#ROAccordion">
-            <div class="accordion-body">
-              <strong>Red Oak trees have multiple ways of reproducing.</strong> 
-              A Red Oak tree is actually able to reproduce in two different ways: through seeds and through it's roots.
-              Reproduction through seeds is the most common form of reproduction among plants, and little has to be explained about it.
-              But, how Red Oaks can also reproduce is by roots which is essentially when a new shoot of the tree starts growing 
-              up from the roots. 
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="ROHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse3" aria-expanded="false" aria-controls="ROCollapse3">
+            Fun Facts
+          </button>
+        </h2>
+        <div id="ROCollapse3" class="accordion-collapse collapse" aria-labelledby="ROHeading3" data-bs-parent="#ROAccordion">
+          <div class="accordion-body">
+            <strong>Red Oak trees have multiple ways of reproducing.</strong> 
+            A Red Oak tree is actually able to reproduce in two different ways: through seeds and through it's roots.
+            Reproduction through seeds is the most common form of reproduction among plants, and little has to be explained about it.
+            But, how Red Oaks can also reproduce is by roots which is essentially when a new shoot of the tree starts growing 
+            up from the roots. 
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <br> 
+  <br> 
 
-    <div style="margin-bottom:50%">
-      <!-- White Oak Image-->
-      <div style="text-align:left">
-        <img src="static/img/white-oak.jpg" class="w-25 left-text">
-        <h3 class="tree-name left-text w-25">White Oak</h3>
+  <div style="margin-bottom:50%">
+    <!-- White Oak Image-->
+    <div style="text-align:left">
+      <img src="static/img/white-oak.jpg" class="w-25 left-text">
+      <h3 class="tree-name left-text w-25">White Oak</h3>
+    </div>
+    <!-- White Oak Accordion with all info-->
+    <div class="accordion right-text w-50" id="WOAccordion" style="display:inline-block">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="WOHeading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse1" aria-expanded="true" aria-controls="WOCollapse1">
+            Leaves
+          </button>
+        </h2>
+        <div id="WOCollapse1" class="accordion-collapse collapse show" aria-labelledby="WOHeading1" data-bs-parent="#WOAccordion">
+          <div class="accordion-body" style="text-align:center">
+            <img src="static/img/white-oak-leaf.jpg" class="accordion-image">
+            <strong>The Leaf of the White Oak has curved lobes.</strong>
+            Although many people confuse Red Oaks with White Oaks, the key difference comes with their 
+            leaf shapes! The Red Oak has leaves that are pointed at their lobes, while the white oak has
+            no points and is entirely curvey. Each leaf usually contains 7 to 9 lobes, and each leaf can grow
+            to be about 5 inches long. 
+          </div>
+        </div>
       </div>
-      <!-- White Oak Accordion with all info-->
-      <div class="accordion right-text w-50" id="WOAccordion" style="display:inline-block">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="WOHeading1">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse1" aria-expanded="true" aria-controls="WOCollapse1">
-              Leaves
-            </button>
-          </h2>
-          <div id="WOCollapse1" class="accordion-collapse collapse show" aria-labelledby="WOHeading1" data-bs-parent="#WOAccordion">
-            <div class="accordion-body" style="text-align:center">
-              <img src="static/img/white-oak-leaf.jpg" class="accordion-image">
-              <strong>The Leaf of the White Oak has curved lobes.</strong>
-              Although many people confuse Red Oaks with White Oaks, the key difference comes with their 
-              leaf shapes! The Red Oak has leaves that are pointed at their lobes, while the white oak has
-              no points and is entirely curvey. Each leaf usually contains 7 to 9 lobes, and each leaf can grow
-              to be about 5 inches long. 
-            </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="WOHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse2" aria-expanded="false" aria-controls="WOCollapse2">
+            Bark
+          </button>
+        </h2>
+        <div id="WOCollapse2" class="accordion-collapse collapse" aria-labelledby="WOHeading2" data-bs-parent="#WOAccordion">
+          <div class="accordion-body" style="text-align:center">
+            <img src="static/img/white-oak-bark.jpg" class="accordion-image" style="float:right">
+            <strong>The bark of a White Oak is very intriguing.</strong>
+            White Oak bark, unlike Red Oaks which just has the appearance of it, is actually broken into scales.
+            This is due to the fact that as the tree ages, it grows furrows, which then break into scales. Oftentimes, 
+            when you look closey at a White Oak, you can find patches of bark that are entirely smooth, and that is where
+            recent scales have fallen off of the bark to make way for the new wood underneath.
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="WOHeading2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse2" aria-expanded="false" aria-controls="WOCollapse2">
-              Bark
-            </button>
-          </h2>
-          <div id="WOCollapse2" class="accordion-collapse collapse" aria-labelledby="WOHeading2" data-bs-parent="#WOAccordion">
-            <div class="accordion-body" style="text-align:center">
-              <img src="static/img/white-oak-bark.jpg" class="accordion-image" style="float:right">
-              <strong>The bark of a White Oak is very intriguing.</strong>
-              White Oak bark, unlike Red Oaks which just has the appearance of it, is actually broken into scales.
-              This is due to the fact that as the tree ages, it grows furrows, which then break into scales. Oftentimes, 
-              when you look closey at a White Oak, you can find patches of bark that are entirely smooth, and that is where
-              recent scales have fallen off of the bark to make way for the new wood underneath.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="WOHeading3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse3" aria-expanded="false" aria-controls="WOCollapse3">
-              Fun Facts
-            </button>
-          </h2>
-          <div id="WOCollapse3" class="accordion-collapse collapse" aria-labelledby="WOHeading3" data-bs-parent="#WOAccordion">
-            <div class="accordion-body">
-              <strong>White Oak Bark actually serves many purposes.</strong> 
-              For centuries, people have been using the bark of White Oaks for its medicinal qualities. White Oak bark
-              can be made into a tea that is used to treat various illnesses such as arthritis, diarrhea, and fevers. 
-              Other cultures have used White Oak bark in a compress and rubbed it onto areas of swelling in an attempt to
-              stop inflammation. Unlike the Red Oak which gets its name from its bark, the White Oak gets
-              its name because during the summer and spring seasons, the underside of the leaves appears to be a white-ish green color.
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="WOHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse3" aria-expanded="false" aria-controls="WOCollapse3">
+            Fun Facts
+          </button>
+        </h2>
+        <div id="WOCollapse3" class="accordion-collapse collapse" aria-labelledby="WOHeading3" data-bs-parent="#WOAccordion">
+          <div class="accordion-body">
+            <strong>White Oak Bark actually serves many purposes.</strong> 
+            For centuries, people have been using the bark of White Oaks for its medicinal qualities. White Oak bark
+            can be made into a tea that is used to treat various illnesses such as arthritis, diarrhea, and fevers. 
+            Other cultures have used White Oak bark in a compress and rubbed it onto areas of swelling in an attempt to
+            stop inflammation. Unlike the Red Oak which gets its name from its bark, the White Oak gets
+            its name because during the summer and spring seasons, the underside of the leaves appears to be a white-ish green color.
           </div>
         </div>
       </div>
     </div>
+  </div>
 
+  <br>
 
-    <!--Swamp White Oak-->
-    <div style="margin-bottom:50%">
-      <!-- Swamp White Oak Image-->
-      <div style="text-align:left">
-        <img src="static/img/swamp-white-oak.png" class="w-25 left-text">
-        <h3 class="tree-name left-text w-25">Swamp White Oak</h3>
+  <!--Swamp White Oak-->
+  <div style="margin-bottom:50%">
+    <!-- Swamp White Oak Image-->
+    <div style="text-align:left">
+      <img src="static/img/swamp-white-oak.png" class="w-25 left-text">
+      <h3 class="tree-name left-text w-25">Swamp White Oak</h3>
+    </div>
+    <!-- White Oak Accordion with all info-->
+    <div class="accordion right-text w-50" id="SWOAccordion" style="display:inline-block">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="SWOHeading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse1" aria-expanded="true" aria-controls="SWOCollapse1">
+            Leaves
+          </button>
+        </h2>
+        <div id="SWOCollapse1" class="accordion-collapse collapse show" aria-labelledby="SWOHeading1" data-bs-parent="#SWOAccordion">
+          <div class="accordion-body" style="text-align:center">
+            <img src="static/img/swamp-white-oak-leaf.jpg" class="accordion-image">
+            <strong>Similar to the White Oak, the Leaf of the Swamp White Oak has curved lobes.</strong>
+            The Swamp White Oak, as it's name would suggest, has a very similar leaf shape to the White Oak, with 
+            both the White and Swamp White Oaks having rounded lobes. Swamp White Oak leaves have more lobes than do 
+            White Oak containing between 9 and 11 lobes usually. Swamp White Oak tree leaves grow to be between 5 and 7
+            inches long. 
+          </div>
+        </div>
       </div>
-      <!-- White Oak Accordion with all info-->
-      <div class="accordion right-text w-50" id="SWOAccordion" style="display:inline-block">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="SWOHeading1">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse1" aria-expanded="true" aria-controls="SWOCollapse1">
-              Leaves
-            </button>
-          </h2>
-          <div id="SWOCollapse1" class="accordion-collapse collapse show" aria-labelledby="SWOHeading1" data-bs-parent="#SWOAccordion">
-            <div class="accordion-body" style="text-align:center">
-              <img src="static/img/swamp-white-oak-leaf.jpg" class="accordion-image">
-              <strong>Similar to the White Oak, the Leaf of the Swamp White Oak has curved lobes.</strong>
-              The Swamp White Oak, as it's name would suggest, has a very similar leaf shape to the White Oak, with 
-              both the White and Swamp White Oaks having rounded lobes. Swamp White Oak leaves have more lobes than do 
-              White Oak containing between 9 and 11 lobes usually. Swamp White Oak tree leaves grow to be between 5 and 7
-              inches long. 
-            </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="SWOHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse2" aria-expanded="false" aria-controls="SWOCollapse2">
+            Bark
+          </button>
+        </h2>
+        <div id="SWOCollapse2" class="accordion-collapse collapse" aria-labelledby="SWOHeading2" data-bs-parent="#SWOAccordion">
+          <div class="accordion-body" style="text-align:center">
+            <img src="static/img/swamp-white-oak-bark.jpg" class="accordion-image" style="float:right">
+            <strong>The bark of the Swamp White Oak is similar to that of the White Oak.</strong>
+            The bark of the Swamp White Oak has a similar scaly appearance as that of the White Oak. 
+            When the tree is young, the bark is exceptionally flimsy and often times will look as if it is 
+            peeling off the tree. As the tree ages, the bark grows deeper furrows and instead gains a scaly
+            effect. 
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="SWOHeading2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse2" aria-expanded="false" aria-controls="SWOCollapse2">
-              Bark
-            </button>
-          </h2>
-          <div id="SWOCollapse2" class="accordion-collapse collapse" aria-labelledby="SWOHeading2" data-bs-parent="#SWOAccordion">
-            <div class="accordion-body" style="text-align:center">
-              <img src="static/img/swamp-white-oak-bark.jpg" class="accordion-image" style="float:right">
-              <strong>The bark of the Swamp White Oak is similar to that of the White Oak.</strong>
-              The bark of the Swamp White Oak has a similar scaly appearance as that of the White Oak. 
-              When the tree is young, the bark is exceptionally flimsy and often times will look as if it is 
-              peeling off the tree. As the tree ages, the bark grows deeper furrows and instead gains a scaly
-              effect. 
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="SWOHeading3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse3" aria-expanded="false" aria-controls="SWOCollapse3">
-              Fun Facts
-            </button>
-          </h2>
-          <div id="SWOCollapse3" class="accordion-collapse collapse" aria-labelledby="SWOHeading3" data-bs-parent="#SWOAccordion">
-            <div class="accordion-body">
-              <strong>Swamp White Oak was named for a cool feature of it's leaves.</strong> 
-              The scientific name of the Swamp White Oak is quercus bicolor, with bicolor meaning "two colors".
-              The two colors that the name refers to is the dark green color of the top of the leaf and the bright
-              white color of the bottoms of the leaves. The common name for the tree, Swamp White Oak, was named after
-              the tree's preference for swampy and humid environments. 
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="SWOHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse3" aria-expanded="false" aria-controls="SWOCollapse3">
+            Fun Facts
+          </button>
+        </h2>
+        <div id="SWOCollapse3" class="accordion-collapse collapse" aria-labelledby="SWOHeading3" data-bs-parent="#SWOAccordion">
+          <div class="accordion-body">
+            <strong>Swamp White Oak was named for a cool feature of it's leaves.</strong> 
+            The scientific name of the Swamp White Oak is quercus bicolor, with bicolor meaning "two colors".
+            The two colors that the name refers to is the dark green color of the top of the leaf and the bright
+            white color of the bottoms of the leaves. The common name for the tree, Swamp White Oak, was named after
+            the tree's preference for swampy and humid environments. 
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    
-    <div style="margin-bottom:50%">
-      <!-- Swamp White Oak Image-->
-      <div style="text-align:left">
-        <img src="static/img/swamp-white-oak.png" class="w-25 left-text">
-        <h3 class="tree-name left-text w-25">Swamp White Oak</h3>
+  <!--Swamp White Oak-->
+  <div style="margin-bottom:50%">
+    <!-- Swamp White Oak Image-->
+    <div style="text-align:left">
+      <img src="static/img/scarlet-oak.jpg" class="w-25 left-text">
+      <h3 class="tree-name left-text w-25">Scarlet Oak</h3>
+    </div>
+    <!-- White Oak Accordion with all info-->
+    <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="ScarHeading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1" aria-expanded="true" aria-controls="ScarCollapse1">
+            Leaves
+          </button>
+        </h2>
+        <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1" data-bs-parent="#ScarAccordion">
+          <div class="accordion-body" style="text-align:center">
+            <img src="static/img/scarlet-oak-leaf.jpg" class="accordion-image">
+            <strong>Similar to the White Oak, the Leaf of the Swamp White Oak has curved lobes.</strong>
+            The Swamp White Oak, as it's name would suggest, has a very similar leaf shape to the White Oak, with 
+            both the White and Swamp White Oaks having rounded lobes. Swamp White Oak leaves have more lobes than do 
+            White Oak containing between 9 and 11 lobes usually. Swamp White Oak tree leaves grow to be between 5 and 7
+            inches long. 
+          </div>
+        </div>
       </div>
-      <!-- White Oak Accordion with all info-->
-      <div class="accordion right-text w-50" id="SWOAccordion" style="display:inline-block">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="SWOHeading1">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse1" aria-expanded="true" aria-controls="SWOCollapse1">
-              Leaves
-            </button>
-          </h2>
-          <div id="SWOCollapse1" class="accordion-collapse collapse show" aria-labelledby="SWOHeading1" data-bs-parent="#SWOAccordion">
-            <div class="accordion-body" style="text-align:center">
-              <img src="static/img/swamp-white-oak-leaf.jpg" class="accordion-image">
-              <strong>Similar to the White Oak, the Leaf of the Swamp White Oak has curved lobes.</strong>
-              The Swamp White Oak, as it's name would suggest, has a very similar leaf shape to the White Oak, with 
-              both the White and Swamp White Oaks having rounded lobes. Swamp White Oak leaves have more lobes than do 
-              White Oak containing between 9 and 11 lobes usually. Swamp White Oak tree leaves grow to be between 5 and 7
-              inches long. 
-            </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="ScarHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
+            Bark
+          </button>
+        </h2>
+        <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2" data-bs-parent="#ScarAccordion">
+          <div class="accordion-body" style="text-align:center">
+            <img src="static/img/swamp-white-oak-bark.jpg" class="accordion-image" style="float:right">
+            <strong>The bark of the Swamp White Oak is similar to that of the White Oak.</strong>
+            The bark of the Swamp White Oak has a similar scaly appearance as that of the White Oak. 
+            When the tree is young, the bark is exceptionally flimsy and often times will look as if it is 
+            peeling off the tree. As the tree ages, the bark grows deeper furrows and instead gains a scaly
+            effect. 
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="SWOHeading2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse2" aria-expanded="false" aria-controls="SWOCollapse2">
-              Bark
-            </button>
-          </h2>
-          <div id="SWOCollapse2" class="accordion-collapse collapse" aria-labelledby="SWOHeading2" data-bs-parent="#SWOAccordion">
-            <div class="accordion-body" style="text-align:center">
-              <img src="static/img/swamp-white-oak-bark.jpg" class="accordion-image" style="float:right">
-              <strong>The bark of the Swamp White Oak is similar to that of the White Oak.</strong>
-              The bark of the Swamp White Oak has a similar scaly appearance as that of the White Oak. 
-              When the tree is young, the bark is exceptionally flimsy and often times will look as if it is 
-              peeling off the tree. As the tree ages, the bark grows deeper furrows and instead gains a scaly
-              effect. 
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="SWOHeading3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse3" aria-expanded="false" aria-controls="SWOCollapse3">
-              Fun Facts
-            </button>
-          </h2>
-          <div id="SWOCollapse3" class="accordion-collapse collapse" aria-labelledby="SWOHeading3" data-bs-parent="#SWOAccordion">
-            <div class="accordion-body">
-              <strong>Swamp White Oak was named for a cool feature of it's leaves.</strong> 
-              The scientific name of the Swamp White Oak is quercus bicolor, with bicolor meaning "two colors".
-              The two colors that the name refers to is the dark green color of the top of the leaf and the bright
-              white color of the bottoms of the leaves. The common name for the tree, Swamp White Oak, was named after
-              the tree's preference for swampy and humid environments. 
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="ScarHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
+            Fun Facts
+          </button>
+        </h2>
+        <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3" data-bs-parent="#ScarAccordion">
+          <div class="accordion-body">
+            <strong>Swamp White Oak was named for a cool feature of it's leaves.</strong> 
+            The scientific name of the Swamp White Oak is quercus bicolor, with bicolor meaning "two colors".
+            The two colors that the name refers to is the dark green color of the top of the leaf and the bright
+            white color of the bottoms of the leaves. The common name for the tree, Swamp White Oak, was named after
+            the tree's preference for swampy and humid environments. 
           </div>
         </div>
       </div>
     </div>
+  </div>
+
 {% endblock %}
