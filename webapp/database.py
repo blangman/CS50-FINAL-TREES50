@@ -25,8 +25,8 @@ class Tree(Base):
     leaftype = Column(String, nullable = False)
     barktype = Column(String, nullable=False)
     fruittype = Column(String, nullable=False)
-    image = Column(VARCHAR, nullable=False)
-    html = Column(VARCHAR, nullable = False)
+    image = Column(String, nullable=False)
+    html = Column(String, nullable = False)
 
     def __init__(self, tree_id=None, tree_name=None, leaftype=None, barktype=None, fruittype=None, image=None, html=None):
         self.tree_id = tree_id
