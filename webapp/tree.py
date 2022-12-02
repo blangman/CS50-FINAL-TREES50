@@ -3,8 +3,7 @@ import functools
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
-from webapp.database import db_session
-from tree import Tree
+from webapp.database import db_sessionS
 
 bp = Blueprint('group1', __name__, url_prefix='/')
 
@@ -46,8 +45,8 @@ def finder():
         if not (leaftype or barktype or fruittype):
             flash("missing fields")
 
-        else: 
-            db.execute("SELECT tree_name FROM Tree WHERE leaftype = ? AND barktype = ? AND fruittype = ?", leaftype, barktype, fruittype)
+       # else: 
+          #  db.execute("SELECT tree_name FROM Tree WHERE leaftype = ? AND barktype = ? AND fruittype = ?", leaftype, barktype, fruittype)
 
             return redirect("/group_size")
     return render_template("finder.html")
