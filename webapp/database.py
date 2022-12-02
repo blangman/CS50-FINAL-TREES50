@@ -57,4 +57,10 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("American Sycamore", "Pointed", "Flaky", "Berry");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Hedge Maple", "Pointed", "Scaly", "Helicopter");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Norway Maple", "Pointed", "Scaly", "Helicopter");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Norway Maple", "Pointed", "Flaky", "Helicopter");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Sycamore Maple", "Pointed", "Flaky", "Helicopter");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Sugar Maple", "Pointed", "Scaly", "Helicopter");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Japanese Maple", "Pointed", "Super Smooth", "Helicopter");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Tuliptree", "Pointed", "Scaly", "Flower");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Honeylocust", "Compound", "Flaky", "Bean Pod");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Japanese Pagoda Tree", "Compound", "Scaly", "Bean Pod");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Golden Rain Tree", "Compound", "Scaly", "Flower");
