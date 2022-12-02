@@ -15,7 +15,7 @@ def init_db():
     Base.metadata.create_all(bind=engine)
     db_session.commit()
 
-# sql-alchemy
+# sql-alchemy table 
 class Tree(Base):
     __tablename__ = 'Tree'
     __table_args__ = {'extend_existing': True} 
@@ -39,5 +39,8 @@ class Tree(Base):
 
 #my queries to input various things into the tree.db
 
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES("Red Oak", "Lobed", "Scaly", "Acorn");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ()
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES("Red Oak", "Pointed Lobes", "Scaly", "Acorn");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("White Oak", "Curved Lobes", "Scaly", "Acorn");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Swamp White Oak", "Curved Lobes", "Scaly", "Acorn");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Scarlet Oak", "Pointed Lobes", "Scaly", "Acorn");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Pin Oak", "Pointed Lobes", "Slightly Smooth", "Acorn");
