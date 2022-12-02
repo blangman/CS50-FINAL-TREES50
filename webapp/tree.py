@@ -3,7 +3,7 @@ import functools
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
-from webapp.database import db_sessionS
+from webapp.database import db_session
 
 bp = Blueprint('group1', __name__, url_prefix='/')
 
