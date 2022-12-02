@@ -44,3 +44,4 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Swamp White Oak", "Curved Lobes", "Scaly", "Acorn");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Scarlet Oak", "Pointed Lobes", "Scaly", "Acorn");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Pin Oak", "Pointed Lobes", "Slightly Smooth", "Acorn");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Black Oak", "Pointed Lobes", "Scaly", "Acorn");
