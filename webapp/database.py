@@ -39,5 +39,5 @@ class Tree(Base):
 
 #my queries to input various things into the tree.db
 
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES (Red Oak, Lobed, Scaly, Acorn)
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES("Red Oak", "Lobed", "Scaly", "Acorn");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ()
