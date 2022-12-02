@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <h1 class="header">Unsure?</h1>
+    <div id="block2">
+    <p>
+        <strong>
+            In the yard and can't find out what type of tree you're looking at? Input some quick information and we'll find out for you!
+        </strong>
+    </p>
+    </div>
+    <div id="block2">
+        <label for="leaves">What does the leaf look like?</label>
+        <select class="box" name="leaf">
+            <option value="lobed">Lobed</option>
+            <option value="needle">Needle</option>
+            <option value="pointed">Pointed</option>
+            <option value="Teardrop">Teardrop</option>
+            <option value="Teardrop">Compound</option>
+            <option value="Teardrop">None of These</option>
+        </select>
+    </div>
+    <div id="block2"> 
+        <label for="leaves">What does the bark look like?</label>
+        <select class="box" name="bark">
+            <option value="lobed">Super Smooth</option>
+            <option value="needle">Slightly Smooth</option>
+            <option value="pointed">Scaly</option>
+            <option value="Teardrop">Flaky</option>
+            <option value="Teardrop">Compound</option>
+            <option value="Teardrop">None of These</option>
+        </select>
+    </div>
+
+{% endblock %}

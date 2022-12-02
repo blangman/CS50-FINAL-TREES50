@@ -34,3 +34,7 @@ def string():
 @bp.route('/teardrop', methods=["GET", "POST"])
 def teardrop():
     return render_template("teardrop.html")
+
+@bp.route('/finder', methods=["GET", "POST"])
+def finder():
+    return render_template("finder.html")

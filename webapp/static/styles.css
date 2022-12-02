@@ -11,6 +11,11 @@ h1 {
     vertical-align: middle;
 }
 
+p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
 body {
     background-image: url('trees.jpeg');
     backdrop-filter: blur(6px);
@@ -116,6 +121,17 @@ li a:hover {
     padding: 2px;
 }
 
+#block2 {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #0CDA90;
+    border-radius: 0.25rem;
+    font-family: 'Poppins';
+    padding: 2px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 hr {
     color: black;
     width: 60%;
@@ -124,3 +140,25 @@ hr {
 nav {
     color: green;
 }
+
+.box {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    font-size: 30px;
+    color: #0cda90;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+  }
+
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
