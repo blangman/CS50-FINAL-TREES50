@@ -20,7 +20,7 @@ class Tree(Base):
     __tablename__ = 'Tree'
     __table_args__ = {'extend_existing': True} 
 
-    tree_id = Column(Integer, primary_key=True)
+    tree_id = Column(Integer, primary_key=True, autoincrement=True)
     tree_name = Column(String, nullable = True)
     leaftype = Column(String, nullable = False)
     barktype = Column(String, nullable=False)
@@ -39,4 +39,5 @@ class Tree(Base):
 
 #my queries to input various things into the tree.db
 
-# INSERT INTO Tree VALUES ()
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES (Red Oak, Lobed, Scaly, Acorn)
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ()
