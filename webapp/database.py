@@ -21,18 +21,20 @@ class Tree(Base):
     __table_args__ = {'extend_existing': True} 
 
     tree_id = Column(Integer, primary_key=True)
-    leaftype = Column(String, nullable = True)
+    tree_name = Column(String, nullable = True)
+    leaftype = Column(String, nullable = False)
     barktype = Column(String, nullable=False)
     fruittype = Column(String, nullable=False)
 
-    def __init__(self, tree_id=None, leaftype=None, barktype=None, fruittype=None):
+    def __init__(self, tree_id=None, tree_name=None, leaftype=None, barktype=None, fruittype=None):
         self.tree_id = tree_id
+        self.tree_name = tree_name
         self.leaftype = leaftype
         self.barktype = barktype
         self.fruittype = fruittype
 
     def __repr__(self):
-        return f'<User {self.tree_id, self.leaftype, self.barktype, self.fruittype!r}>'
+        return f'<User {self.tree_id, self.tree_name, self.leaftype, self.barktype, self.fruittype!r}>'
 
 
 
