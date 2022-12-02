@@ -1,1 +1,14 @@
-Hello, World!
+{% extends "layout.html" %}
+
+{% block main %}
+<h1 class="header">We Found Ur Tree LOL</h1>
+
+    {% for tree in tree_name %}
+    
+        {{  tree["tree_name"]  }} <br>
+
+    {% endfor %}
+
+{% endblock %}
+
+

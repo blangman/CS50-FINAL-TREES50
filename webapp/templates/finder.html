@@ -9,39 +9,45 @@
         </strong>
     </p>
     </div>
+    <form action="/finder" method="post">
     <div id="block2">
         <label for="leaves">What does the leaf look like?</label>
         <select class="box" name="leaftype">
-            <option value="lobed">Lobed</option>
-            <option value="needle">Needle</option>
-            <option value="pointed">Pointed</option>
-            <option value="teardrop">Teardrop</option>
-            <option value="compound">Compound</option>
+            <option value=""></option>
+            <option value="Pointed Lobes">Pointed Lobes</option>
+            <option value="Curved Lobes">Curved Lobes</option>
+            <option value="Needles">Needles</option>
+            <option value="Pointed">Pointed</option>
+            <option value="Teardrop">Teardrop</option>
+            <option value="Compound">Compound</option>
         </select>
     </div>
     <div id="block2"> 
         <label for="leaves">What does the bark look like?</label>
         <select class="box" name="barktype">
-            <option value="lobed">Super Smooth</option>
-            <option value="needle">Slightly Smooth</option>
-            <option value="pointed">Scaly</option>
-            <option value="Teardrop">Flaky</option>
+            <option value=""></option>
+            <option value="Super Smooth">Super Smooth</option>
+            <option value="Slightly Smooth">Slightly Smooth</option>
+            <option value="Scaly">Scaly</option>
+            <option value="Flaky">Flaky</option>
         </select>
     </div>
     <div id="block2"> 
         <label for="leaves">What does the fruit look like?</label>
         <select class="box" name="fruittype">
-            <option value="lobed">Cone</option>
-            <option value="needle">Acorn</option>
-            <option value="pointed">Berry</option>
-            <option value="flower">Flower</option>
-            <option value="helicopter">Helicopter</option>
+            <option value=""></option>
+            <option value="Cone">Cone</option>
+            <option value="Acorn">Acorn</option>
+            <option value="Berry">Berry</option>
+            <option value="Flower">Flower</option>
+            <option value="Helicopter">Helicopter</option>
+            <option value="Bean Pod">Bean Pod</option>
+            <option value="Nut">Nut</option>
         </select>
     </div>
     <div>
         <button class="btn btn-primary" type="submit">Find My Tree</button>
     </div>
-    
-
+    </form>
 
 {% endblock %}

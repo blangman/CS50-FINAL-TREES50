@@ -7,7 +7,7 @@ from webapp.database import db_session
 from webapp.database import Tree
 import sqlite3
 
-db = sqlite3.connect("tree.db").cursor()
+db = sqlite3.connect("tree.db", check_same_thread=False).cursor()
 
 
 bp = Blueprint('group1', __name__, url_prefix='/')
@@ -47,12 +47,12 @@ def finder():
         barktype = request.form.get("barktype")
         fruittype = request.form.get("fruittype")
 
-        if not (leaftype or barktype or fruittype):
-            flash("missing fields")
+        if not leaftype or not barktype or not fruittype:
+            flash("*Missing Required Fields*")
 
         else: 
-            db.execute("SELECT tree_name FROM Tree WHERE leaftype = ? AND barktype = ? AND fruittype = ?", leaftype, barktype, fruittype)
-            return redirect("/found")
+            tree_name = db.execute("SELECT tree_name FROM Tree WHERE leaftype=:leaftype AND barktype=:barktype AND fruittype=:fruittype", {'leaftype': leaftype, 'barktype': barktype, 'fruittype': fruittype})
+            return render_template("found.html", tree_name=tree_name)
 
     return render_template("finder.html")
 
