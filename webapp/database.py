@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 
-engine = create_engine('sqlite:///exploration.db')
+engine = create_engine('sqlite:///tree.db')
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))
@@ -16,7 +16,23 @@ def init_db():
     db_session.commit()
 
 # sql-alchemy
+class Tree(Base):
+    __tablename__ = 'Tree'
+    __table_args__ = {'extend_existing': True} 
 
-#tree database goes here:
+    tree_id = Column(Integer, primary_key=True)
+    leaftype = Column(String, nullable = True)
+    barktype = Column(String, nullable=False)
+    fruittype = Column(String, nullable=False)
+
+    def __init__(self, tree_id=None, leaftype=None, barktype=None, fruittype=None):
+        self.tree_id = tree_id
+        self.leaftype = leaftype
+        self.barktype = barktype
+        self.fruittype = fruittype
+
+    def __repr__(self):
+        return f'<User {self.tree_id, self.leaftype, self.barktype, self.fruittype!r}>'
+
 
 
