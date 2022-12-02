@@ -37,4 +37,6 @@ class Tree(Base):
         return f'<User {self.tree_id, self.tree_name, self.leaftype, self.barktype, self.fruittype!r}>'
 
 
+#my queries to input various things into the tree.db
 
+# INSERT INTO Tree VALUES ()

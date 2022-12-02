@@ -4,6 +4,7 @@ from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
 from webapp.database import db_session
+from tree import Tree
 
 bp = Blueprint('group1', __name__, url_prefix='/')
 
@@ -37,4 +38,16 @@ def teardrop():
 
 @bp.route('/finder', methods=["GET", "POST"])
 def finder():
+    if request.method == "POST":
+        leaftype = request.form.get("leaftype")
+        barktype = request.form.get("barktype")
+        fruittype = request.form.get("fruittype")
+
+        if not (leaftype or barktype or fruittype):
+            flash("missing fields")
+
+        else: 
+            db.execute("SELECT tree_name FROM Tree WHERE leaftype = ? AND barktype = ? AND fruittype = ?", leaftype, barktype, fruittype)
+
+            return redirect("/group_size")
     return render_template("finder.html")
