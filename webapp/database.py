@@ -76,3 +76,16 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Hackberry", "Ridged Teardrop", "Scaly", "Berry");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Birch Tree", "Ridged Teardrop", "Flaky", "Cone");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Hornbeam", "Ridged Teardrop", "Slightly Smooth", "Helicopter");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Zelkova", "Ridged Teardrop", "Slightly Smooth", "Berry");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Crabapple", "Ridged Teardrop", "Flaky", "Berry");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Saucer Magnolia", "Long Teardrop", "Super Smooth", "Flower");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("White Fringe Tree", "Long Teardrop", "Slightly Smooth", "Berry");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Magnolia Tree", "Long Teardrop", "Slightly Smooth", "Flower");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Shingle Oak", "Long Teardrop", "Scaly", "Acorn");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Black Gum", "Long Teardrop", "Scaly", "Berry");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Gingko", "Misc", "Scaly", "Berry");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Holly", "Pointed", "Super Smooth", "Berry");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("European Beech", "Misc", "Super Smooth", "Nut");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Hawthorn Tree", "Misc", "Flaky", "Berry");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Little-Leaf Linden", "Misc", "Scaly", "Flower");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Redbud", "Misc", "Flaky", "Flower");
