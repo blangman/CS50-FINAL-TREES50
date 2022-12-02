@@ -52,10 +52,12 @@ def finder():
 
         else: 
             tree_name = db.execute("SELECT tree_name FROM Tree WHERE leaftype=:leaftype AND barktype=:barktype AND fruittype=:fruittype", {'leaftype': leaftype, 'barktype': barktype, 'fruittype': fruittype})
-            return render_template("found.html", tree_name=tree_name)
+            return render_template("found.html", tree_name=[tree[0] for tree in tree_name])
 
     return render_template("finder.html")
 
 @bp.route('/found', methods=["GET", "POST"])
 def found():
+    if request.method == "POST":
+        return render_template("/lobed")
     return render_template("found.html")

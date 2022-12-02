@@ -1,13 +1,17 @@
 {% extends "layout.html" %}
 
 {% block main %}
-<h1 class="header">We Found Ur Tree LOL</h1>
+<h1 class="header">We Have A Match (or Multiple)</h1>
 
-    {% for tree in tree_name %}
-    
-        {{  tree  }} <br>
-
-    {% endfor %}
+{% for tree in tree_name %}
+<form action="/found" method="post">
+    <div id="block2">
+        <h2>Is it the...</h2>
+        <h3>{{ tree }}?</h3>
+        <button class="btn btn-primary" type="submit">Yes!</button>
+    </div>
+</form>
+{% endfor %}
 
 {% endblock %}
 

@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, VARCHAR
 from sqlalchemy.orm import relationship
 
 engine = create_engine('sqlite:///tree.db')
@@ -25,16 +25,21 @@ class Tree(Base):
     leaftype = Column(String, nullable = False)
     barktype = Column(String, nullable=False)
     fruittype = Column(String, nullable=False)
+    tree_image_url = Column(VARCHAR, nullable=False)
+    leaftype_html_url = Column(VARCHAR, nullable = False)
 
-    def __init__(self, tree_id=None, tree_name=None, leaftype=None, barktype=None, fruittype=None):
+    def __init__(self, tree_id=None, tree_name=None, leaftype=None, barktype=None, fruittype=None, tree_image_url=None, leaftype_html_url=None):
         self.tree_id = tree_id
         self.tree_name = tree_name
         self.leaftype = leaftype
         self.barktype = barktype
         self.fruittype = fruittype
+        self.tree_image_url = tree_image_url
+        self.leaftype_html_url = leaftype_html_url
+
 
     def __repr__(self):
-        return f'<User {self.tree_id, self.tree_name, self.leaftype, self.barktype, self.fruittype!r}>'
+        return f'<User {self.tree_id, self.tree_name, self.leaftype, self.barktype, self.fruittype, self.tree_image_url, self.leaftype_html_url!r}>'
 
 
 #my queries to input various things into the tree.db
