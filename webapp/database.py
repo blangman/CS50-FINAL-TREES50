@@ -70,3 +70,9 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Black Walnut", "Compound", "Scaly", "Nut");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Kentucky Coffee Tree", "Compound", "Flaky", "Bean Pod");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Yellowwood", "Compound", "Super Smooth", "Bean Pod");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("American Elm", "Ridged Teardrop", "Scaly", "Helicopter");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("English Elm", "Ridged Teardrop", "Scaly", "Helicopter");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Beech Tree", "Ridged Teardrop", "Super Smooth", "Nut");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Hackberry", "Ridged Teardrop", "Scaly", "Berry");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Birch Tree", "Ridged Teardrop", "Flaky", "Cone");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype) VALUES ("Hornbeam", "Ridged Teardrop", "Slightly Smooth", "Helicopter");
