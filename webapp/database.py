@@ -62,7 +62,6 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("American Sycamore", "Pointed", "Flaky", "Berry", "static/img/pointed/american-sycamore.jpg", "pointed.html");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Hedge Maple", "Pointed", "Scaly", "Helicopter", "static/img/pointed/hedge-maple.jpg", "pointed.html");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Norway Maple", "Pointed", "Scaly", "Helicopter", "static/img/pointed/norway-maple.jpg", "pointed.html");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Sycamore Maple", "Pointed", "Flaky", "Helicopter", "static/img/pointed/sycamore-maple.jpg", "pointed.html");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Sugar Maple", "Pointed", "Scaly", "Helicopter", "static/img/pointed/sugar-maple.jpg", "pointed.html");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Japanese Maple", "Pointed", "Super Smooth", "Helicopter", "static/img/pointed/japanese-maple.jpg", "pointed.html");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Tuliptree", "Pointed", "Scaly", "Flower", "static/img/pointed/tuliptree.jpg", "pointed.html");
