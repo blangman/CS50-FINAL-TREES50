@@ -54,7 +54,7 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Swiss Stone Pine", "Needles", "Flaky", "Cone", "static/img/needles/swiss-stone-pine.jpeg", "needles");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Austrian Pine", "Needles", "Scaly", "Cone", "static/img/needles/austrian-pine.jpg", "needles");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("English Yew", "Needles", "Flaky", "Berry", "static/img/needles/english-yew.jpg", "needles");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Cedar of Lebanon", "Needles", "Scaly", "Cone", "static/img/needles/ceder-lebanon.jpg", "needles");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Cedar of Lebanon", "Needles", "Scaly", "Cone", "static/img/needles/cedar-lebanon.jpg", "needles");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Dawn Redwood", "Needles", "Flaky", "Cone", "static/img/needles/dawn-redwood.jpg", "needles");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Western Larch", "Needles", "Scaly", "Cone", "static/img/needles/western-larch.jpg", "needles");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Sweetgum", "Pointed", "Scaly", "Berry", "static/img/pointed/sweetgum.jpg", "pointed");
