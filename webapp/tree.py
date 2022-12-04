@@ -77,3 +77,7 @@ def found():
     if request.method == "POST":
         return render_template("/lobed")
     return render_template("found.html")
+
+@bp.route('/not_found', methods=["GET", "POST"])
+def not_found():
+    return render_template("not_found.html")
