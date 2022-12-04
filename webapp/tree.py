@@ -54,7 +54,20 @@ def finder():
             tree_name = db.execute("SELECT tree_name FROM Tree WHERE leaftype=:leaftype AND barktype=:barktype AND fruittype=:fruittype", {'leaftype': leaftype, 'barktype': barktype, 'fruittype': fruittype})
             tree = [tree[0] for tree in tree_name.fetchall()]
             print(tree_name)
-            return render_template("found.html", tree_name = tree)
+
+            url = db.execute("SELECT image FROM Tree WHERE leaftype=:leaftype AND barktype=:barktype AND fruittype=:fruittype", {'leaftype': leaftype, 'barktype': barktype, 'fruittype': fruittype})
+            image = [image[0] for image in url.fetchall()]
+            print(image)
+
+            html = db.execute("SELECT html FROM Tree WHERE leaftype=:leaftype AND barktype=:barktype AND fruittype=:fruittype", {'leaftype': leaftype, 'barktype': barktype, 'fruittype': fruittype})
+            file = [file[0] for file in html.fetchall()]
+            print(file)
+
+            if len(tree) == 0:
+                return redirect("not_found")
+            else:
+                return render_template("found.html", tree_name = tree, url = image, html = file)
+            
             # final_result = [i[0] for i in cursor.fetchall()]
 
     return render_template("finder.html")
@@ -64,3 +77,7 @@ def found():
     if request.method == "POST":
         return render_template("/lobed")
     return render_template("found.html")
+
+@bp.route('/not_found', methods=["GET", "POST"])
+def not_found():
+    return render_template("not_found.html")

@@ -10,8 +10,15 @@
        {% for tree in tree_name %}
        <h3>{{  tree  }}?</h3>
        {% endfor %}
-       <button>yes!</button>
-       <button>no :(</button>
+       
+       {% for image in url %}
+       <img src="{{  image  }}">
+       {% endfor %}
+
+       {% for file in html %}
+       <a href="{{ file }}">YES</a>
+       {% endfor %}
+       
     </div>
     
 
