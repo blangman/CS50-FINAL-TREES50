@@ -52,7 +52,10 @@ def finder():
 
         else: 
             tree_name = db.execute("SELECT tree_name FROM Tree WHERE leaftype=:leaftype AND barktype=:barktype AND fruittype=:fruittype", {'leaftype': leaftype, 'barktype': barktype, 'fruittype': fruittype})
-            return render_template("found.html", tree_name=[tree[0] for tree in tree_name])
+            tree = [tree[0] for tree in tree_name.fetchall()]
+            print(tree_name)
+            return render_template("found.html", tree_name = tree)
+            # final_result = [i[0] for i in cursor.fetchall()]
 
     return render_template("finder.html")
 
