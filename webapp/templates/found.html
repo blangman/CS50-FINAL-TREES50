@@ -5,24 +5,24 @@
 
 <div id="block2">
     <table class="styled-table">
-            <tr>
-                <th>Possible Name</th>
-                {% for tree in tree_name %}
-                <td> {{ tree }} </td> 
-                {% endfor %}
-            </tr>
-            <tr>
-                <th>Possible Picture</th>
-                {% for image in url %}
-                <td> <img width="120px" height="180px" src="{{  image  }} "> </td>
-                {% endfor %}
-            </tr>
-            <tr>
-                <th></th>
-                {% for file in html %}
-                <td><a href="{{ file }}"><button>This is my tree!</button></a></td> 
-                {% endfor %}
-            </tr>
+        <tr>
+            <th>Possible Name</th>
+            {% for tree in tree_name %}
+            <td> {{ tree }} </td>
+            {% endfor %}
+        </tr>
+        <tr>
+            <th>Possible Picture</th>
+            {% for image in url %}
+            <td> <img width="120px" height="180px" src="{{  image  }} "> </td>
+            {% endfor %}
+        </tr>
+        <tr>
+            <th></th>
+            {% for file in html %}
+            <td><a href="{{ file }}"><button>This is my tree!</button></a></td>
+            {% endfor %}
+        </tr>
     </table>
 </div>
 {% endblock %}

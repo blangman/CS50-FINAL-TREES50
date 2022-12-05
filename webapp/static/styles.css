@@ -175,18 +175,25 @@ nav {
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-    float: left;
-    width: 25%;
-    flex: 25%;
+    width: 133px;
+    height: 80px;
     padding: 5px;
+    margin-top: 5%;
+    margin-bottom: 2%;
   }
   
 /* Clear floats after image containers */
 .row {
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 10%;
   }
 
 a {
     color:rgb(0, 0, 0);
+}
+
+.highlight
+{
+    background-color: #009879;
 }
