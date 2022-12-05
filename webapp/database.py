@@ -11,22 +11,25 @@ db_session = scoped_session(sessionmaker(autocommit=False,
 Base = declarative_base()
 Base.query = db_session.query_property()
 
+
 def init_db():
     Base.metadata.create_all(bind=engine)
     db_session.commit()
 
-# sql-alchemy table 
+# sql-alchemy table
+
+
 class Tree(Base):
     __tablename__ = 'Tree'
-    __table_args__ = {'extend_existing': True} 
+    __table_args__ = {'extend_existing': True}
 
     tree_id = Column(Integer, primary_key=True, autoincrement=True)
-    tree_name = Column(String, nullable = True)
-    leaftype = Column(String, nullable = False)
+    tree_name = Column(String, nullable=True)
+    leaftype = Column(String, nullable=False)
     barktype = Column(String, nullable=False)
     fruittype = Column(String, nullable=False)
     image = Column(String, nullable=False)
-    html = Column(String, nullable = False)
+    html = Column(String, nullable=False)
 
     def __init__(self, tree_id=None, tree_name=None, leaftype=None, barktype=None, fruittype=None, image=None, html=None):
         self.tree_id = tree_id
@@ -36,7 +39,6 @@ class Tree(Base):
         self.fruittype = fruittype
         self.image = image
         self.html = html
-
 
     def __repr__(self):
         return f'<User {self.tree_id, self.tree_name, self.leaftype, self.barktype, self.fruittype, self.image, self.html!r}>'
