@@ -87,9 +87,9 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Magnolia Tree", "Long Teardrop", "Slightly Smooth", "Flower", "static/img/teardrop/magnolia.jpg", "teardrop#11");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Shingle Oak", "Long Teardrop", "Scaly", "Acorn", "static/img/teardrop/shingle-oak.jpg", "teardrop#12");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Black Gum", "Long Teardrop", "Scaly", "Berry", "static/img/teardrop/black-gum.jpg", "teardrop#13");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Ginkgo", "Misc", "Scaly", "Berry", "static/img/gingko.jpg", "misc#1");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Ginkgo", "Misc", "Scaly", "Berry", "static/img/misc/gingko.jpg", "misc#1");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Holly", "Pointed", "Super Smooth", "Berry", "static/img/pointed/holly.jpg", "pointed#9");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("European Beech", "Misc", "Super Smooth", "Nut", "static/img/european-beech.jpg", "misc#2");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Hawthorn Tree", "Misc", "Flaky", "Berry", "static/img/hawthorn.jpg", "misc#3");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Little-Leaf Linden", "Misc", "Scaly", "Flower", "static/img/little-leaf-linden.jpg", "misc#4");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Redbud", "Misc", "Flaky", "Flower", "static/img/redbud.jpeg", "misc#5");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("European Beech", "Misc", "Super Smooth", "Nut", "static/img/misc/european-beech.jpg", "misc#2");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Hawthorn Tree", "Misc", "Flaky", "Berry", "static/img/misc/hawthorn.jpg", "misc#3");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Little-Leaf Linden", "Misc", "Scaly", "Flower", "static/img/misc/little-leaf-linden.jpg", "misc#4");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Redbud", "Misc", "Flaky", "Flower", "static/img/misc/redbud.jpeg", "misc#5");
