@@ -1,631 +1,736 @@
 {% extends "layout.html" %}
 
 {% block main %}
-  <h1 class="header">String of Leaflets</h1>
+<h1 class="header">String of Leaflets</h1>
 
-  <img src="static/img/string.jpg" class="w-50 center">
+<img src="static/img/string.jpg" class="w-50 center">
 
-  <div class="center-text">
-    There are some trees in Harvard Yard where one individual leaf looks like a string of smaller leaves. 
-    These are known as Compound Leaves, and yes, they are only ONE leaf. This category is a fairly broad reaching 
-    category, containing 9 different species of trees in the yard. 
+<div class="center-text">
+  There are some trees in Harvard Yard where one individual leaf looks like a string of smaller leaves.
+  These are known as Compound Leaves, and yes, they are only ONE leaf. This category is a fairly broad reaching
+  category, containing 9 different species of trees in the yard.
+</div>
+
+<br>
+<br>
+
+<!-- Eastern White Pine image and accordion with info-->
+<div style="margin-bottom:50%">
+  <!-- Eastern White Pine Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/honeylocust.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="1"></a>Honey Locust (Gleditsia Triacanthos)</h3>
   </div>
-    
-  <br>
-  <br>
-
-  <!-- Eastern White Pine image and accordion with info-->
-  <div style="margin-bottom:50%">
-    <!-- Eastern White Pine Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/honeylocust.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="1"></a>Honey Locust (Gleditsia Triacanthos)</h3>
-    </div>
-    <!-- Eastern White Pine Accordion with all info-->
-    <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse1" aria-expanded="true" aria-controls="EWPCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/honeylocust-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The leaf of a honeylocust contains many teardrop-shaped leaflets!</strong>
-              The leaf of a Honey Locust often consists of over 20 small leaflets, each leaflet growing to 
-              between .75 inches to 1 inch. The Honey Locust leaflets are perfectly symmetrical, meaning that 
-              when there is a leaflet growing on one side of a leaf, one of identical size will be growing on the other side. 
-              This can also be extended to each branch of the tree, with leaves also sharing that symmetry.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse2" aria-expanded="false" aria-controls="EWPCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/honeylocust-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The Honey Locust has an extremely interesting defense mechanism on it's bark!</strong>
-              The bark of the Honey Locust is a red-brown color and it has a scaly texture to it. But also, as the tree 
-              matures, the bark begins to develop large sharp thorns, which help the tree ward off predators like woodpeckers!
-              These spikes are also doubly effective because if you are in contact with one of them, the spike releases spores which 
-              can cause a skin reaction in most animals. This rash takes a long time to recover from in animals, which 
-              acts as a long-term reminder to avoid the tree.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse3" aria-expanded="false" aria-controls="EWPCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="EWPCollapse3" class="accordion-collapse collapse" aria-labelledby="EWPHeading3" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Honey Locust Trees don't actually produce any honey!!!</strong> 
-              This statement alone is pretty obvious, we all know that bees are the ones who produce honey. But how then did the 
-              Honey Locust get it's name? It actually got it's name because of the taste of the seeds. Honey Locust seeds 
-              were very commonly eaten among Native Americans and are said to have a very sweet taste! In many Native American 
-              cultures, Honey Locust seeds would be used in a similar way to coffee beans today to create a drink similar to coffee!
-            </div>
+  <!-- Eastern White Pine Accordion with all info-->
+  <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse1"
+          aria-expanded="true" aria-controls="EWPCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/honeylocust-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The leaf of a honeylocust contains many teardrop-shaped leaflets!</strong>
+            The leaf of a Honey Locust often consists of over 20 small leaflets, each leaflet growing to
+            between .75 inches to 1 inch. The Honey Locust leaflets are perfectly symmetrical, meaning that
+            when there is a leaflet growing on one side of a leaf, one of identical size will be growing on the other
+            side.
+            This can also be extended to each branch of the tree, with leaves also sharing that symmetry.
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <br> 
-
-  <div style="margin-bottom:50%">
-    <!-- Swiss Stone Pine Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/japanese-pagoda.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="2"></a>Japanese Pagoda (Styphnolobium Japonicum)</h3>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#EWPCollapse2" aria-expanded="false" aria-controls="EWPCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/honeylocust-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The Honey Locust has an extremely interesting defense mechanism on it's bark!</strong>
+            The bark of the Honey Locust is a red-brown color and it has a scaly texture to it. But also, as the tree
+            matures, the bark begins to develop large sharp thorns, which help the tree ward off predators like
+            woodpeckers!
+            These spikes are also doubly effective because if you are in contact with one of them, the spike releases
+            spores which
+            can cause a skin reaction in most animals. This rash takes a long time to recover from in animals, which
+            acts as a long-term reminder to avoid the tree.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Swiss Stone Pine Accordion with all info-->
-    <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse1" aria-expanded="true" aria-controls="SSPCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="SSPCollapse1" class="accordion-collapse collapse show" aria-labelledby="SSPHeading1" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/japanese-pagoda-leaf.jpg" class="accordion-image">
-            <div id="block">
-                <strong>Unlike the compound leaves of the Honey Locust, the Japanese Pagoda Tree has an odd number of leaflets per leaf.</strong>
-                One of the defining characteristics of the Japanese Pagoda Leaves is that all of the leaflets are symmetrical until the end of the leaf, 
-                where the tip is defined by one larger leaflet that juts out. Another way to tell these two apart is that the 
-                Honey Locust has leaflets that get smaller as it approaches the end of the leaf, whereas the Japanese Pagoda leaflets actually
-                get larger the closer they are to the end of the leaf. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse2" aria-expanded="false" aria-controls="SSPCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="SSPCollapse2" class="accordion-collapse collapse" aria-labelledby="SSPHeading2" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/japanese-pagoda-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the Japanese Pagoda is organized in long-lined furrows that separate the tree into vertical lines.</strong>
-                These furrows develop in the tree with age, and are a defining part of the tree's scaly bark texture. The scales of the tree are 
-                also known to flake off, especially if it is planted in poor soil conditions. When the tree doesn't have 
-                proper soil conditions, the bark becomes weak and then flakes off very easily. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse3" aria-expanded="false" aria-controls="SSPCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="SSPCollapse3" class="accordion-collapse collapse" aria-labelledby="SSPHeading3" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body">
-            <div id="block">
-            <strong>The Japanese Pagoda Tree is not actually from Japan!!!</strong> 
-              Despite what the name suggests, the Japanese Pagoda tree is not originally from Japan, but rather is  
-              from China! This explains why it has one of it's other names: The Chinese Scholar Tree! Why the tree is 
-              credited as being from Japan is because the tree was popularized as a tree that was very commonly planted around 
-              Japanese Buddhist temples. This is also how it gets the name "Pagoda", with a Pagoda being the name of a Buddhist temple.
-          </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#EWPCollapse3" aria-expanded="false" aria-controls="EWPCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="EWPCollapse3" class="accordion-collapse collapse" aria-labelledby="EWPHeading3"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Honey Locust Trees don't actually produce any honey!!!</strong>
+            This statement alone is pretty obvious, we all know that bees are the ones who produce honey. But how then
+            did the
+            Honey Locust get it's name? It actually got it's name because of the taste of the seeds. Honey Locust seeds
+            were very commonly eaten among Native Americans and are said to have a very sweet taste! In many Native
+            American
+            cultures, Honey Locust seeds would be used in a similar way to coffee beans today to create a drink similar
+            to coffee!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Swamp White Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Swamp White Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/golden-rain-tree.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="3"></a>Golden Rain Tree (Koelreuteria Paniculata)</h3>
+<div style="margin-bottom:50%">
+  <!-- Swiss Stone Pine Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/japanese-pagoda.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="2"></a>Japanese Pagoda (Styphnolobium Japonicum)</h3>
+  </div>
+  <!-- Swiss Stone Pine Accordion with all info-->
+  <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse1"
+          aria-expanded="true" aria-controls="SSPCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="SSPCollapse1" class="accordion-collapse collapse show" aria-labelledby="SSPHeading1"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/japanese-pagoda-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>Unlike the compound leaves of the Honey Locust, the Japanese Pagoda Tree has an odd number of
+              leaflets per leaf.</strong>
+            One of the defining characteristics of the Japanese Pagoda Leaves is that all of the leaflets are
+            symmetrical until the end of the leaf,
+            where the tip is defined by one larger leaflet that juts out. Another way to tell these two apart is that
+            the
+            Honey Locust has leaflets that get smaller as it approaches the end of the leaf, whereas the Japanese Pagoda
+            leaflets actually
+            get larger the closer they are to the end of the leaf.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- White Oak Accordion with all info-->
-    <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse1" aria-expanded="true" aria-controls="APCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="APCollapse1" class="accordion-collapse collapse show" aria-labelledby="APHeading1" data-bs-parent="#APAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/golden-rain-tree-leaf.jpg" class="accordion-image">
-            <div id="block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SSPCollapse2" aria-expanded="false" aria-controls="SSPCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="SSPCollapse2" class="accordion-collapse collapse" aria-labelledby="SSPHeading2"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/japanese-pagoda-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the Japanese Pagoda is organized in long-lined furrows that separate the tree into
+              vertical lines.</strong>
+            These furrows develop in the tree with age, and are a defining part of the tree's scaly bark texture. The
+            scales of the tree are
+            also known to flake off, especially if it is planted in poor soil conditions. When the tree doesn't have
+            proper soil conditions, the bark becomes weak and then flakes off very easily.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SSPCollapse3" aria-expanded="false" aria-controls="SSPCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="SSPCollapse3" class="accordion-collapse collapse" aria-labelledby="SSPHeading3"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Japanese Pagoda Tree is not actually from Japan!!!</strong>
+            Despite what the name suggests, the Japanese Pagoda tree is not originally from Japan, but rather is
+            from China! This explains why it has one of it's other names: The Chinese Scholar Tree! Why the tree is
+            credited as being from Japan is because the tree was popularized as a tree that was very commonly planted
+            around
+            Japanese Buddhist temples. This is also how it gets the name "Pagoda", with a Pagoda being the name of a
+            Buddhist temple.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!--Swamp White Oak-->
+<div style="margin-bottom:50%">
+  <!-- Swamp White Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/golden-rain-tree.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="3"></a>Golden Rain Tree (Koelreuteria Paniculata)</h3>
+  </div>
+  <!-- White Oak Accordion with all info-->
+  <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse1"
+          aria-expanded="true" aria-controls="APCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="APCollapse1" class="accordion-collapse collapse show" aria-labelledby="APHeading1"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/golden-rain-tree-leaf.jpg" class="accordion-image">
+          <div id="block">
             <strong>The Golden Rain Tree's leaflets are shockingly complex amongst leaflets.</strong>
-              The leaves of the Golden Rain Tree are made up up of several rather large leaflets. The larger leaflets can 
-              grow to be around 3 to 4 inches. The shape of the overall leaf is that one that swells in the middle, with the 
-              leaves closer to the branch being smaller, then swelling, then once again becoming small at the tip of the leaf. 
-            </div>
+            The leaves of the Golden Rain Tree are made up up of several rather large leaflets. The larger leaflets can
+            grow to be around 3 to 4 inches. The shape of the overall leaf is that one that swells in the middle, with
+            the
+            leaves closer to the branch being smaller, then swelling, then once again becoming small at the tip of the
+            leaf.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse2" aria-expanded="false" aria-controls="APCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="APCollapse2" class="accordion-collapse collapse" aria-labelledby="APHeading2" data-bs-parent="#APAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/golden-rain-tree-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-                <strong>The Golden Rain Tree has flaky bark that unveils the bright orange wood underneath.</strong>
-                The Golden Rain Tree has bark that goes through several changes throughout it's lifetime. In the beginning, like 
-                almost all trees, the bark begins smooth. Then, as the tree ages, the bark begins to become scaly, with the furrows showing 
-                the bright orange color of the wood underneath. Then, as the tree continues to age, the scaly nature of the tree then becomes flaky 
-                and the tree begins to shed it's bark in a flaky way. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse2"
+          aria-expanded="false" aria-controls="APCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="APCollapse2" class="accordion-collapse collapse" aria-labelledby="APHeading2"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/golden-rain-tree-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The Golden Rain Tree has flaky bark that unveils the bright orange wood underneath.</strong>
+            The Golden Rain Tree has bark that goes through several changes throughout it's lifetime. In the beginning,
+            like
+            almost all trees, the bark begins smooth. Then, as the tree ages, the bark begins to become scaly, with the
+            furrows showing
+            the bright orange color of the wood underneath. Then, as the tree continues to age, the scaly nature of the
+            tree then becomes flaky
+            and the tree begins to shed it's bark in a flaky way.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse3" aria-expanded="false" aria-controls="APCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="APCollapse3" class="accordion-collapse collapse" aria-labelledby="APHeading3" data-bs-parent="#APAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Golden Rain Tree has several features that can be used to make dyes!</strong> 
-              The Golden Rain Tree has bean pods, and within the bean pods there are dark colored seeds that the tree 
-              uses for reproduction. While they are used for reproduction, they can also be used to be ground up and made 
-              into black dye, which has been happening for thousands of years in China and India! That is not the only part of the flower 
-              which can be made into dye! The bright yellow flowers from which the tree gets it's name can be ground up and made into a yellow dye!
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse3"
+          aria-expanded="false" aria-controls="APCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="APCollapse3" class="accordion-collapse collapse" aria-labelledby="APHeading3"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Golden Rain Tree has several features that can be used to make dyes!</strong>
+            The Golden Rain Tree has bean pods, and within the bean pods there are dark colored seeds that the tree
+            uses for reproduction. While they are used for reproduction, they can also be used to be ground up and made
+            into black dye, which has been happening for thousands of years in China and India! That is not the only
+            part of the flower
+            which can be made into dye! The bright yellow flowers from which the tree gets it's name can be ground up
+            and made into a yellow dye!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Scarlet Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Scarlet Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/black-locust.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="4"></a>Black Locust (Robinia Pseudoacacia)</h3>
+<!--Scarlet Oak-->
+<div style="margin-bottom:50%">
+  <!-- Scarlet Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/black-locust.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="4"></a>Black Locust (Robinia Pseudoacacia)</h3>
+  </div>
+  <!-- Scarlet Accordion with all info-->
+  <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1"
+          aria-expanded="true" aria-controls="ScarCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/black-locust-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Black Locust leaf is very similar to the Honey Locust leaf, but with two main exceptions!
+            </strong>
+            For one, the shape of the Black Locust and Honey Locust are slightly different, with the Honey Locust have
+            more
+            pointed leaflets than the Black Locust. For another thing, the Black Locust has an odd number of leaflets
+            while the
+            Honey Locust has an even number of leaflets. Black Locusts have one singular leaflet at the end of the leaf
+            whereas the Honey Locust
+            ends in a bud.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Scarlet Accordion with all info-->
-    <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1" aria-expanded="true" aria-controls="ScarCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/black-locust-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Black Locust leaf is very similar to the Honey Locust leaf, but with two main exceptions! </strong>
-                For one, the shape of the Black Locust and Honey Locust are slightly different, with the Honey Locust have more 
-                pointed leaflets than the Black Locust. For another thing, the Black Locust has an odd number of leaflets while the 
-                Honey Locust has an even number of leaflets. Black Locusts have one singular leaflet at the end of the leaf whereas the Honey Locust 
-                ends in a bud. 
-            </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/black-locust-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The Black Locust has a similar defense mechanism as the Honey Locust, but slightly less
+              extreme.</strong>
+            We saw earlier that the Honey Locust has the peculiar trait that it has sharp thorns which protect it from
+            predators. The Black Locust has a similar trait, but it is less extreme for the Black Locust. Black Locust
+            bark grows
+            small thorns on it, which are used in the same manner. The thorns don't need to be as large as the Honey
+            Locust because
+            the bark of and seeds of the tree are already poisonous for animals!
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/black-locust-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The Black Locust has a similar defense mechanism as the Honey Locust, but slightly less extreme.</strong>
-              We saw earlier that the Honey Locust has the peculiar trait that it has sharp thorns which protect it from 
-              predators. The Black Locust has a similar trait, but it is less extreme for the Black Locust. Black Locust bark grows 
-              small thorns on it, which are used in the same manner. The thorns don't need to be as large as the Honey Locust because 
-              the bark of and seeds of the tree are already poisonous for animals! 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Black Locusts are helpful in both your lawn and to regrow forests after fire!</strong> 
-              Black Locust wood is extremely durable, hard, and resistant to rot. This makes it the perfect wood to 
-              use for fence posts in people's lawns! The resistant bark is also useful when it comes to repopulating a forest after 
-              fire because the wood is able to survive all the environmental disaster that comes with a fire. These trees are also 
-              ideal for repopulation because they reproduce through their roots which makes them able to reproduce really quickly
-              and repopulate a forest in only a couple of years. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Black Locusts are helpful in both your lawn and to regrow forests after fire!</strong>
+            Black Locust wood is extremely durable, hard, and resistant to rot. This makes it the perfect wood to
+            use for fence posts in people's lawns! The resistant bark is also useful when it comes to repopulating a
+            forest after
+            fire because the wood is able to survive all the environmental disaster that comes with a fire. These trees
+            are also
+            ideal for repopulation because they reproduce through their roots which makes them able to reproduce really
+            quickly
+            and repopulate a forest in only a couple of years.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Pin Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/ash-tree.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="5"></a>Black Ash (Fraxinus Nigra)</h3>
+<!--Pin Oak-->
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/ash-tree.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="5"></a>Black Ash (Fraxinus Nigra)</h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse1"
+          aria-expanded="true" aria-controls="CLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="CLCollapse1" class="accordion-collapse collapse show" aria-labelledby="CLHeading1"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/black-ash-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Black Ash leaves are different than most compound leaves! </strong>
+            Most of the trees that we have seen thusfar with compound leaves have very many small leaflets
+            that add up to create one leaf. The difference with the Black Ash is that instead of many small leaflets,
+            it's leaves consist of a few large leaflets which all contribute to make one leaf. Each leaflet is a long
+            teardrop
+            shape, with each leaflet growing up to 4 inches long!
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse1" aria-expanded="true" aria-controls="CLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="CLCollapse1" class="accordion-collapse collapse show" aria-labelledby="CLHeading1" data-bs-parent="#CLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/black-ash-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Black Ash leaves are different than most compound leaves! </strong>
-              Most of the trees that we have seen thusfar with compound leaves have very many small leaflets 
-              that add up to create one leaf. The difference with the Black Ash is that instead of many small leaflets, 
-              it's leaves consist of a few large leaflets which all contribute to make one leaf. Each leaflet is a long teardrop 
-              shape, with each leaflet growing up to 4 inches long! 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse2"
+          aria-expanded="false" aria-controls="CLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="CLCollapse2" class="accordion-collapse collapse" aria-labelledby="CLHeading2"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/black-ash-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the Black Ash is very flaky.</strong>
+            Black Ash bark is extremely flaky throughout it's lifespan but also develops furrows with age.
+            The color of the bark can span from a reddish-brown color to gray, with the ladder being more common.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse2" aria-expanded="false" aria-controls="CLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="CLCollapse2" class="accordion-collapse collapse" aria-labelledby="CLHeading2" data-bs-parent="#CLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/black-ash-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the Black Ash is very flaky.</strong>
-              Black Ash bark is extremely flaky throughout it's lifespan but also develops furrows with age. 
-              The color of the bark can span from a reddish-brown color to gray, with the ladder being more common. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse3" aria-expanded="false" aria-controls="CLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="CLCollapse3" class="accordion-collapse collapse" aria-labelledby="CLHeading3" data-bs-parent="#CLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The shape of the Black Ash changes as it ages!</strong> 
-              When a Black Ash is young, the tree takes on a pyramidal shape (almost like a christmas tree), but as the 
-              tree ages, the taller branches of the tree grow faster than the slower ones which eventually leads to a more circular shape.
-              Also as it ages, the wood of the tree becomes more and more valuable, being able to be used as a darkwood to create 
-              furniture. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse3"
+          aria-expanded="false" aria-controls="CLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="CLCollapse3" class="accordion-collapse collapse" aria-labelledby="CLHeading3"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The shape of the Black Ash changes as it ages!</strong>
+            When a Black Ash is young, the tree takes on a pyramidal shape (almost like a christmas tree), but as the
+            tree ages, the taller branches of the tree grow faster than the slower ones which eventually leads to a more
+            circular shape.
+            Also as it ages, the wood of the tree becomes more and more valuable, being able to be used as a darkwood to
+            create
+            furniture.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br> 
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/white-ash.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="6"></a>White Ash (Fraxinus Americana)</h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/white-ash.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="6"></a>White Ash (Fraxinus Americana)</h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse1"
+          aria-expanded="true" aria-controls="DRCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="DRCollapse1" class="accordion-collapse collapse show" aria-labelledby="DRHeading1"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/white-ash-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The White Ash leaves and Black Ash leaves have several key differences.</strong>
+            For one, the White Ash has much more rounded leaflets than does the Black Ash. Both types of ashes
+            adopt the same leaf structure where the leaf gets thicker the closer to the end of the leaf, but the
+            White Ash ends in a leaf that is much bigger than the previous ones while the Black Ash ends in a leaf
+            that is approximately the same size as the ones adjacent to it.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse1" aria-expanded="true" aria-controls="DRCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="DRCollapse1" class="accordion-collapse collapse show" aria-labelledby="DRHeading1" data-bs-parent="#DRAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/white-ash-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The White Ash leaves and Black Ash leaves have several key differences.</strong>
-              For one, the White Ash has much more rounded leaflets than does the Black Ash. Both types of ashes 
-              adopt the same leaf structure where the leaf gets thicker the closer to the end of the leaf, but the 
-              White Ash ends in a leaf that is much bigger than the previous ones while the Black Ash ends in a leaf 
-              that is approximately the same size as the ones adjacent to it. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse2"
+          aria-expanded="false" aria-controls="DRCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="DRCollapse2" class="accordion-collapse collapse" aria-labelledby="DRHeading2"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/white-ash-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The furrows on the White Ash create a beautiful diamond pattern!</strong>
+            As the White Ash ages, the tree does not develop fissures in the same way that a lot of other
+            species do, but instead it develops them almost as engravings. The furrows create a beautiful pattern in
+            the bark of the White Ash that looks like diamonds.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse2" aria-expanded="false" aria-controls="DRCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="DRCollapse2" class="accordion-collapse collapse" aria-labelledby="DRHeading2" data-bs-parent="#DRAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/white-ash-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-                <strong> The furrows on the White Ash create a beautiful diamond pattern!</strong>
-                As the White Ash ages, the tree does not develop fissures in the same way that a lot of other 
-                species do, but instead it develops them almost as engravings. The furrows create a beautiful pattern in 
-                the bark of the White Ash that looks like diamonds. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse3" aria-expanded="false" aria-controls="DRCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="DRCollapse3" class="accordion-collapse collapse" aria-labelledby="DRHeading3" data-bs-parent="#DRAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The White Ash wood has many uses.</strong> 
-              White Ash is also known as "Poor Man's Oak" among the lumber community because it still produces hard and strong wood, 
-              but at a much cheaper cost and not as weather resistant as Oak. White Ash wood was what the original Louisville 
-              Sluggers were made out of which is an interesting piece of sports history!
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse3"
+          aria-expanded="false" aria-controls="DRCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="DRCollapse3" class="accordion-collapse collapse" aria-labelledby="DRHeading3"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The White Ash wood has many uses.</strong>
+            White Ash is also known as "Poor Man's Oak" among the lumber community because it still produces hard and
+            strong wood,
+            but at a much cheaper cost and not as weather resistant as Oak. White Ash wood was what the original
+            Louisville
+            Sluggers were made out of which is an interesting piece of sports history!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/black-walnut.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="7"></a>Eastern Black Walnut Tree (Juglans Nigra)</h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/black-walnut.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="7"></a>Eastern Black Walnut Tree (Juglans Nigra)</h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse1"
+          aria-expanded="true" aria-controls="WLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="WLCollapse1" class="accordion-collapse collapse show" aria-labelledby="WLHeading1"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/black-walnut-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The leaves of Black Walnut Trees can grow to be extremely long!</strong>
+            The entirety of the leaf of a Black Walnut Tree can grow to be about 2 feet long! These leaves consist
+            of around 20 leaflets, each of which usually grows between 2 to 4 inches long. Black Walnut leaves have an
+            even number of leaflets, being symmetric on both sides of the leaves. As it gets closer to the end of the
+            leaf,
+            the leaflets become less rounded and more pointed.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse1" aria-expanded="true" aria-controls="WLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="WLCollapse1" class="accordion-collapse collapse show" aria-labelledby="WLHeading1" data-bs-parent="#WLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/black-walnut-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The leaves of Black Walnut Trees can grow to be extremely long!</strong>
-              The entirety of the leaf of a Black Walnut Tree can grow to be about 2 feet long! These leaves consist 
-              of around 20 leaflets, each of which usually grows between 2 to 4 inches long. Black Walnut leaves have an 
-              even number of leaflets, being symmetric on both sides of the leaves. As it gets closer to the end of the leaf, 
-              the leaflets become less rounded and more pointed. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse2"
+          aria-expanded="false" aria-controls="WLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="WLCollapse2" class="accordion-collapse collapse" aria-labelledby="WLHeading2"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/black-walnut-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> As the name suggests, the bark of the Black Walnut is black in color! </strong>
+            One of the defining characteristics of the Black Walnut tree is the signature black bark. The bark is deeply
+            furrowed,
+            which leads to a scaly texture of the bark. The wood directly beneath the bark is also black, which means
+            that the deep fissures only further emphasize the black coloration.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse2" aria-expanded="false" aria-controls="WLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="WLCollapse2" class="accordion-collapse collapse" aria-labelledby="WLHeading2" data-bs-parent="#WLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/black-walnut-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> As the name suggests, the bark of the Black Walnut is black in color! </strong>
-              One of the defining characteristics of the Black Walnut tree is the signature black bark. The bark is deeply furrowed, 
-              which leads to a scaly texture of the bark. The wood directly beneath the bark is also black, which means 
-              that the deep fissures only further emphasize the black coloration.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse3" aria-expanded="false" aria-controls="WLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="WLCollapse3" class="accordion-collapse collapse" aria-labelledby="WLHeading3" data-bs-parent="#WLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Walnuts actually release a toxic chemical which inhibits other tree growth. </strong> 
-              The word "Juglans" in the scientific name for the Black Walnut is derived from the chemical "juglone", 
-              which exists within walnuts and serves as a method to prevent competition. When the walnuts fall from the tree, 
-              they are more likely to fall nearby the mother plant, and then once they are on the ground they release juglone, which 
-              is toxic to many other kinds of trees. This serves as a way to make sure that all of the area near the base of the tree 
-              is kept undisturbed so that no other tree could potentially out-compete the Black Walnut tree in that area.
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse3"
+          aria-expanded="false" aria-controls="WLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="WLCollapse3" class="accordion-collapse collapse" aria-labelledby="WLHeading3"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Walnuts actually release a toxic chemical which inhibits other tree growth. </strong>
+            The word "Juglans" in the scientific name for the Black Walnut is derived from the chemical "juglone",
+            which exists within walnuts and serves as a method to prevent competition. When the walnuts fall from the
+            tree,
+            they are more likely to fall nearby the mother plant, and then once they are on the ground they release
+            juglone, which
+            is toxic to many other kinds of trees. This serves as a way to make sure that all of the area near the base
+            of the tree
+            is kept undisturbed so that no other tree could potentially out-compete the Black Walnut tree in that area.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/kentucky-coffee-tree.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="8"></a>Kentucky Coffee Tree (Gymnocladus Dioicus)</h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/kentucky-coffee-tree.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="8"></a>Kentucky Coffee Tree (Gymnocladus Dioicus)</h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="TTAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="TTHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse1"
+          aria-expanded="true" aria-controls="TTCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="TTCollapse1" class="accordion-collapse collapse show" aria-labelledby="TTHeading1"
+        data-bs-parent="#TTAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/kentucky-coffee-tree-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>Kentucky Coffee Tree leaflets grow in a different pattern than any leaves we have seen so
+              far!</strong>
+            When it comes to leaflets so far, either they have a symmetrical counterpart, or they are at the end of
+            the leaf. Meanwhile, in the Kentucky Coffee Tree, the leaflets are spaced out so that they attach to the
+            center of the leaf
+            in increments, which can be seen in the image. One leaflet will be attached on the right, then slightly
+            further
+            up one is attached on the left and this pattern continues.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="TTAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="TTHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse1" aria-expanded="true" aria-controls="TTCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="TTCollapse1" class="accordion-collapse collapse show" aria-labelledby="TTHeading1" data-bs-parent="#TTAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/kentucky-coffee-tree-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>Kentucky Coffee Tree leaflets grow in a different pattern than any leaves we have seen so far!</strong>
-              When it comes to leaflets so far, either they have a symmetrical counterpart, or they are at the end of 
-              the leaf. Meanwhile, in the Kentucky Coffee Tree, the leaflets are spaced out so that they attach to the center of the leaf 
-              in increments, which can be seen in the image. One leaflet will be attached on the right, then slightly further 
-              up one is attached on the left and this pattern continues. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="TTHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse2"
+          aria-expanded="false" aria-controls="TTCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="TTCollapse2" class="accordion-collapse collapse" aria-labelledby="TTHeading2"
+        data-bs-parent="#TTAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/kentucky-coffee-tree-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The bark of the Kentucky Coffee Tree is flaky and because of this forms layers. </strong>
+            The Kentucky Coffee Tree has extremely flaky bark, which means that when the tree is hit with
+            wind or weather, parts of the bark are prone to fall off. What this creates is a sort of collage of bark
+            that has been on the tree for the longest time contrasted with the new bark that exists underneath the
+            pieces
+            that just fell.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="TTHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse2" aria-expanded="false" aria-controls="TTCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="TTCollapse2" class="accordion-collapse collapse" aria-labelledby="TTHeading2" data-bs-parent="#TTAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/kentucky-coffee-tree-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The bark of the Kentucky Coffee Tree is flaky and because of this forms layers. </strong>
-              The Kentucky Coffee Tree has extremely flaky bark, which means that when the tree is hit with 
-              wind or weather, parts of the bark are prone to fall off. What this creates is a sort of collage of bark
-              that has been on the tree for the longest time contrasted with the new bark that exists underneath the pieces 
-              that just fell. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="TTHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse3" aria-expanded="false" aria-controls="TTCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="TTCollapse3" class="accordion-collapse collapse" aria-labelledby="TTHeading3" data-bs-parent="#TTAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Kentucky Coffee Trees do not actually produce coffee at all!</strong> 
-              This is another classic example of mistaken naming. When settlers came to North America for the firs time, they realized 
-              the resemblance that the Kentucky Coffee Tree had to real coffee beans, so they named the tree after that resemblance. 
-              The colonists then also tried to use the Coffee Tree beans to make a substitute coffee, which worked but was 
-              not particularly good tasting. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="TTHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse3"
+          aria-expanded="false" aria-controls="TTCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="TTCollapse3" class="accordion-collapse collapse" aria-labelledby="TTHeading3"
+        data-bs-parent="#TTAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Kentucky Coffee Trees do not actually produce coffee at all!</strong>
+            This is another classic example of mistaken naming. When settlers came to North America for the firs time,
+            they realized
+            the resemblance that the Kentucky Coffee Tree had to real coffee beans, so they named the tree after that
+            resemblance.
+            The colonists then also tried to use the Coffee Tree beans to make a substitute coffee, which worked but was
+            not particularly good tasting.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/compound/yellowwood.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="9"></a>Yellowwood (Cladrastis Kentukea)</h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/compound/yellowwood.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="9"></a>Yellowwood (Cladrastis Kentukea)</h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="HOLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HOLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#HOLCollapse1"
+          aria-expanded="true" aria-controls="HOLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="HOLCollapse1" class="accordion-collapse collapse show" aria-labelledby="HOLHeading1"
+        data-bs-parent="#HOLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/yellowwood-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>Yellowwood leaves share traits that we have seen in several other trees all mixed together!</strong>
+            The shape of the Yellowwood leaf is similar to that of the White Ash, but the way that the leaflets are
+            lines up
+            is more reminiscent of the way that the Kentucky Cofee Tree grows. Even though the shape is similar to the
+            White Ash, it
+            is not identical as the tips of the Yellowwod leaflets are more pointed than those of the White Ash.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="HOLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HOLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#HOLCollapse1" aria-expanded="true" aria-controls="HOLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="HOLCollapse1" class="accordion-collapse collapse show" aria-labelledby="HOLHeading1" data-bs-parent="#HOLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/yellowwood-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>Yellowwood leaves share traits that we have seen in several other trees all mixed together!</strong>
-              The shape of the Yellowwood leaf is similar to that of the White Ash, but the way that the leaflets are lines up 
-              is more reminiscent of the way that the Kentucky Cofee Tree grows. Even though the shape is similar to the White Ash, it
-              is not identical as the tips of the Yellowwod leaflets are more pointed than those of the White Ash.
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HOLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#HOLCollapse2" aria-expanded="false" aria-controls="HOLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="HOLCollapse2" class="accordion-collapse collapse" aria-labelledby="HOLHeading2"
+        data-bs-parent="#HOLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/compound/yellowwood-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>Yellowwood Trees have an exceptional smooth bark their entire lifespan!</strong>
+            While most trees that are smooth in their youth grow out of their smooth bark, the Yellowwood remains
+            smooth throughout it's entire life. The bark is a gray to white color, sometimes being a combination of
+            both white and gray in some beautiful patterns!
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HOLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#HOLCollapse2" aria-expanded="false" aria-controls="HOLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="HOLCollapse2" class="accordion-collapse collapse" aria-labelledby="HOLHeading2" data-bs-parent="#HOLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/compound/yellowwood-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>Yellowwood Trees have an exceptional smooth bark their entire lifespan!</strong>
-              While most trees that are smooth in their youth grow out of their smooth bark, the Yellowwood remains 
-              smooth throughout it's entire life. The bark is a gray to white color, sometimes being a combination of 
-              both white and gray in some beautiful patterns!
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HOLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#HOLCollapse3" aria-expanded="false" aria-controls="HOLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="HOLCollapse3" class="accordion-collapse collapse" aria-labelledby="HOLHeading3" data-bs-parent="#HOLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-                <strong>Although the leaves turn yellow in the fall, that is not where the Yellow in the name comes from!</strong> 
-                The name "Yellowwood" comes from the fact that when the wood is freshly cut, the core is yellow! This yellow wooden core 
-                was used to create yellow dyes by early settlers in North America! 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HOLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#HOLCollapse3" aria-expanded="false" aria-controls="HOLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="HOLCollapse3" class="accordion-collapse collapse" aria-labelledby="HOLHeading3"
+        data-bs-parent="#HOLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Although the leaves turn yellow in the fall, that is not where the Yellow in the name comes
+              from!</strong>
+            The name "Yellowwood" comes from the fact that when the wood is freshly cut, the core is yellow! This yellow
+            wooden core
+            was used to create yellow dyes by early settlers in North America!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 {% endblock %}
