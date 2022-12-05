@@ -1,17 +1,52 @@
 {% extends "layout.html" %}
 
 {% block main %}
-    <h1 class="header">Tree Finder</h1>
-    <div id="block2">
+<h1 class="header">Tree Finder</h1>
+<div id="block2">
     <p>
         <strong>
-            In the yard and can't find out what type of tree you're looking at? Input some quick information and we'll find out for you!
+            In the yard and can't find out what type of tree you're looking at? Input some quick information and we'll
+            find out for you!
         </strong>
     </p>
-    </div>
-    <form action="/finder" method="post">
+</div>
+<form action="/finder" method="post">
     <div id="block2">
-        <label for="leaves">What does the leaf look like?</label>
+        <div class="row">
+            <div class="column">
+                <img src="static/img/pointed-lobed.jpg" style="width:100%">
+                <div style="background: #09ac70;">Pointed Lobed Leaf</div> 
+            </div>
+            <div class="column">
+                <img src="static/img/lobed.jpg" style="width:100%">
+                <div style="background: #09ac70;;">Curved Lobed Leaf</div> 
+            </div>
+            <div class="column">
+                <img src="static/img/needles.jpg" style="width:100%">
+                <div style="background: #09ac70;">Needle</div> 
+            </div>
+            <div class="column">
+                <img src="static/img/pointed.jpg" style="width:100%">
+                <div style="background: #09ac70;">Pointed Leaf</div> 
+            </div>
+            <div class="column">
+                <img src="static/img/teardrop.jpg" style="width:100%">
+                <div style="background: #09ac70;">Long Teardrop Leaf</div> 
+            </div>
+            <div class="column">
+                <img src="static/img/ridged-teardrop.jpg" style="width:100%">
+                <div style="background: #09ac70;">Ridged Teardrop Leaf</div> 
+            </div>
+            <div class="column">
+                <img src="static/img/string.jpg" style="width:100%">
+                <div style="background: #09ac70;">Compound Leaf</div> 
+            </div>
+            <div class="column">
+                <img src="static/img/misc.jpg" style="width:100%">
+                <div style="background: #09ac70;">Miscellaneous</div> 
+            </div>
+        </div>
+        <label for="leaves" style="background: #09ac70;">What does your leaf look like?</label>
         <select class="box" name="leaftype">
             <option value=""></option>
             <option value="Pointed Lobes">Pointed Lobes</option>
@@ -24,7 +59,7 @@
             <option value="Misc">None of These</option>
         </select>
     </div>
-    <div id="block2"> 
+    <div id="block2">
         <label for="leaves">What does the bark look like?</label>
         <select class="box" name="barktype">
             <option value=""></option>
@@ -34,7 +69,7 @@
             <option value="Flaky">Flaky</option>
         </select>
     </div>
-    <div id="block2"> 
+    <div id="block2">
         <label for="leaves">What does the fruit look like?</label>
         <select class="box" name="fruittype">
             <option value=""></option>
@@ -50,11 +85,11 @@
     <div>
         <button class="btn btn-primary" type="submit">Find My Tree</button>
     </div>
-    </form>
+</form>
 
-    <p class="center-text">Want some suggestions?</p>
-    <p class="center-text">Try Curved Lobes, Scaly, Acorn!</p>
-    <p class="center-text">Or maybe Long Teardrop, Slightly Smooth, Flower!</p>
-    <p class="center-text">Or any tree that you observe in the yard!</p> 
+<p class="center-text">Want some suggestions?</p>
+<p class="center-text">Try Curved Lobes, Scaly, Acorn!</p>
+<p class="center-text">Or maybe Long Teardrop, Slightly Smooth, Flower!</p>
+<p class="center-text">Or any tree that you observe in the yard!</p>
 
 {% endblock %}
