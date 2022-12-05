@@ -66,7 +66,7 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Japanese Maple", "Pointed", "Super Smooth", "Helicopter", "static/img/pointed/japanese-maple.jpg", "pointed#7");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Tuliptree", "Pointed", "Scaly", "Flower", "static/img/pointed/tuliptree.jpg", "pointed#8");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Honeylocust", "Compound", "Flaky", "Bean Pod", "static/img/compound/honeylocust.jpg", "string#1");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Japanese Pagoda Tree", "Compound", "Scaly", "Bean Pod", "static/img/compound/japanese-pagoda-tree.jpg", "string#2");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Japanese Pagoda Tree", "Compound", "Scaly", "Bean Pod", "static/img/compound/japanese-pagoda.jpg", "string#2");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Golden Rain Tree", "Compound", "Scaly", "Flower", "static/img/compound/golden-rain-tree.jpg", "string#3");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Black Locust", "Compound", "Flaky", "Bean Pod", "static/img/compound/black-locust.jpg", "string#4");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Ash Tree", "Compound", "Scaly", "Helicopter", "static/img/compound/ash-tree.jpg", "string#5");
