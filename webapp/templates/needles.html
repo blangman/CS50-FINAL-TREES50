@@ -1,507 +1,557 @@
 {% extends "layout.html" %}
 
 {% block main %}
-  <h1 class="header">Needles</h1>
+<h1 class="header">Needles</h1>
 
-  <img src="static/img/needles.jpg" class="w-50 center">
+<img src="static/img/needles.jpg" class="w-50 center">
 
-  <div class="center-text">
-    Despite what some people think, needles are actually leaves! Trees that have needles produce cones 
-    (like pine cones) and are called conifers! While most conifers are evergreen, you will soon learn that 
-    some actually do shed their needles for the winter! 
+<div class="center-text">
+  Despite what some people think, needles are actually leaves! Trees that have needles produce cones
+  (like pine cones) and are called conifers! While most conifers are evergreen, you will soon learn that
+  some actually do shed their needles for the winter!
+</div>
+
+<br>
+<br>
+
+<!-- Eastern White Pine image and accordion with info-->
+<div style="margin-bottom:50%">
+  <!-- Eastern White Pine Image-->
+  <div style="text-align:left">
+    <img src="static/img/needles/eastern-white-pine.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="1">Eastern White Pine (Pinus Strobus)</a></h3>
   </div>
-    
-  <br>
-  <br>
-
-  <!-- Eastern White Pine image and accordion with info-->
-  <div style="margin-bottom:50%">
-    <!-- Eastern White Pine Image-->
-    <div style="text-align:left">
-      <img src="static/img/needles/eastern-white-pine.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="1">Eastern White Pine (Pinus Strobus)</a></h3>
-    </div>
-    <!-- Eastern White Pine Accordion with all info-->
-    <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse1" aria-expanded="true" aria-controls="EWPCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/eastern-white-pine-needles.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Needles of the Eastern White Pine are soft, flexible, and grow together.</strong>
-              The needles of the Eastern White Pine can grow rather large, growing up to 5 inches long. 
-              One distinguishing fact about them is that when you touch them, they are not extremely pointy 
-              and stiff but are rather soft and flexible to the touch. Another distinguishing fact about 
-              these needles is that wherever you see them sprouting from the main branch, they grow in clusters 
-              of 5 needles per bud. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse2" aria-expanded="false" aria-controls="EWPCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/eastern-white-pine-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the Eastern White Pine changes drastically as it grows.</strong>
-              When an Eastern White Pine is young, the bark is a grayish-green color and is very smooth. 
-              As the tree grows up, the bark turns into a dark grey color and starts to develop furrows and cracks in
-              the surface of the bark. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse3" aria-expanded="false" aria-controls="EWPCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="EWPCollapse3" class="accordion-collapse collapse" aria-labelledby="EWPHeading3" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Eastern White Pine tree played an important part in American History!</strong> 
-              The word "white" in the name comes from the fact that when the tree is freshly cut down
-              for lumbering, the wood is a white color. This led to it being heavily sought after in the 
-              US colonies in the 18th century. Colonial Americans would cut down the trees and make a profit off
-              of their wood, but the british government didn't like that because they wanted to be the ones to make the profit. 
-              This led to the British making a law that all trees that had trunks greater than 
-              2 feet in diameter belonged to the British government. This law applied to all trees, but was specifically 
-              passed because of their desire for the Eastern White Pine! This law added to the rising tension between colonists 
-              and the british government, and the rest is history! 
-            </div>
+  <!-- Eastern White Pine Accordion with all info-->
+  <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse1"
+          aria-expanded="true" aria-controls="EWPCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/eastern-white-pine-needles.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Needles of the Eastern White Pine are soft, flexible, and grow together.</strong>
+            The needles of the Eastern White Pine can grow rather large, growing up to 5 inches long.
+            One distinguishing fact about them is that when you touch them, they are not extremely pointy
+            and stiff but are rather soft and flexible to the touch. Another distinguishing fact about
+            these needles is that wherever you see them sprouting from the main branch, they grow in clusters
+            of 5 needles per bud.
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <br> 
-
-  <div style="margin-bottom:50%">
-    <!-- Swiss Stone Pine Image-->
-    <div style="text-align:left">
-      <img src="static/img/needles/swiss-stone-pine.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="2">Swiss Stone Pine (Pinus Cembra)</a></h3>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#EWPCollapse2" aria-expanded="false" aria-controls="EWPCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/eastern-white-pine-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the Eastern White Pine changes drastically as it grows.</strong>
+            When an Eastern White Pine is young, the bark is a grayish-green color and is very smooth.
+            As the tree grows up, the bark turns into a dark grey color and starts to develop furrows and cracks in
+            the surface of the bark.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Swiss Stone Pine Accordion with all info-->
-    <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse1" aria-expanded="true" aria-controls="SSPCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="SSPCollapse1" class="accordion-collapse collapse show" aria-labelledby="SSPHeading1" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/swiss-stone-pine-needles.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Swiss Stone Pine has long needles that are usually a deep green.</strong>
-              The needles of the Swiss Stone Pine grow in clumps of 5, similar to the Eastern White Pine. 
-              These needles grow to be between 2 to 3 inches long and are also rather soft and flexible to 
-              the touch. There are some mutations of the Swiss Stone Pine that grow needles that are a bluish 
-              green color, which have become popular as Christmas trees in many places. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse2" aria-expanded="false" aria-controls="SSPCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="SSPCollapse2" class="accordion-collapse collapse" aria-labelledby="SSPHeading2" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/swiss-stone-pine-bark.jpeg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the Swiss Stone Pine becomes very flaky as the tree ages.</strong>
-              When the tree is young, the bark is extremely smooth and undisturbed. The tree grows very slowly,
-              so the bark of the tree remains smooth for around the first 50 years of the tree's life. Eventually, 
-              when the trunk of the tree has a great enough diameter, the bark starts to create furrows and it becomes
-              extremely flaky, often falling off of the tree with passing storms and wind. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse3" aria-expanded="false" aria-controls="SSPCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="SSPCollapse3" class="accordion-collapse collapse" aria-labelledby="SSPHeading3" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body">
-            <div id="block">
-            <strong>Swiss Stone Pines provide a popular food source to humans. </strong> 
-              Swiss Stone Pines, along with other members of the pine family, are harvested by humans for their 
-              pine nuts. Pine nuts are actually the seeds that are hidden within the cones of pines. Despite their 
-              name, pine nuts are not in fact nuts but they are seeds! 
-          </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#EWPCollapse3" aria-expanded="false" aria-controls="EWPCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="EWPCollapse3" class="accordion-collapse collapse" aria-labelledby="EWPHeading3"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Eastern White Pine tree played an important part in American History!</strong>
+            The word "white" in the name comes from the fact that when the tree is freshly cut down
+            for lumbering, the wood is a white color. This led to it being heavily sought after in the
+            US colonies in the 18th century. Colonial Americans would cut down the trees and make a profit off
+            of their wood, but the british government didn't like that because they wanted to be the ones to make the
+            profit.
+            This led to the British making a law that all trees that had trunks greater than
+            2 feet in diameter belonged to the British government. This law applied to all trees, but was specifically
+            passed because of their desire for the Eastern White Pine! This law added to the rising tension between
+            colonists
+            and the british government, and the rest is history!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Swamp White Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Swamp White Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/needles/austrian-pine.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="3">Austrian Pine (Pinus Nigra)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Swiss Stone Pine Image-->
+  <div style="text-align:left">
+    <img src="static/img/needles/swiss-stone-pine.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="2">Swiss Stone Pine (Pinus Cembra)</a></h3>
+  </div>
+  <!-- Swiss Stone Pine Accordion with all info-->
+  <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse1"
+          aria-expanded="true" aria-controls="SSPCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="SSPCollapse1" class="accordion-collapse collapse show" aria-labelledby="SSPHeading1"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/swiss-stone-pine-needles.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Swiss Stone Pine has long needles that are usually a deep green.</strong>
+            The needles of the Swiss Stone Pine grow in clumps of 5, similar to the Eastern White Pine.
+            These needles grow to be between 2 to 3 inches long and are also rather soft and flexible to
+            the touch. There are some mutations of the Swiss Stone Pine that grow needles that are a bluish
+            green color, which have become popular as Christmas trees in many places.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- White Oak Accordion with all info-->
-    <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse1" aria-expanded="true" aria-controls="APCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="APCollapse1" class="accordion-collapse collapse show" aria-labelledby="APHeading1" data-bs-parent="#APAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/austrian-pine-needles.jpg" class="accordion-image">
-            <div id="block">
-              
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SSPCollapse2" aria-expanded="false" aria-controls="SSPCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="SSPCollapse2" class="accordion-collapse collapse" aria-labelledby="SSPHeading2"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/swiss-stone-pine-bark.jpeg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the Swiss Stone Pine becomes very flaky as the tree ages.</strong>
+            When the tree is young, the bark is extremely smooth and undisturbed. The tree grows very slowly,
+            so the bark of the tree remains smooth for around the first 50 years of the tree's life. Eventually,
+            when the trunk of the tree has a great enough diameter, the bark starts to create furrows and it becomes
+            extremely flaky, often falling off of the tree with passing storms and wind.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SSPCollapse3" aria-expanded="false" aria-controls="SSPCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="SSPCollapse3" class="accordion-collapse collapse" aria-labelledby="SSPHeading3"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Swiss Stone Pines provide a popular food source to humans. </strong>
+            Swiss Stone Pines, along with other members of the pine family, are harvested by humans for their
+            pine nuts. Pine nuts are actually the seeds that are hidden within the cones of pines. Despite their
+            name, pine nuts are not in fact nuts but they are seeds!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!--Swamp White Oak-->
+<div style="margin-bottom:50%">
+  <!-- Swamp White Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/needles/austrian-pine.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="3">Austrian Pine (Pinus Nigra)</a></h3>
+  </div>
+  <!-- White Oak Accordion with all info-->
+  <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse1"
+          aria-expanded="true" aria-controls="APCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="APCollapse1" class="accordion-collapse collapse show" aria-labelledby="APHeading1"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/austrian-pine-needles.jpg" class="accordion-image">
+          <div id="block">
+
             <strong>The needles of the Austrian Pine are unique to the other pines in Harvard Yard.</strong>
-              The two other species of Pine in Harvard Yard have needles that grow in clumps of 5. The Austrian
-              Pine on the other hand has needles that grow in groups of 2. These needles form rings around the branch 
-              that they are growing from, creating a spiraling effect. The needles grow to be between 3 and 6 inches long 
-              and also unlike the other pine trees in the Yard, the needles are stiff. Although they are stiff, they are still
-              flexible and do not break when bended. 
-            </div>
+            The two other species of Pine in Harvard Yard have needles that grow in clumps of 5. The Austrian
+            Pine on the other hand has needles that grow in groups of 2. These needles form rings around the branch
+            that they are growing from, creating a spiraling effect. The needles grow to be between 3 and 6 inches long
+            and also unlike the other pine trees in the Yard, the needles are stiff. Although they are stiff, they are
+            still
+            flexible and do not break when bended.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse2" aria-expanded="false" aria-controls="APCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="APCollapse2" class="accordion-collapse collapse" aria-labelledby="APHeading2" data-bs-parent="#APAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/austrian-pine-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>Austrian Pine bark is one of it's defining features. </strong>
-              The bark of the Austrian Pine is a dark grey to black color and has a scaly appearance to it. 
-              As the tree grows, deep fissures grow in the tree, with black inner bark between fissures. 
-              The bark of the Austrian Pine is also extremely fragile and is prone to flaking off in bad weather 
-              conditions like wind or storms. When the bark of the tree flakes off, it unveils a layer of orange wood 
-              underneath the bark. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse2"
+          aria-expanded="false" aria-controls="APCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="APCollapse2" class="accordion-collapse collapse" aria-labelledby="APHeading2"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/austrian-pine-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>Austrian Pine bark is one of it's defining features. </strong>
+            The bark of the Austrian Pine is a dark grey to black color and has a scaly appearance to it.
+            As the tree grows, deep fissures grow in the tree, with black inner bark between fissures.
+            The bark of the Austrian Pine is also extremely fragile and is prone to flaking off in bad weather
+            conditions like wind or storms. When the bark of the tree flakes off, it unveils a layer of orange wood
+            underneath the bark.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse3" aria-expanded="false" aria-controls="APCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="APCollapse3" class="accordion-collapse collapse" aria-labelledby="APHeading3" data-bs-parent="#APAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Austrian Pines have multiple names. </strong> 
-              The scientific name of the Austrian Pine is Pinus Nigra, with Nigra deriving from the Latin word for 
-              black. This is in reference to the black bark of the tree, which sets it apart from other species of 
-              pine trees. Due to it's bark color, the Austrian Pine is also known in various places as the Black Pine or
-              European Black Pine. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse3"
+          aria-expanded="false" aria-controls="APCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="APCollapse3" class="accordion-collapse collapse" aria-labelledby="APHeading3"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Austrian Pines have multiple names. </strong>
+            The scientific name of the Austrian Pine is Pinus Nigra, with Nigra deriving from the Latin word for
+            black. This is in reference to the black bark of the tree, which sets it apart from other species of
+            pine trees. Due to it's bark color, the Austrian Pine is also known in various places as the Black Pine or
+            European Black Pine.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Scarlet Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Scarlet Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/needles/english-yew.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="4">English Yew (Taxus Baccata)</a></h3>
+<!--Scarlet Oak-->
+<div style="margin-bottom:50%">
+  <!-- Scarlet Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/needles/english-yew.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="4">English Yew (Taxus Baccata)</a></h3>
+  </div>
+  <!-- Scarlet Accordion with all info-->
+  <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1"
+          aria-expanded="true" aria-controls="ScarCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/english-yew-needles.jpg" class="accordion-image">
+          <div id="block">
+            <strong>Unlike the pines in Harvard Yard, the English Yew has short, glossy needles. </strong>
+            The needles of the English Yew can grow to be up to 1 inch long and are very soft to the touch.
+            They are a deep green, waxy color. Similar to the Austrian Pine, the needles are aranged in spirals around
+            the branch and two needles are grown per bud.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Scarlet Accordion with all info-->
-    <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1" aria-expanded="true" aria-controls="ScarCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/english-yew-needles.jpg" class="accordion-image">
-            <div id="block">
-              <strong>Unlike the pines in Harvard Yard, the English Yew has short, glossy needles. </strong>
-              The needles of the English Yew can grow to be up to 1 inch long and are very soft to the touch.
-              They are a deep green, waxy color. Similar to the Austrian Pine, the needles are aranged in spirals around 
-              the branch and two needles are grown per bud. 
-            </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/english-yew-bark.jpeg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the English Yew is extremely flaky. </strong>
+            The bark of the English Yew is a reddith brown color and as the tree ages, the bark becomes
+            more flaky. When the bark peels off of the tree, it reveals the bright orange wood underneath
+            the bark. This cycle then repeats itself when new bark begins to grow at the places where the bark
+            flaked off.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/english-yew-bark.jpeg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the English Yew is extremely flaky. </strong>
-              The bark of the English Yew is a reddith brown color and as the tree ages, the bark becomes 
-              more flaky. When the bark peels off of the tree, it reveals the bright orange wood underneath 
-              the bark. This cycle then repeats itself when new bark begins to grow at the places where the bark
-              flaked off. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Although the English Yew is poisonous, it has multiple medicinal uses. </strong> 
-              The English Yew is known for it's beautiful red berries, but these berries are extremely 
-              poisonous for humans. Despite the danger that these berries pose, people still use yew trees 
-              to make medicines that treat a large array of illnesses. The tips of yew branches as well as their 
-              buds are used to treat illnesses including tapeworms, diphtheria, and Urinary Tract Infections.
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Although the English Yew is poisonous, it has multiple medicinal uses. </strong>
+            The English Yew is known for it's beautiful red berries, but these berries are extremely
+            poisonous for humans. Despite the danger that these berries pose, people still use yew trees
+            to make medicines that treat a large array of illnesses. The tips of yew branches as well as their
+            buds are used to treat illnesses including tapeworms, diphtheria, and Urinary Tract Infections.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Pin Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/needles/cedar-lebanon.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="5">Cedar of Lebanon (Cedrus Libani)</a></h3>
+<!--Pin Oak-->
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/needles/cedar-lebanon.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="5">Cedar of Lebanon (Cedrus Libani)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse1"
+          aria-expanded="true" aria-controls="CLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="CLCollapse1" class="accordion-collapse collapse show" aria-labelledby="CLHeading1"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/cedar-lebanon-needles.jpg" class="accordion-image">
+          <div id="block">
+            <strong>Cedar of Lebanon needles are bright green and quite fragrant. </strong>
+            Cedar of Lebanon has small needles, growing up to 1 inch long. An interesting fact
+            about these needles is the fact that they are not tubular, instead they actually have four
+            sides, creating a very thin square pyramid. The needles grow out of their buds in a circle around
+            the branch in groups of between 20 to 40.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse1" aria-expanded="true" aria-controls="CLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="CLCollapse1" class="accordion-collapse collapse show" aria-labelledby="CLHeading1" data-bs-parent="#CLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/cedar-lebanon-needles.jpg" class="accordion-image">
-            <div id="block">
-              <strong>Cedar of Lebanon needles are bright green and quite fragrant. </strong>
-              Cedar of Lebanon has small needles, growing up to 1 inch long. An interesting fact 
-              about these needles is the fact that they are not tubular, instead they actually have four 
-              sides, creating a very thin square pyramid. The needles grow out of their buds in a circle around 
-              the branch in groups of between 20 to 40. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse2"
+          aria-expanded="false" aria-controls="CLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="CLCollapse2" class="accordion-collapse collapse" aria-labelledby="CLHeading2"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/cedar-lebanon-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>Cedar of Lebanon bark is dark and furrowed. </strong>
+            The bark on Cedar of Lebanon trees is a dark grey to black color. As the tree ages,
+            the bark develops deep furrows. This contributes to a scaly bark texture for the Cedar of Lebanon.
+            The scaly bark chip off in small flakes over time, but the wood underneath the first layer is also
+            a dark grey color.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse2" aria-expanded="false" aria-controls="CLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="CLCollapse2" class="accordion-collapse collapse" aria-labelledby="CLHeading2" data-bs-parent="#CLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/cedar-lebanon-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>Cedar of Lebanon bark is dark and furrowed. </strong>
-              The bark on Cedar of Lebanon trees is a dark grey to black color. As the tree ages, 
-              the bark develops deep furrows. This contributes to a scaly bark texture for the Cedar of Lebanon. 
-              The scaly bark chip off in small flakes over time, but the wood underneath the first layer is also 
-              a dark grey color.  
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse3" aria-expanded="false" aria-controls="CLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="CLCollapse3" class="accordion-collapse collapse" aria-labelledby="CLHeading3" data-bs-parent="#CLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Cedar of Lebanon is a very religiously significant tree in many cultures. </strong> 
-              Cedar of Lebanon is mentioned in many middle eastern religions, including Christianity and 
-              Islam. In Christianity, Cedar of Lebanon is used as a symbol of Jesus' mother. Because of this 
-              tree's religious significance, it is also known as Cedar of God in the middle east. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse3"
+          aria-expanded="false" aria-controls="CLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="CLCollapse3" class="accordion-collapse collapse" aria-labelledby="CLHeading3"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Cedar of Lebanon is a very religiously significant tree in many cultures. </strong>
+            Cedar of Lebanon is mentioned in many middle eastern religions, including Christianity and
+            Islam. In Christianity, Cedar of Lebanon is used as a symbol of Jesus' mother. Because of this
+            tree's religious significance, it is also known as Cedar of God in the middle east.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br> 
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/needles/dawn-redwood.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="6">Dawn Redwood (Metasequoia Glyptostroboides)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/needles/dawn-redwood.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="6">Dawn Redwood (Metasequoia Glyptostroboides)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse1"
+          aria-expanded="true" aria-controls="DRCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="DRCollapse1" class="accordion-collapse collapse show" aria-labelledby="DRHeading1"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/dawn-redwood-needles.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Dawn Redwood has needles that are arranged in a leaf-like pattern. </strong>
+            The needles of the Dawn Redwood are small individually, growing to only about 1 inch in length.
+            The way that the needles grow is in a perfectly symmetrical fashion, with equal needles growing on
+            either side of the branch that holds them. These needles then create a leaf shape which creates an illusion
+            where if you look at a dawn redwood from a distance, you can't tell that it has needles. These needles
+            aren't like any
+            ordinary needles also! Unlike most conifers, the Dawn Redwood needles actually change color to a beautiful
+            red
+            and drop in the fall, making it one of only a handful of deciduous conifers!
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse1" aria-expanded="true" aria-controls="DRCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="DRCollapse1" class="accordion-collapse collapse show" aria-labelledby="DRHeading1" data-bs-parent="#DRAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/dawn-redwood-needles.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Dawn Redwood has needles that are arranged in a leaf-like pattern. </strong>
-              The needles of the Dawn Redwood are small individually, growing to only about 1 inch in length. 
-              The way that the needles grow is in a perfectly symmetrical fashion, with equal needles growing on 
-              either side of the branch that holds them. These needles then create a leaf shape which creates an illusion
-              where if you look at a dawn redwood from a distance, you can't tell that it has needles. These needles aren't like any 
-              ordinary needles also! Unlike most conifers, the Dawn Redwood needles actually change color to a beautiful red 
-              and drop in the fall, making it one of only a handful of deciduous conifers! 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse2"
+          aria-expanded="false" aria-controls="DRCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="DRCollapse2" class="accordion-collapse collapse" aria-labelledby="DRHeading2"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/dawn-redwood-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The bark of the Dawn Redwood is red and flaky. </strong>
+            As the name suggests, the bark of the dawn Redwood is red! But, in addition to being red, the
+            bark of this tree is also flaky. When the bark flakes off, the wood underneath it is also a red
+            color and is extremely smooth. This then creates a cycle of flaking bark off and regrowing that bark back.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse2" aria-expanded="false" aria-controls="DRCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="DRCollapse2" class="accordion-collapse collapse" aria-labelledby="DRHeading2" data-bs-parent="#DRAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/dawn-redwood-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The bark of the Dawn Redwood is red and flaky. </strong>
-              As the name suggests, the bark of the dawn Redwood is red! But, in addition to being red, the 
-              bark of this tree is also flaky. When the bark flakes off, the wood underneath it is also a red 
-              color and is extremely smooth. This then creates a cycle of flaking bark off and regrowing that bark back.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse3" aria-expanded="false" aria-controls="DRCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="DRCollapse3" class="accordion-collapse collapse" aria-labelledby="DRHeading3" data-bs-parent="#DRAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Dawn Redwood was thought to be extinct for a long time until it was rediscovered!</strong> 
-              The Dawn Redwood was a tree that scientists had found in the fossil record in China that was thought 
-              to be extinct for close to 5 million years. That was until a Chinese forester found one in a forest 
-              in the Sichuan Province of China. Another fun fact: The forester who found the thought-to-be-endangered Dawn Redwood 
-              had worked at Harvard's very own Arnold Arboretum, and do you know the very first place in the western world that Dawn Redwood seeds were sent?
-              You guessed it, it was Harvard! This history is so special that Harvard's Arnold Arboretum actually uses the 
-              Dawn Redwood as it's symbol. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse3"
+          aria-expanded="false" aria-controls="DRCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="DRCollapse3" class="accordion-collapse collapse" aria-labelledby="DRHeading3"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Dawn Redwood was thought to be extinct for a long time until it was rediscovered!</strong>
+            The Dawn Redwood was a tree that scientists had found in the fossil record in China that was thought
+            to be extinct for close to 5 million years. That was until a Chinese forester found one in a forest
+            in the Sichuan Province of China. Another fun fact: The forester who found the thought-to-be-endangered Dawn
+            Redwood
+            had worked at Harvard's very own Arnold Arboretum, and do you know the very first place in the western world
+            that Dawn Redwood seeds were sent?
+            You guessed it, it was Harvard! This history is so special that Harvard's Arnold Arboretum actually uses the
+            Dawn Redwood as it's symbol.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/needles/western-larch.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="7">Western Larch (Larix Occidentalis)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/needles/western-larch.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="7">Western Larch (Larix Occidentalis)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse1"
+          aria-expanded="true" aria-controls="WLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="WLCollapse1" class="accordion-collapse collapse show" aria-labelledby="WLHeading1"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/western-larch-needles.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Western Larch has distinct needles that become even more distinct in the fall! </strong>
+            The needles of a Western Larch grow up to 2 inches long and grow in clumps of between 15 to 30.
+            In each clump, the needles form a cone shape facing away from the branch. In the fall, the needles of the
+            Western Larch turn a bright yellow color, as seen in the image beneath the name. The Western Larch, like the
+            Dawn Redwood, is one of only a handful of trees that are deciduous conifers where the needles change color
+            and fall in
+            autumn.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse1" aria-expanded="true" aria-controls="WLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="WLCollapse1" class="accordion-collapse collapse show" aria-labelledby="WLHeading1" data-bs-parent="#WLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/western-larch-needles.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Western Larch has distinct needles that become even more distinct in the fall! </strong>
-              The needles of a Western Larch grow up to 2 inches long and grow in clumps of between 15 to 30. 
-              In each clump, the needles form a cone shape facing away from the branch. In the fall, the needles of the 
-              Western Larch turn a bright yellow color, as seen in the image beneath the name. The Western Larch, like the 
-              Dawn Redwood, is one of only a handful of trees that are deciduous conifers where the needles change color and fall in 
-              autumn. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse2"
+          aria-expanded="false" aria-controls="WLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="WLCollapse2" class="accordion-collapse collapse" aria-labelledby="WLHeading2"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/needles/western-larch-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The bark of the Western Larch is scaly and flaky. </strong>
+            The bark of the Western Larch is deeply fissured and flaky as the tree gets old.
+            When the bark flakes off, it reveals the deep orange wood underneath. The bark of the tree
+            is also very thick, which makes the tree very resistant to fire.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse2" aria-expanded="false" aria-controls="WLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="WLCollapse2" class="accordion-collapse collapse" aria-labelledby="WLHeading2" data-bs-parent="#WLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/needles/western-larch-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The bark of the Western Larch is scaly and flaky. </strong>
-              The bark of the Western Larch is deeply fissured and flaky as the tree gets old. 
-              When the bark flakes off, it reveals the deep orange wood underneath. The bark of the tree 
-              is also very thick, which makes the tree very resistant to fire. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse3" aria-expanded="false" aria-controls="WLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="WLCollapse3" class="accordion-collapse collapse" aria-labelledby="WLHeading3" data-bs-parent="#WLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Western Larch serves as an important host for all kinds of wildlife. </strong> 
-              The seeds of the Western Larch are a prized food source for many animals such as woodpeckers and other 
-              birds. Western Larches when they are also fully grown have been found to be nesting places for Bald Eagles 
-              and other large predatory birds like hawks and eagles. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse3"
+          aria-expanded="false" aria-controls="WLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="WLCollapse3" class="accordion-collapse collapse" aria-labelledby="WLHeading3"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Western Larch serves as an important host for all kinds of wildlife. </strong>
+            The seeds of the Western Larch are a prized food source for many animals such as woodpeckers and other
+            birds. Western Larches when they are also fully grown have been found to be nesting places for Bald Eagles
+            and other large predatory birds like hawks and eagles.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 {% endblock %}

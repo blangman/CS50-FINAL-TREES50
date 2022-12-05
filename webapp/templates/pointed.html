@@ -1,630 +1,717 @@
 {% extends "layout.html" %}
 
 {% block main %}
-  <h1 class="header">Pointed Leaves</h1>
+<h1 class="header">Pointed Leaves</h1>
 
-  <img src="static/img/pointed.jpg" class="w-50 center">
+<img src="static/img/pointed.jpg" class="w-50 center">
 
-  <div class="center-text">
-    Another very common type of leaf in Harvard Yard is pointed leaves! These leaves are distinguishable 
-    by their star-like shapes and sharp edges. Pointed leaves are one of the biggest categories of leaves 
-    in the yard, with 9 species of Yard trees having pointed leaves. 
+<div class="center-text">
+  Another very common type of leaf in Harvard Yard is pointed leaves! These leaves are distinguishable
+  by their star-like shapes and sharp edges. Pointed leaves are one of the biggest categories of leaves
+  in the yard, with 9 species of Yard trees having pointed leaves.
+</div>
+
+<br>
+<br>
+
+<!-- Eastern White Pine image and accordion with info-->
+<div style="margin-bottom:50%">
+  <!-- Eastern White Pine Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/sweetgum.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="1">Sweetgum (Liquidambar Styraciflua)</a></h3>
   </div>
-    
-  <br>
-  <br>
-
-  <!-- Eastern White Pine image and accordion with info-->
-  <div style="margin-bottom:50%">
-    <!-- Eastern White Pine Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/sweetgum.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="1">Sweetgum (Liquidambar Styraciflua)</a></h3>
-    </div>
-    <!-- Eastern White Pine Accordion with all info-->
-    <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse1" aria-expanded="true" aria-controls="EWPCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/sweetgum-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The leaves of the Sweetgum Tree are a distinct five-pointed star shape.</strong>
-              More than most leaves, Sweetgum Tree leaves have a very accurate star shape. Depending on 
-              in what soil the Sweetgum is grown in, the leaves of the tree can either turn yellow or red in the fall.
-              The Sweetgum that grows in Harvard Yard turns yellow in the fall! 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse2" aria-expanded="false" aria-controls="EWPCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/sweetgum-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The Sweetgum grows deeper ridges with age.</strong>
-              When Sweetgum trees are young, their barks are very smooth and they remain that way usually for 
-              the first 25 years of their life. At around the 25 year mark, the tree begins to develop ridges, 
-              which only deeper as the tree ages. Right underneath the bark there is a rich golden sap, which is where 
-              the tree gets it's name. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse3" aria-expanded="false" aria-controls="EWPCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="EWPCollapse3" class="accordion-collapse collapse" aria-labelledby="EWPHeading3" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Sweetgum Trees have extremely unique and interesting looking fruits!</strong> 
-              The fruits of the Sweetgum Tree are extremely interesting looking fruits. The fruit is a green sphere 
-              covered in spikes, which looks not unsimilar to a microscopic image of a virus! These fruits only start developing
-              on the tree once it ages to be between 20 to 30 years.
-            </div>
+  <!-- Eastern White Pine Accordion with all info-->
+  <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse1"
+          aria-expanded="true" aria-controls="EWPCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/sweetgum-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The leaves of the Sweetgum Tree are a distinct five-pointed star shape.</strong>
+            More than most leaves, Sweetgum Tree leaves have a very accurate star shape. Depending on
+            in what soil the Sweetgum is grown in, the leaves of the tree can either turn yellow or red in the fall.
+            The Sweetgum that grows in Harvard Yard turns yellow in the fall!
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <br> 
-
-  <div style="margin-bottom:50%">
-    <!-- Swiss Stone Pine Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/red-maple.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="2">Red Maple (Acer Rubrum)</a></h3>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#EWPCollapse2" aria-expanded="false" aria-controls="EWPCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/sweetgum-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The Sweetgum grows deeper ridges with age.</strong>
+            When Sweetgum trees are young, their barks are very smooth and they remain that way usually for
+            the first 25 years of their life. At around the 25 year mark, the tree begins to develop ridges,
+            which only deeper as the tree ages. Right underneath the bark there is a rich golden sap, which is where
+            the tree gets it's name.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Swiss Stone Pine Accordion with all info-->
-    <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse1" aria-expanded="true" aria-controls="SSPCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="SSPCollapse1" class="accordion-collapse collapse show" aria-labelledby="SSPHeading1" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/red-maple-leaf.jpg" class="accordion-image">
-            <div id="block">
-                <strong>The Red Maple leaf is one of the most iconic leaves in North America.</strong>
-                The Red Maple leaf is a very popular symbol, especially if you have ever seen the map of Canada.
-                Another example of this leaf being popular is the NHL team the Toronto Maple Leaves. This leaf been
-                the symbol of Canada since the 1800s. This leaf has three primary points with two smaller points 
-                on the bottom of the leaf. Within each point of the leaf, there are several points. The leaf became such 
-                a popular symbol because of the Red Maple's many uses from timber to syrup and many uses in between. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse2" aria-expanded="false" aria-controls="SSPCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="SSPCollapse2" class="accordion-collapse collapse" aria-labelledby="SSPHeading2" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/red-maple-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>This tree grows furrows in a different way than most trees that we've seen so far.</strong>
-              Up until now, most of the trees that have scaly bark have furrows that cause individual "scales" on the tree.
-              Instead, the Red Maple has really long fissures that instead of forming "scales" form lines down the trunk 
-              of the tree. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse3" aria-expanded="false" aria-controls="SSPCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="SSPCollapse3" class="accordion-collapse collapse" aria-labelledby="SSPHeading3" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body">
-            <div id="block">
-            <strong>Although it is called the "Red" Maple, it also can turn yellow or orange in the fall! </strong> 
-              The color that the Red Maple turns is depending on the soil that it is planted in! With healthy soil that is 
-              nitrogen rich, the tree turns it's signature red color. But, if the tree is planted in less then optimal conditions, 
-              the tree's foliage can instead turn orange or yellow. 
-          </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#EWPCollapse3" aria-expanded="false" aria-controls="EWPCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="EWPCollapse3" class="accordion-collapse collapse" aria-labelledby="EWPHeading3"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Sweetgum Trees have extremely unique and interesting looking fruits!</strong>
+            The fruits of the Sweetgum Tree are extremely interesting looking fruits. The fruit is a green sphere
+            covered in spikes, which looks not unsimilar to a microscopic image of a virus! These fruits only start
+            developing
+            on the tree once it ages to be between 20 to 30 years.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Swamp White Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Swamp White Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/american-sycamore.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="3">American Sycamore (Platanus Occidentalis)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Swiss Stone Pine Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/red-maple.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="2">Red Maple (Acer Rubrum)</a></h3>
+  </div>
+  <!-- Swiss Stone Pine Accordion with all info-->
+  <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse1"
+          aria-expanded="true" aria-controls="SSPCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="SSPCollapse1" class="accordion-collapse collapse show" aria-labelledby="SSPHeading1"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/red-maple-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Red Maple leaf is one of the most iconic leaves in North America.</strong>
+            The Red Maple leaf is a very popular symbol, especially if you have ever seen the map of Canada.
+            Another example of this leaf being popular is the NHL team the Toronto Maple Leaves. This leaf been
+            the symbol of Canada since the 1800s. This leaf has three primary points with two smaller points
+            on the bottom of the leaf. Within each point of the leaf, there are several points. The leaf became such
+            a popular symbol because of the Red Maple's many uses from timber to syrup and many uses in between.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- White Oak Accordion with all info-->
-    <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse1" aria-expanded="true" aria-controls="APCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="APCollapse1" class="accordion-collapse collapse show" aria-labelledby="APHeading1" data-bs-parent="#APAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/american-sycamore-leaf.jpg" class="accordion-image">
-            <div id="block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SSPCollapse2" aria-expanded="false" aria-controls="SSPCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="SSPCollapse2" class="accordion-collapse collapse" aria-labelledby="SSPHeading2"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/red-maple-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>This tree grows furrows in a different way than most trees that we've seen so far.</strong>
+            Up until now, most of the trees that have scaly bark have furrows that cause individual "scales" on the
+            tree.
+            Instead, the Red Maple has really long fissures that instead of forming "scales" form lines down the trunk
+            of the tree.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SSPCollapse3" aria-expanded="false" aria-controls="SSPCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="SSPCollapse3" class="accordion-collapse collapse" aria-labelledby="SSPHeading3"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Although it is called the "Red" Maple, it also can turn yellow or orange in the fall! </strong>
+            The color that the Red Maple turns is depending on the soil that it is planted in! With healthy soil that is
+            nitrogen rich, the tree turns it's signature red color. But, if the tree is planted in less then optimal
+            conditions,
+            the tree's foliage can instead turn orange or yellow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!--Swamp White Oak-->
+<div style="margin-bottom:50%">
+  <!-- Swamp White Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/american-sycamore.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="3">American Sycamore (Platanus Occidentalis)</a></h3>
+  </div>
+  <!-- White Oak Accordion with all info-->
+  <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse1"
+          aria-expanded="true" aria-controls="APCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="APCollapse1" class="accordion-collapse collapse show" aria-labelledby="APHeading1"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/american-sycamore-leaf.jpg" class="accordion-image">
+          <div id="block">
             <strong>The American Sycamore leaf is a large and simple leaf that has between 3 and 5 main points.</strong>
-              The leaves of the American Sycamore grow to be between 4 to 8 inches long, and all of the veins on a sycamore 
-              leaf stem from the same one point, which isn't always true for most leaves. 
-            </div>
+            The leaves of the American Sycamore grow to be between 4 to 8 inches long, and all of the veins on a
+            sycamore
+            leaf stem from the same one point, which isn't always true for most leaves.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse2" aria-expanded="false" aria-controls="APCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="APCollapse2" class="accordion-collapse collapse" aria-labelledby="APHeading2" data-bs-parent="#APAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/american-sycamore-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The American Sycamore has a flaky and smooth bark that looks almost painted on. </strong>
-              As the American Sycamore ages, layers of bark fall off of the tree. But, unlike a lot of other trees that 
-              lose layers of bark, the American Sycamore does so in a smooth fashion, leaving no splinters behind. When the bark 
-              peels away you can see how each layer of bark after the surface layer becomes lighter and lighter until eventually 
-              the wood is white. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse2"
+          aria-expanded="false" aria-controls="APCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="APCollapse2" class="accordion-collapse collapse" aria-labelledby="APHeading2"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/american-sycamore-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The American Sycamore has a flaky and smooth bark that looks almost painted on. </strong>
+            As the American Sycamore ages, layers of bark fall off of the tree. But, unlike a lot of other trees that
+            lose layers of bark, the American Sycamore does so in a smooth fashion, leaving no splinters behind. When
+            the bark
+            peels away you can see how each layer of bark after the surface layer becomes lighter and lighter until
+            eventually
+            the wood is white.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse3" aria-expanded="false" aria-controls="APCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="APCollapse3" class="accordion-collapse collapse" aria-labelledby="APHeading3" data-bs-parent="#APAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The name "Sycamore" actually comes from a misindentification of the tree!</strong> 
-              The name Sycamore derives from the Greek word "Sukomoras" which means "fig-mulberry". 
-              This was then adopted into the english "Sycamore", even though they are two different trees! 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse3"
+          aria-expanded="false" aria-controls="APCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="APCollapse3" class="accordion-collapse collapse" aria-labelledby="APHeading3"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The name "Sycamore" actually comes from a misindentification of the tree!</strong>
+            The name Sycamore derives from the Greek word "Sukomoras" which means "fig-mulberry".
+            This was then adopted into the english "Sycamore", even though they are two different trees!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Scarlet Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Scarlet Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/hedge-maple.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="4">Hedge Maple (Acer Campestre)</a></h3>
+<!--Scarlet Oak-->
+<div style="margin-bottom:50%">
+  <!-- Scarlet Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/hedge-maple.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="4">Hedge Maple (Acer Campestre)</a></h3>
+  </div>
+  <!-- Scarlet Accordion with all info-->
+  <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1"
+          aria-expanded="true" aria-controls="ScarCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/hedge-maple-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Hedge Maple leaf retains the iconic Maple leaf shape, but with rounded corners. </strong>
+            The shape of the Maple Leaf is iconic, but not all maples have the same leaf shape. The tips of the
+            of the Hedge Maple leaves are rounded, making the tree distinguishable from the famous symbol while
+            still being a clear member of the family.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Scarlet Accordion with all info-->
-    <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1" aria-expanded="true" aria-controls="ScarCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/hedge-maple-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Hedge Maple leaf retains the iconic Maple leaf shape, but with rounded corners. </strong>
-              The shape of the Maple Leaf is iconic, but not all maples have the same leaf shape. The tips of the 
-              of the Hedge Maple leaves are rounded, making the tree distinguishable from the famous symbol while 
-              still being a clear member of the family. 
-            </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/hedge-maple-bark.jpeg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The Hedge Maple has scaly bark that often grows fungi.</strong>
+            For some unknown reason, scientists have found that the bark of the Hedge Maple is exceptionally
+            susceptible to growing fungi and moss. Similar to a lot of trees that we have seen, the tree bark
+            starts off rather smooth when the tree is young and then as it grows the bark cracks and harders into
+            a scaly texture.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/hedge-maple-bark.jpeg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The Hedge Maple has scaly bark that often grows fungi.</strong>
-              For some unknown reason, scientists have found that the bark of the Hedge Maple is exceptionally 
-              susceptible to growing fungi and moss. Similar to a lot of trees that we have seen, the tree bark 
-              starts off rather smooth when the tree is young and then as it grows the bark cracks and harders into 
-              a scaly texture. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Hedge Maples are very well-used in gardenscaping.</strong> 
-              The word "Hedge" in Hedge Maple is there because the tree is very durable when being pruned, which 
-              allows the tree, when grown next to other Hedge Maples, to be created into artistic hedges. Other trees when 
-              they are pruned suffer greatly and don't have strong enough defenses to be able to regrow the parts that they lost, but the 
-              Hedge Maple is remarkable at having durability and growing back. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Hedge Maples are very well-used in gardenscaping.</strong>
+            The word "Hedge" in Hedge Maple is there because the tree is very durable when being pruned, which
+            allows the tree, when grown next to other Hedge Maples, to be created into artistic hedges. Other trees when
+            they are pruned suffer greatly and don't have strong enough defenses to be able to regrow the parts that
+            they lost, but the
+            Hedge Maple is remarkable at having durability and growing back.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Pin Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/norway-maple.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="5"></a>Norway Maple (Acer Platanoides)</h3>
+<!--Pin Oak-->
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/norway-maple.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="5"></a>Norway Maple (Acer Platanoides)</h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse1"
+          aria-expanded="true" aria-controls="CLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="CLCollapse1" class="accordion-collapse collapse show" aria-labelledby="CLHeading1"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/norway-maple-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Norway Maple leaf is distinguishable from the Red Maple for the opposite reason as the Hedge
+              Maple! </strong>
+            If the Red Maple is the symbol of maple leaves, and Hedge Maples are differentiable because
+            of their rounded points, then the Norway Maple has the opposite distinction! The tips of Norway Maple
+            points have small, often white barbs that are sharp to the touch!
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse1" aria-expanded="true" aria-controls="CLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="CLCollapse1" class="accordion-collapse collapse show" aria-labelledby="CLHeading1" data-bs-parent="#CLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/norway-maple-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Norway Maple leaf is distinguishable from the Red Maple for the opposite reason as the Hedge Maple! </strong>
-              If the Red Maple is the symbol of maple leaves, and Hedge Maples are differentiable because 
-              of their rounded points, then the Norway Maple has the opposite distinction! The tips of Norway Maple 
-              points have small, often white barbs that are sharp to the touch! 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse2"
+          aria-expanded="false" aria-controls="CLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="CLCollapse2" class="accordion-collapse collapse" aria-labelledby="CLHeading2"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/norway-maple-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the Norway Maple is a gray color with black tints.</strong>
+            The bark of the Norway Maple is a very furrowed bark that makes a scaly texture. The bark
+            of the Norway Maple is really thick, which makes the tree rather good at resisting wild fires.
+            The bark on the branches is much smooth than the bark on the trunk, with the branch barking have a
+            mostly smooth texture.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse2" aria-expanded="false" aria-controls="CLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="CLCollapse2" class="accordion-collapse collapse" aria-labelledby="CLHeading2" data-bs-parent="#CLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/norway-maple-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the Norway Maple is a gray color with black tints.</strong>
-              The bark of the Norway Maple is a very furrowed bark that makes a scaly texture. The bark 
-              of the Norway Maple is really thick, which makes the tree rather good at resisting wild fires. 
-              The bark on the branches is much smooth than the bark on the trunk, with the branch barking have a 
-              mostly smooth texture. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse3" aria-expanded="false" aria-controls="CLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="CLCollapse3" class="accordion-collapse collapse" aria-labelledby="CLHeading3" data-bs-parent="#CLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Norway Maple is a very important tree in Europe, where it has many uses.</strong> 
-              Since the Norway Maple is native to Europe, the European people have been using its resources 
-              for many uses. The wood of the Norway Maple is very hardy, which makes it resistant to fires but also 
-              makes it into a wonderful woof for crafting long-lasting furniture and flooring. Actually, the first 
-              Stradivarious Violins were made from the wood of Norway Maples. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse3"
+          aria-expanded="false" aria-controls="CLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="CLCollapse3" class="accordion-collapse collapse" aria-labelledby="CLHeading3"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Norway Maple is a very important tree in Europe, where it has many uses.</strong>
+            Since the Norway Maple is native to Europe, the European people have been using its resources
+            for many uses. The wood of the Norway Maple is very hardy, which makes it resistant to fires but also
+            makes it into a wonderful woof for crafting long-lasting furniture and flooring. Actually, the first
+            Stradivarious Violins were made from the wood of Norway Maples.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br> 
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/sugar-maple.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="6">Sugar Maple (Acer Saccharum)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/sugar-maple.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="6">Sugar Maple (Acer Saccharum)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse1"
+          aria-expanded="true" aria-controls="DRCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="DRCollapse1" class="accordion-collapse collapse show" aria-labelledby="DRHeading1"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/sugar-maple-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Sugar Maple leaves are similar to that of the Norway Maple except the tips of the points are not
+              sharp.</strong>
+            The similarities between the Sugar Maple Leaf and the Norway Maple leaf are abundant, with both of them
+            being distinguishable from the Red Maple Leaf because they are more pointed, but the difference between the
+            Sugar Maple
+            and the Norway Maple are that the Norway Maple tips end in sharp points whereas in the Sugar Maple, the tips
+            are still the
+            same leaf material.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse1" aria-expanded="true" aria-controls="DRCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="DRCollapse1" class="accordion-collapse collapse show" aria-labelledby="DRHeading1" data-bs-parent="#DRAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/sugar-maple-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Sugar Maple leaves are similar to that of the Norway Maple except the tips of the points are not sharp.</strong>
-              The similarities between the Sugar Maple Leaf and the Norway Maple leaf are abundant, with both of them 
-              being distinguishable from the Red Maple Leaf because they are more pointed, but the difference between the Sugar Maple 
-              and the Norway Maple are that the Norway Maple tips end in sharp points whereas in the Sugar Maple, the tips are still the 
-              same leaf material. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse2"
+          aria-expanded="false" aria-controls="DRCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="DRCollapse2" class="accordion-collapse collapse" aria-labelledby="DRHeading2"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/sugar-maple-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The Bark of the Sugar Maple consists of flaky scales. </strong>
+            One thing about the bark of the Sugar Maple is that it is extremely thick, even giving the Sugar Maple the
+            name
+            Hard Maple in other parts of the world. Because the bark is so thick, it allows for the sap inside to grow
+            undisturbed from
+            animals and the outside environment. For that reason, the sap is extracted and used as Maple Syrup, which is
+            widely popular in North
+            America!
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse2" aria-expanded="false" aria-controls="DRCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="DRCollapse2" class="accordion-collapse collapse" aria-labelledby="DRHeading2" data-bs-parent="#DRAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/sugar-maple-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The Bark of the Sugar Maple consists of flaky scales. </strong>
-              One thing about the bark of the Sugar Maple is that it is extremely thick, even giving the Sugar Maple the name 
-              Hard Maple in other parts of the world. Because the bark is so thick, it allows for the sap inside to grow undisturbed from 
-              animals and the outside environment. For that reason, the sap is extracted and used as Maple Syrup, which is widely popular in North 
-              America! 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse3" aria-expanded="false" aria-controls="DRCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="DRCollapse3" class="accordion-collapse collapse" aria-labelledby="DRHeading3" data-bs-parent="#DRAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>A lot of Sugar Maple sap goes in to producing one gallon of Maple Syrup!</strong> 
-              When the Sugar Maple produces it's syrup, that syrup is made primarily of water, being the tree's 
-              main source of sustenance. When the Maple Syrup is then removed from the tree, the water has to be 
-              boiled out so that the syrup is concentrated enough to be the right consistancy and flavor. That means that 
-              you need to extract around 40 gallons of sap from Sugar Maples in order to make 1 gallon of Maple Syrup. Since 
-              each tree produces between 10 to 20 gallons of sap a year, that means that each gallon container of Maple Syrup 
-              involves several trees. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse3"
+          aria-expanded="false" aria-controls="DRCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="DRCollapse3" class="accordion-collapse collapse" aria-labelledby="DRHeading3"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>A lot of Sugar Maple sap goes in to producing one gallon of Maple Syrup!</strong>
+            When the Sugar Maple produces it's syrup, that syrup is made primarily of water, being the tree's
+            main source of sustenance. When the Maple Syrup is then removed from the tree, the water has to be
+            boiled out so that the syrup is concentrated enough to be the right consistancy and flavor. That means that
+            you need to extract around 40 gallons of sap from Sugar Maples in order to make 1 gallon of Maple Syrup.
+            Since
+            each tree produces between 10 to 20 gallons of sap a year, that means that each gallon container of Maple
+            Syrup
+            involves several trees.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/japanese-maple.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="7">Japanese Maple (Acer Palmatum)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/japanese-maple.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="7">Japanese Maple (Acer Palmatum)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse1"
+          aria-expanded="true" aria-controls="WLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="WLCollapse1" class="accordion-collapse collapse show" aria-labelledby="WLHeading1"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/japanese-maple-leaf.jpeg" class="accordion-image">
+          <div id="block">
+            <strong>The leaf of the Japanese Maple is quite distinguishable from other Maples! </strong>
+            Unlike most species within the Maple family, the Japanese Maple's points stem from rather close
+            to the base of the leaf. This results in more defined points on the leaf and a stronger resemblance to
+            a star shape. Within each point of the Japanese Maple leaf, there are ridges, making the shape of the leaf
+            even more unique from most other maples. This is mostly due in part to the evolutionary separation between
+            Japanese Maples and the rest of the family.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse1" aria-expanded="true" aria-controls="WLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="WLCollapse1" class="accordion-collapse collapse show" aria-labelledby="WLHeading1" data-bs-parent="#WLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/japanese-maple-leaf.jpeg" class="accordion-image">
-            <div id="block">
-              <strong>The leaf of the Japanese Maple is quite distinguishable from other Maples! </strong>
-              Unlike most species within the Maple family, the Japanese Maple's points stem from rather close 
-              to the base of the leaf. This results in more defined points on the leaf and a stronger resemblance to 
-              a star shape. Within each point of the Japanese Maple leaf, there are ridges, making the shape of the leaf 
-              even more unique from most other maples. This is mostly due in part to the evolutionary separation between 
-              Japanese Maples and the rest of the family.
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse2"
+          aria-expanded="false" aria-controls="WLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="WLCollapse2" class="accordion-collapse collapse" aria-labelledby="WLHeading2"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/japanese-maple-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The bark of the Japanese Maple tree is extremely unique, being a coral red color. </strong>
+            Unique to the Japanese Maple tree is it's stunning bark, which often gives the plant the name "Coral Maple".
+            This bark remains very smooth throughout the entire life of the Japanese Maple and is yet another example of
+            how different
+            evolutionarily the Japanese Maple is from the other maples that grow in Harvard Yard from Europe and North
+            America.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse2" aria-expanded="false" aria-controls="WLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="WLCollapse2" class="accordion-collapse collapse" aria-labelledby="WLHeading2" data-bs-parent="#WLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/japanese-maple-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The bark of the Japanese Maple tree is extremely unique, being a coral red color. </strong>
-              Unique to the Japanese Maple tree is it's stunning bark, which often gives the plant the name "Coral Maple". 
-              This bark remains very smooth throughout the entire life of the Japanese Maple and is yet another example of how different 
-              evolutionarily the Japanese Maple is from the other maples that grow in Harvard Yard from Europe and North America. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse3" aria-expanded="false" aria-controls="WLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="WLCollapse3" class="accordion-collapse collapse" aria-labelledby="WLHeading3" data-bs-parent="#WLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Japanese Maple is most commonly a dwarf tree! </strong> 
-              Most Maple trees that exist on campus are towering trees that grow very rapidly, but the Japanese Maple Tree is 
-              the exact opposite. Back in the 1800s, the Japanese Maple was a common tree across Japan that grew to impressive 
-              heights and dominated forests, but in the late 1800s, during Japan's industrial revolution, this tree was over lumbered.
-              The only trees that remained of the Japanese Maples were ones that farmers and individuals had been growing in their homes and yards, 
-              which were primarily dwarf trees. This means that now in the modern day, the majority of all Japanese Maples are dwarf trees, being ancestors 
-              of the small garden trees that survived the industrial revolution. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse3"
+          aria-expanded="false" aria-controls="WLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="WLCollapse3" class="accordion-collapse collapse" aria-labelledby="WLHeading3"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Japanese Maple is most commonly a dwarf tree! </strong>
+            Most Maple trees that exist on campus are towering trees that grow very rapidly, but the Japanese Maple Tree
+            is
+            the exact opposite. Back in the 1800s, the Japanese Maple was a common tree across Japan that grew to
+            impressive
+            heights and dominated forests, but in the late 1800s, during Japan's industrial revolution, this tree was
+            over lumbered.
+            The only trees that remained of the Japanese Maples were ones that farmers and individuals had been growing
+            in their homes and yards,
+            which were primarily dwarf trees. This means that now in the modern day, the majority of all Japanese Maples
+            are dwarf trees, being ancestors
+            of the small garden trees that survived the industrial revolution.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/tuliptree.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="8">Tuliptree (Liriodendron Tulipifera)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/tuliptree.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="8">Tuliptree (Liriodendron Tulipifera)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="TTAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="TTHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse1"
+          aria-expanded="true" aria-controls="TTCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="TTCollapse1" class="accordion-collapse collapse show" aria-labelledby="TTHeading1"
+        data-bs-parent="#TTAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/tuliptree-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>Tuliptrees have unique four-pointed leaves! </strong>
+            Up until now in the Pointed Leaves category, we have only seen leabes that are either 5 pointed or 3
+            pointed,
+            but the tuliptree is unique in that it has 4 pointed leaves! This makes it easily distinguishable from other
+            pointed-leaf trees. The leaves of the tuliptree also can grow rather large, sometimes growing to be 6 to 8
+            inches long!
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="TTAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="TTHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse1" aria-expanded="true" aria-controls="TTCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="TTCollapse1" class="accordion-collapse collapse show" aria-labelledby="TTHeading1" data-bs-parent="#TTAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/tuliptree-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>Tuliptrees have unique four-pointed leaves! </strong>
-              Up until now in the Pointed Leaves category, we have only seen leabes that are either 5 pointed or 3 pointed, 
-              but the tuliptree is unique in that it has 4 pointed leaves! This makes it easily distinguishable from other
-              pointed-leaf trees. The leaves of the tuliptree also can grow rather large, sometimes growing to be 6 to 8 inches long!
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="TTHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse2"
+          aria-expanded="false" aria-controls="TTCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="TTCollapse2" class="accordion-collapse collapse" aria-labelledby="TTHeading2"
+        data-bs-parent="#TTAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/tuliptree-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The bark of the Tuliptree has very interesting undertones! </strong>
+            The bark of the Tuliptree is mostly gray with green undertones in it. Often, there are white spots on the
+            trunk
+            of the tree which are a natural occurence because of the wood of the bark. The bark texture is scaly, with
+            a diamond pattern forming from the furrows in the bark.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="TTHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse2" aria-expanded="false" aria-controls="TTCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="TTCollapse2" class="accordion-collapse collapse" aria-labelledby="TTHeading2" data-bs-parent="#TTAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/tuliptree-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The bark of the Tuliptree has very interesting undertones! </strong>
-              The bark of the Tuliptree is mostly gray with green undertones in it. Often, there are white spots on the trunk 
-              of the tree which are a natural occurence because of the wood of the bark. The bark texture is scaly, with 
-              a diamond pattern forming from the furrows in the bark. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="TTHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse3" aria-expanded="false" aria-controls="TTCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="TTCollapse3" class="accordion-collapse collapse" aria-labelledby="TTHeading3" data-bs-parent="#TTAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Tuliptree doesn't grow flowers for the first fews years of it's life!</strong> 
-              The Tuliptree, to no one's surprise, is most known for the beautiful tulip flowers that grow from 
-              the branches! But, these gorgeous and colorful flowers don't start growing on the tree until the tree reaches 
-              15 to 20 years old! But, worry not because those 15-20 years is nothing compared to the lifespan of the tree!
-              Tuliptrees can live to be upwards of 350 years old! 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="TTHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#TTCollapse3"
+          aria-expanded="false" aria-controls="TTCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="TTCollapse3" class="accordion-collapse collapse" aria-labelledby="TTHeading3"
+        data-bs-parent="#TTAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Tuliptree doesn't grow flowers for the first fews years of it's life!</strong>
+            The Tuliptree, to no one's surprise, is most known for the beautiful tulip flowers that grow from
+            the branches! But, these gorgeous and colorful flowers don't start growing on the tree until the tree
+            reaches
+            15 to 20 years old! But, worry not because those 15-20 years is nothing compared to the lifespan of the
+            tree!
+            Tuliptrees can live to be upwards of 350 years old!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/pointed/holly.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="9">Common Holly (Ilex Aquifolium)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/pointed/holly.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="9">Common Holly (Ilex Aquifolium)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="HOLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HOLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#HOLCollapse1"
+          aria-expanded="true" aria-controls="HOLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="HOLCollapse1" class="accordion-collapse collapse show" aria-labelledby="HOLHeading1"
+        data-bs-parent="#HOLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/holly-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Holly leaf is an iconic symbol of the holidays in the Western World!</strong>
+            Holly leaves are extremely distinctive, garnering a deep, waxy shade of green and very many points.
+            The holly leaf, and subsequently berry, has become a staple of the Holiday Season because, unlike some
+            berries,
+            Holly berries remain on the tree all winter, which leads to a remarkable contrast between the berries and
+            the snow.
+            The Holly leaves themselves are spiky to discourage potential predators like birds from standing on them and
+            eating away at the berries.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="HOLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HOLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#HOLCollapse1" aria-expanded="true" aria-controls="HOLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="HOLCollapse1" class="accordion-collapse collapse show" aria-labelledby="HOLHeading1" data-bs-parent="#HOLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/holly-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Holly leaf is an iconic symbol of the holidays in the Western World!</strong>
-              Holly leaves are extremely distinctive, garnering a deep, waxy shade of green and very many points. 
-              The holly leaf, and subsequently berry, has become a staple of the Holiday Season because, unlike some berries, 
-              Holly berries remain on the tree all winter, which leads to a remarkable contrast between the berries and the snow. 
-              The Holly leaves themselves are spiky to discourage potential predators like birds from standing on them and eating away at the berries. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HOLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#HOLCollapse2" aria-expanded="false" aria-controls="HOLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="HOLCollapse2" class="accordion-collapse collapse" aria-labelledby="HOLHeading2"
+        data-bs-parent="#HOLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/pointed/holly-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the Common Holly is an extremely smooth bark! </strong>
+            We have seen many kinds of trees which are smooth as youth and then as they mature they develop furrows.
+            The Holly Tree is not one of these trees. The Holly Tree remains smooth throughout it's lifetime, only ever
+            becoming
+            fractured if the tree contracts a disease or covers up a damaged spot.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HOLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#HOLCollapse2" aria-expanded="false" aria-controls="HOLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="HOLCollapse2" class="accordion-collapse collapse" aria-labelledby="HOLHeading2" data-bs-parent="#HOLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/pointed/holly-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the Common Holly is an extremely smooth bark! </strong>
-              We have seen many kinds of trees which are smooth as youth and then as they mature they develop furrows. 
-              The Holly Tree is not one of these trees. The Holly Tree remains smooth throughout it's lifetime, only ever becoming 
-              fractured if the tree contracts a disease or covers up a damaged spot. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HOLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#HOLCollapse3" aria-expanded="false" aria-controls="HOLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="HOLCollapse3" class="accordion-collapse collapse" aria-labelledby="HOLHeading3" data-bs-parent="#HOLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Holly leaves remain on the tree year-round!</strong> 
-              In the Needles tab of Tree S 50 you can learn that not all needle-bearing trees are evergreen and keep 
-              their needles year-round, some of them are deciduous! Well, the Holly is the opposite of that, a leaf-bearing tree 
-              that DOES keep it's leaves yearround! The Holly is a rare example of an evergreen tree with full leaves!
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HOLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#HOLCollapse3" aria-expanded="false" aria-controls="HOLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="HOLCollapse3" class="accordion-collapse collapse" aria-labelledby="HOLHeading3"
+        data-bs-parent="#HOLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Holly leaves remain on the tree year-round!</strong>
+            In the Needles tab of Tree S 50 you can learn that not all needle-bearing trees are evergreen and keep
+            their needles year-round, some of them are deciduous! Well, the Holly is the opposite of that, a
+            leaf-bearing tree
+            that DOES keep it's leaves yearround! The Holly is a rare example of an evergreen tree with full leaves!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 {% endblock %}
