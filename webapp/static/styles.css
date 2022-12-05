@@ -32,7 +32,7 @@ body {
     padding: 5px;
 }
 
-.button {
+button {
     background-color: #0CDA90;
     color: #FFFFFF;
     border: 1px solid transparent;
@@ -117,7 +117,7 @@ li a:hover {
     border-width: 4px;
     border-color: #0CDA90;
     border-radius: 0.25rem;
-    font-family: 'Poppins';
+    font-family: 'Lora';
     padding: 2px;
 }
 
@@ -127,7 +127,7 @@ li a:hover {
     border-color: #0CDA90;
     border-radius: 0.25rem;
     font-family: 'Poppins';
-    padding: 2px;
+    padding: 4px;
     margin-left: 400px;
     margin-right: 400px;
 }
@@ -149,7 +149,6 @@ nav {
     color: #0cda90;
     background-color: #eee;
     border-radius: 5px;
-    box-shadow: 4px 4px #ccc;
   }
 
 .styled-table {
@@ -160,6 +159,7 @@ nav {
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     float: center;
+    background-color: #009879;
 }
 
 .styled-table thead tr {
@@ -173,19 +173,20 @@ nav {
     padding: 12px 15px;
 }
 
-.styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    flex: 25%;
+    padding: 5px;
+  }
+  
+/* Clear floats after image containers */
+.row {
+    width: 90%;
+    margin-left: 5%;
+  }
 
-.styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
-}
-
-.styled-table tbody tr.active-row {
-    font-weight: bold;
-    color: #009879;
+a {
+    color:rgb(0, 0, 0);
 }

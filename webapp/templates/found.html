@@ -1,26 +1,26 @@
 {% extends "layout.html" %}
 
 {% block main %}
-<h1 class="header">We Found Your Tree!</h1>
+<h1 class="header">We Found Your Tree(s)!</h1>
 
 <div id="block2">
     <table class="styled-table">
             <tr>
-                <th>Name</th>
+                <th>Possible Name</th>
                 {% for tree in tree_name %}
                 <td> {{ tree }} </td> 
                 {% endfor %}
             </tr>
             <tr>
-                <th>Picture</th>
+                <th>Possible Picture</th>
                 {% for image in url %}
-                <td> <img width="100%" height="100%" src="{{  image  }} "> </td>
+                <td> <img width="120px" height="180px" src="{{  image  }} "> </td>
                 {% endfor %}
             </tr>
             <tr>
-                <th>Is this Your Tree?</th>
+                <th></th>
                 {% for file in html %}
-                <td><a href="{{ file }}">YES</a></td> 
+                <td><a href="{{ file }}"><button>This is my tree!</button></a></td> 
                 {% endfor %}
             </tr>
     </table>
