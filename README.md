@@ -1,4 +1,4 @@
-# Ben and Dan Final Project
+# Ben and Dan Final Project: Tree S 50
 
 Flask Github for CS50 Fall 2022.
 
