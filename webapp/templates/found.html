@@ -4,24 +4,49 @@
 <h1 class="header">We Found Ur Tree</h1>
 
 
-    
-    <div id="block2">
-       <h2>Is it the...</h2>
-       {% for tree in tree_name %}
-       <h3>{{  tree  }}?</h3>
-       {% endfor %}
-       
-       {% for image in url %}
-       <img src="{{  image  }}">
-       {% endfor %}
 
-       {% for file in html %}
-       <a href="{{ file }}">YES</a>
-       {% endfor %}
-       
-    </div>
-    
+<div id="block2">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Picture</th>
+                <th>Is this Your Tree?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                {% for tree in tree_name %}
+                <td> {{ tree }} </td> <br>
+                {% endfor %}
+
+                {% for image in url %}
+                <td> <img src="{{  image  }} "> </td> <br>
+                {% endfor %}
+
+                {% for file in html %}
+                <td><a href="{{ file }}">YES</a></td> <br>
+                {% endfor %}
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div id="block2">
+    <h2>Is it the...</h2>
+    {% for tree in tree_name %}
+    <h3>{{ tree }}?</h3>
+    {% endfor %}
+
+    {% for image in url %}
+    <img src="{{  image  }}" class="w-25">
+    {% endfor %}
+
+    {% for file in html %}
+    <a href="{{ file }}">YES</a>
+    {% endfor %}
+</div>
+
+
+
 
 {% endblock %}
-
-
