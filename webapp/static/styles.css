@@ -97,8 +97,6 @@ button {
 
 ul {
     list-style-type: none;
-    margin-block: 500px;
-    padding: 0;
     overflow: hidden;
     background-color: #0cda90;
 }
@@ -111,7 +109,6 @@ li a {
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-family: 'Lora';
 }
