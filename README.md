@@ -10,7 +10,7 @@ If pip is not installed, you will get an error that looks like "pip not found". 
 ### Make sure you are in webapp folder
 
 Execute: <br/>
-`pip install -r requirements.txt`
+`pip install -r webapp/requirements.txt`
 
 # Running Flask
 
