@@ -3,8 +3,10 @@
 {% block main %}
 <h1 class="header">String of Leaflets</h1>
 
+<!-- Large Image at top of page to give Users an understanding of the leaf types they will be shown. -->
 <img src="static/img/string.jpg" class="w-50 center">
 
+<!-- Make an explanation for what that leaf type is and how many times it is seen in the yard. -->
 <div class="center-text">
   There are some trees in Harvard Yard where one individual leaf looks like a string of smaller leaves.
   These are known as Compound Leaves, and yes, they are only ONE leaf. This category is a fairly broad reaching
@@ -14,14 +16,17 @@
 <br>
 <br>
 
-<!-- Eastern White Pine image and accordion with info-->
+<!-- HONEY LOCUST -->
 <div style="margin-bottom:50%">
-  <!-- Eastern White Pine Image-->
   <div style="text-align:left">
+    <!-- Start each tree with an image of it as a whole, which is put off to the left side of the screen. -->
     <img src="static/img/compound/honeylocust.jpg" class="w-25 left-text">
+    <!-- The name of the tree along with the scientific name and an a tag which allows a url 
+    to go exactly to that place in the html file. -->
     <h3 class="tree-name left-text w-25"><a id="1"></a>Honey Locust (Gleditsia Triacanthos)</h3>
   </div>
-  <!-- Eastern White Pine Accordion with all info-->
+
+  <!-- Accordion for the tree with all of the information about it and images inside of the accordion. -->
   <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="EWPHeading1">
@@ -33,8 +38,12 @@
       <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1"
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body" style="text-align:center">
+          <!-- What the user sees when this piece of the accordion is open. -->
+          <!-- An image about the part of the tree we are talking about, with css to discuss width in 
+          proportion to screen size. -->
           <img src="static/img/compound/honeylocust-leaf.jpg" class="accordion-image">
           <div id="block">
+            <!-- The actual text of the research we have done. -->
             <strong>The leaf of a honeylocust contains many teardrop-shaped leaflets!</strong>
             The leaf of a Honey Locust often consists of over 20 small leaflets, each leaflet growing to
             between .75 inches to 1 inch. The Honey Locust leaflets are perfectly symmetrical, meaning that
@@ -55,6 +64,7 @@
       <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2"
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body" style="text-align:center">
+          <!-- Same as the description above for leaves, but with picture of bark. -->
           <img src="static/img/compound/honeylocust-bark.jpg" class="accordion-image" style="float:right">
           <div id="block">
             <strong>The Honey Locust has an extremely interesting defense mechanism on it's bark!</strong>
@@ -80,6 +90,7 @@
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body">
           <div id="block">
+            <!-- Fun fact about the tree, with no image involved this time. -->
             <strong>Honey Locust Trees don't actually produce any honey!!!</strong>
             This statement alone is pretty obvious, we all know that bees are the ones who produce honey. But how then
             did the
@@ -97,13 +108,16 @@
 
 <br>
 
+<!-- JAPANESE PAGODA -->
+<!-- Format done in the same way as the first one -->
 <div style="margin-bottom:50%">
-  <!-- Swiss Stone Pine Image-->
   <div style="text-align:left">
     <img src="static/img/compound/japanese-pagoda.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="2"></a>Japanese Pagoda (Styphnolobium Japonicum)</h3>
   </div>
-  <!-- Swiss Stone Pine Accordion with all info-->
+
+  <!-- The only difference is that the id of the accordion and all of the controls have to be unique 
+  to this accordion within the html.  --> 
   <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="SSPHeading1">
@@ -179,14 +193,14 @@
 
 <br>
 
-<!--Swamp White Oak-->
+<!-- GOLDEN RAIN TREE -->
 <div style="margin-bottom:50%">
-  <!-- Swamp White Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/compound/golden-rain-tree.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="3"></a>Golden Rain Tree (Koelreuteria Paniculata)</h3>
   </div>
-  <!-- White Oak Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="APHeading1">
@@ -261,14 +275,14 @@
 
 <br>
 
-<!--Scarlet Oak-->
+<!-- BLACK LOCUST -->
 <div style="margin-bottom:50%">
-  <!-- Scarlet Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/compound/black-locust.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="4"></a>Black Locust (Robinia Pseudoacacia)</h3>
   </div>
-  <!-- Scarlet Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="ScarHeading1">
@@ -348,14 +362,14 @@
 
 <br>
 
-<!--Pin Oak-->
+<!-- BLACK ASH -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/compound/ash-tree.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="5"></a>Black Ash (Fraxinus Nigra)</h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="CLHeading1">
@@ -425,13 +439,14 @@
 
 <br>
 
+<!-- WHITE ASH -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/compound/white-ash.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="6"></a>White Ash (Fraxinus Americana)</h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="DRHeading1">
@@ -500,13 +515,14 @@
 
 <br>
 
+<!-- EAST BLACK WALNUT TREE --> 
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/compound/black-walnut.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="7"></a>Eastern Black Walnut Tree (Juglans Nigra)</h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="WLHeading1">
@@ -580,13 +596,14 @@
 
 <br>
 
+<!-- KENTUCKY COFFEE TREE --> 
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/compound/kentucky-coffee-tree.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="8"></a>Kentucky Coffee Tree (Gymnocladus Dioicus)</h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="TTAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="TTHeading1">
@@ -661,13 +678,14 @@
 
 <br>
 
+<!-- YELLOWWOOD --> 
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/compound/yellowwood.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="9"></a>Yellowwood (Cladrastis Kentukea)</h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="HOLAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="HOLHeading1">
