@@ -1,8 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, VARCHAR
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column, Integer, String
 
 engine = create_engine('sqlite:///tree.db')
 db_session = scoped_session(sessionmaker(autocommit=False,
