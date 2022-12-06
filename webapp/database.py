@@ -44,7 +44,7 @@ class Tree(Base):
         return f'<User {self.tree_id, self.tree_name, self.leaftype, self.barktype, self.fruittype, self.image, self.html!r}>'
 
 
-# our queries to input various things into tree.db
+# our queries to input various trees into tree.db
 
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES("Red Oak", "Pointed Lobes", "Scaly", "Acorn", "static/img/lobed/red-oak.jpg", "lobed#1");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("White Oak", "Curved Lobes", "Scaly", "Acorn", "static/img/lobed/white-oak.jpg", "lobed#2");
