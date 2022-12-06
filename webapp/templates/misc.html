@@ -3,6 +3,7 @@
 {% block main %}
 <h1 class="header">Miscellaneous Leaves</h1>
 
+<!-- Make an explanation for what that leaf type is and how many times it is seen in the yard. -->
 <div class="center-text">
     There are some leaves that don't fall into any of the five previous categories but are still
     important to Harvard Yard! Here we will explore 5 different tree species that have miscellaneously
@@ -12,14 +13,17 @@
 <br>
 <br>
 
-<!-- Red Oak image and accordion with info-->
+<!-- GINKGO -->
 <div style="margin-bottom:50%">
-    <!-- Red Oak Image-->
     <div style="text-align:left">
+        <!-- Start each tree with an image of it as a whole, which is put off to the left side of the screen. -->
         <img src="static/img/misc/gingko.jpg" class="w-25 left-text">
+        <!-- The name of the tree along with the scientific name and an a tag which allows a url 
+        to go exactly to that place in the html file. -->
         <h3 class="tree-name left-text w-25"><a id="1"></a>Ginkgo (Ginkgo Biloba)</h3>
     </div>
-    <!-- Red Oak Accordion with all info-->
+
+    <!-- Accordion for the tree with all of the information about it and images inside of the accordion. -->
     <div class="accordion right-text w-50" id="ROAccordion" style="display:inline-block">
         <div class="accordion-item">
             <h2 class="accordion-header" id="ROHeading1">
@@ -31,8 +35,12 @@
             <div id="ROCollapse1" class="accordion-collapse collapse show" aria-labelledby="ROHeading1"
                 data-bs-parent="#ROAccordion">
                 <div class="accordion-body" style="text-align:center">
+                    <!-- What the user sees when this piece of the accordion is open. -->
+                    <!-- An image about the part of the tree we are talking about, with css to discuss width in 
+                    proportion to screen size. -->
                     <img src="static/img/misc/ginkgo-leaf.jpg" class="accordion-image">
                     <div id="block">
+                        <!-- The actual text of the research we have done. -->
                         <strong>The leaves of the Ginkgo Tree are a unique fan shape which have been around for millions
                             of years!</strong>
                         The leaves of the ginkgo tree are extremely distinct from other leaves, having a wonderful fan
@@ -58,6 +66,7 @@
             <div id="ROCollapse2" class="accordion-collapse collapse" aria-labelledby="ROHeading2"
                 data-bs-parent="#ROAccordion">
                 <div class="accordion-body" style="text-align:center">
+                    <!-- Same as the description above for leaves, but with picture of bark. -->
                     <img src="static/img/misc/ginkgo-bark.jpg" class="accordion-image" style="float:right">
                     <div id="block">
                         <strong>Ginkgo bark changes color and texture as the tree matures.</strong>
@@ -82,6 +91,7 @@
                 data-bs-parent="#ROAccordion">
                 <div class="accordion-body">
                     <div id="block">
+                        <!-- Fun fact about the tree, with no image involved this time. -->
                         <strong>Ginkgo fruit is extremely foul smelling for a good evolutionary reason!</strong>
                         Female Ginkgo Trees produce berries, which are how the tree reproduces. But, once these berries
                         fall to the ground
@@ -103,13 +113,16 @@
 
 <br>
 
+<!-- EUROPEAN BEECH -->
+<!-- Format done in the same way as the first one -->
 <div style="margin-bottom:50%">
-    <!-- White Oak Image-->
+    
     <div style="text-align:left">
         <img src="static/img/misc/european-beech.jpg" class="w-25 left-text">
         <h3 class="tree-name left-text w-25"><a id="2"></a>European Beech (Fagus Sylvatica)</h3>
     </div>
-    <!-- White Oak Accordion with all info-->
+    <!-- The only difference is that the id of the accordion and all of the controls have to be unique 
+    to this accordion within the html.  --> 
     <div class="accordion right-text w-50" id="WOAccordion" style="display:inline-block">
         <div class="accordion-item">
             <h2 class="accordion-header" id="WOHeading1">
@@ -189,14 +202,14 @@
 
 <br>
 
-<!--Swamp White Oak-->
+<!-- COMMON HAWTHORN -->
 <div style="margin-bottom:50%">
-    <!-- Swamp White Oak Image-->
+    
     <div style="text-align:left">
         <img src="static/img/misc/hawthorn.jpg" class="w-25 left-text">
         <h3 class="tree-name left-text w-25"><a id="3"></a>Common Hawthorn (Crataegus Monogyna)</h3>
     </div>
-    <!-- White Oak Accordion with all info-->
+    
     <div class="accordion right-text w-50" id="SWOAccordion" style="display:inline-block">
         <div class="accordion-item">
             <h2 class="accordion-header" id="SWOHeading1">
@@ -272,14 +285,14 @@
 
 <br>
 
-<!--Scarlet Oak-->
+<!-- LITTLE LEAF LINDEN -->
 <div style="margin-bottom:50%">
-    <!-- Scarlet Oak Image-->
+    
     <div style="text-align:left">
         <img src="static/img/misc/little-leaf-linden.jpg" class="w-25 left-text">
         <h3 class="tree-name left-text w-25"><a id="4"></a>Little-Leaf Linden (Tilia Cordata)</h3>
     </div>
-    <!-- Scarlet Accordion with all info-->
+    
     <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
         <div class="accordion-item">
             <h2 class="accordion-header" id="ScarHeading1">
@@ -348,14 +361,14 @@
 
 <br>
 
-<!--Pin Oak-->
+<!-- REDBUD -->
 <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
+    
     <div style="text-align:left">
         <img src="static/img/misc/redbud.jpeg" class="w-25 left-text">
         <h3 class="tree-name left-text w-25"><a id="5"></a>Redbud (Cercis Canadensis)</h3>
     </div>
-    <!-- Pin Accordion with all info-->
+    
     <div class="accordion right-text w-50" id="PinAccordion" style="display:inline-block">
         <div class="accordion-item">
             <h2 class="accordion-header" id="PinHeading1">
