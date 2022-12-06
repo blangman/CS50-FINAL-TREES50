@@ -85,7 +85,7 @@ class Tree(Base):
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Zelkova", "Ridged Teardrop", "Slightly Smooth", "Berry", "static/img/teardrop/zelkova.jpg", "teardrop#7");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Crabapple", "Ridged Teardrop", "Flaky", "Berry", "static/img/teardrop/crabapple.jpg", "teardrop#8");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Saucer Magnolia", "Long Teardrop", "Super Smooth", "Flower", "static/img/teardrop/saucer-magnolia.jpg", "teardrop#9");
-# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("White Fringe Tree", "Long Teardrop", "Slightly Smooth", "Berry", "static/img/teardrop/white-fringe.jpg", "teardrop#10");
+# INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("White Fringe Tree", "Long Teardrop", "Slightly Smooth", "Berry", "static/img/teardrop/white-fringe-tree.jpg", "teardrop#10");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Magnolia Tree", "Long Teardrop", "Slightly Smooth", "Flower", "static/img/teardrop/magnolia.jpg", "teardrop#11");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Shingle Oak", "Long Teardrop", "Scaly", "Acorn", "static/img/teardrop/shingle-oak.jpg", "teardrop#12");
 # INSERT INTO Tree(tree_name, leaftype, barktype, fruittype, image, html) VALUES ("Black Gum", "Long Teardrop", "Scaly", "Berry", "static/img/teardrop/black-gum.jpg", "teardrop#13");
