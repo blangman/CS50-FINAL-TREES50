@@ -3,8 +3,10 @@
 {% block main %}
 <h1 class="header">Needles</h1>
 
+<!-- Large Image at top of page to give Users an understanding of the leaf types they will be shown. -->
 <img src="static/img/needles.jpg" class="w-50 center">
 
+<!-- Make an explanation for what that leaf type is and how many times it is seen in the yard. -->
 <div class="center-text">
   Despite what some people think, needles are actually leaves! Trees that have needles produce cones
   (like pine cones) and are called conifers! While most conifers are evergreen, you will soon learn that
@@ -14,14 +16,17 @@
 <br>
 <br>
 
-<!-- Eastern White Pine image and accordion with info-->
+<!-- EASTERN WHITE PINE -->
 <div style="margin-bottom:50%">
   <!-- Eastern White Pine Image-->
   <div style="text-align:left">
+    <!-- Start each tree with an image of it as a whole, which is put off to the left side of the screen. -->
     <img src="static/img/needles/eastern-white-pine.jpg" class="w-25 left-text">
+    <!-- The name of the tree along with the scientific name and an a tag which allows a url 
+    to go exactly to that place in the html file. -->
     <h3 class="tree-name left-text w-25"><a id="1">Eastern White Pine (Pinus Strobus)</a></h3>
   </div>
-  <!-- Eastern White Pine Accordion with all info-->
+  <!-- Accordion for the tree with all of the information about it and images inside of the accordion. -->
   <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="EWPHeading1">
@@ -33,8 +38,12 @@
       <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1"
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body" style="text-align:center">
+          <!-- What the user sees when this piece of the accordion is open. -->
+          <!-- An image about the part of the tree we are talking about, with css to discuss width in 
+          proportion to screen size. -->
           <img src="static/img/needles/eastern-white-pine-needles.jpg" class="accordion-image">
           <div id="block">
+            <!-- The actual text of the research we have done. -->
             <strong>The Needles of the Eastern White Pine are soft, flexible, and grow together.</strong>
             The needles of the Eastern White Pine can grow rather large, growing up to 5 inches long.
             One distinguishing fact about them is that when you touch them, they are not extremely pointy
@@ -55,6 +64,7 @@
       <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2"
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body" style="text-align:center">
+          <!-- Same as the description above for leaves, but with picture of bark. -->
           <img src="static/img/needles/eastern-white-pine-bark.jpg" class="accordion-image" style="float:right">
           <div id="block">
             <strong>The bark of the Eastern White Pine changes drastically as it grows.</strong>
@@ -76,6 +86,7 @@
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body">
           <div id="block">
+            <!-- Fun fact about the tree, with no image involved this time. -->
             <strong>The Eastern White Pine tree played an important part in American History!</strong>
             The word "white" in the name comes from the fact that when the tree is freshly cut down
             for lumbering, the wood is a white color. This led to it being heavily sought after in the
@@ -96,13 +107,16 @@
 
 <br>
 
+<!-- SWISS STONE PINE -->
+<!-- Format done in the same way as the first one -->
 <div style="margin-bottom:50%">
-  <!-- Swiss Stone Pine Image-->
+  
   <div style="text-align:left">
     <img src="static/img/needles/swiss-stone-pine.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="2">Swiss Stone Pine (Pinus Cembra)</a></h3>
   </div>
-  <!-- Swiss Stone Pine Accordion with all info-->
+  <!-- The only difference is that the id of the accordion and all of the controls have to be unique 
+  to this accordion within the html.  --> 
   <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="SSPHeading1">
@@ -170,14 +184,14 @@
 
 <br>
 
-<!--Swamp White Oak-->
+<!--AUSTRIAN PINE-->
 <div style="margin-bottom:50%">
-  <!-- Swamp White Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/needles/austrian-pine.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="3">Austrian Pine (Pinus Nigra)</a></h3>
   </div>
-  <!-- White Oak Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="APHeading1">
@@ -250,14 +264,14 @@
 
 <br>
 
-<!--Scarlet Oak-->
+<!--ENGLISH YEW -->
 <div style="margin-bottom:50%">
-  <!-- Scarlet Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/needles/english-yew.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="4">English Yew (Taxus Baccata)</a></h3>
   </div>
-  <!-- Scarlet Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="ScarHeading1">
@@ -325,14 +339,14 @@
 
 <br>
 
-<!--Pin Oak-->
+<!--CEDAR OF LEBANON-->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/needles/cedar-lebanon.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="5">Cedar of Lebanon (Cedrus Libani)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="CLHeading1">
@@ -400,13 +414,13 @@
 
 <br>
 
+<!-- DAWN REDWOOD -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
   <div style="text-align:left">
     <img src="static/img/needles/dawn-redwood.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="6">Dawn Redwood (Metasequoia Glyptostroboides)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="DRHeading1">
@@ -482,13 +496,14 @@
 
 <br>
 
+<!-- WESTERN LARCH -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/needles/western-larch.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="7">Western Larch (Larix Occidentalis)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+ 
   <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="WLHeading1">

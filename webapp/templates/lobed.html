@@ -3,8 +3,10 @@
 {% block main %}
 <h1 class="header">Lobed Leaves</h1>
 
+<!-- Large Image at top of page to give Users an understanding of the leaf types they will be shown. -->
 <img src="static/img/lobed.jpg" class="w-50 center">
 
+<!-- Make an explanation for what that leaf type is and how many times it is seen in the yard. -->
 <div class="center-text">
   One common type of leaf is a lobed leaf, which is very common among the Oak family specifically,
   within Harvard Yard, there are 6 different species of trees that have lobed leaves, all of which
@@ -15,14 +17,17 @@
 <br>
 <br>
 
-<!-- Red Oak image and accordion with info-->
+<!-- A new tree and all of it's information. -->
+<!-- RED OAK -->
 <div style="margin-bottom:50%">
-  <!-- Red Oak Image-->
   <div style="text-align:left">
+    <!-- Start each tree with an image of it as a whole, which is put off to the left side of the screen. -->
     <img src="static/img/lobed/red-oak.jpg" class="w-25 left-text">
+    <!-- The name of the tree along with the scientific name and an a tag which allows a url 
+    to go exactly to that place in the html file. -->
     <h3 class="tree-name left-text w-25"><a id="1">Red Oak (Quercus Rubra)</a></h3>
   </div>
-  <!-- Red Oak Accordion with all info-->
+  <!-- Accordion for the tree with all of the information about it and images inside of the accordion. -->
   <div class="accordion right-text w-50" id="ROAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="ROHeading1">
@@ -34,8 +39,12 @@
       <div id="ROCollapse1" class="accordion-collapse collapse show" aria-labelledby="ROHeading1"
         data-bs-parent="#ROAccordion">
         <div class="accordion-body" style="text-align:center">
+          <!-- What the user sees when this piece of the accordion is open. -->
+          <!-- An image about the part of the tree we are talking about, with css to discuss width in 
+          proportion to screen size. -->
           <img src="static/img/lobed/red-oak-leaf.jpg" class="accordion-image">
           <div id="block">
+            <!-- The actual text of the research we have done. -->
             <strong> The Leaf of the Red Oak has pointed lobes.</strong>
             The lobes of the leaf refers to the different compartments of the leaf that appear to be protruding out.
             In the Red Oak, these lobes are pointed. Normally, there are between 7 to 11 lobes on each leaf of a Red
@@ -55,6 +64,7 @@
       <div id="ROCollapse2" class="accordion-collapse collapse" aria-labelledby="ROHeading2"
         data-bs-parent="#ROAccordion">
         <div class="accordion-body" style="text-align:center">
+          <!-- Same as the description above for leaves, but with picture of bark. -->
           <img src="static/img/lobed/red-oak-bark.jpg" class="accordion-image" style="float:right">
           <div id="block">
             <strong>The bark of the Red Oak is quite unique.</strong>
@@ -76,6 +86,7 @@
         data-bs-parent="#ROAccordion">
         <div class="accordion-body">
           <div id="block">
+            <!-- Fun fact about the tree, with no image involved this time. -->
             <strong>Red Oak trees have multiple ways of reproducing.</strong>
             A Red Oak tree is actually able to reproduce in two different ways: through seeds and through it's roots.
             Reproduction through seeds is the most common form of reproduction among plants, and little has to be
@@ -92,13 +103,15 @@
 
 <br>
 
+<!-- WHITE OAK -->
+<!-- Format done in the same way as the first one -->
 <div style="margin-bottom:50%">
-  <!-- White Oak Image-->
   <div style="text-align:left">
     <img src="static/img/lobed/white-oak.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"> <a id="2">White Oak (Quercus Alba)</a></h3>
   </div>
-  <!-- White Oak Accordion with all info-->
+  <!-- The only difference is that the id of the accordion and all of the controls have to be unique 
+  to this accordion within the html.  --> 
   <div class="accordion right-text w-50" id="WOAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="WOHeading1">
@@ -170,14 +183,13 @@
 
 <br>
 
-<!--Swamp White Oak-->
+<!--SWAMP WHITE OAK-->
 <div style="margin-bottom:50%">
-  <!-- Swamp White Oak Image-->
   <div style="text-align:left">
     <img src="static/img/lobed/swamp-white-oak.png" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="3">Swamp White Oak (Quercus Bicolor)</a></h3>
   </div>
-  <!-- White Oak Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="SWOAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="SWOHeading1">
@@ -248,14 +260,13 @@
 
 <br>
 
-<!--Scarlet Oak-->
+<!--SCARLET OAK-->
 <div style="margin-bottom:50%">
-  <!-- Scarlet Oak Image-->
   <div style="text-align:left">
     <img src="static/img/lobed/scarlet-oak.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="4">Scarlet Oak (Quercus Coccinea)</a></h3>
   </div>
-  <!-- Scarlet Accordion with all info-->
+
   <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="ScarHeading1">
@@ -325,14 +336,14 @@
 
 <br>
 
-<!--Pin Oak-->
+<!--PIN OAK-->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/lobed/pin-oak.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="5">Pin Oak (Quercus Palustris)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="PinAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="PinHeading1">
@@ -402,13 +413,14 @@
 
 <br>
 
+<!-- BLACK OAK -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/lobed/black-oak.jpeg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="6">Black Oak (Quercus Velutina)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="BAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="BHeading1">
