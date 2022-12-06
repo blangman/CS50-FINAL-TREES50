@@ -6,12 +6,15 @@
 <div id="block2">
     <table class="styled-table">
         <tr>
+            <!-- Use the information that was gotten by finder and passed into found to display 
+            all of the possible trees that match the search. -->
             <th>Possible Name</th>
             {% for tree in tree_name %}
             <td> {{ tree }} </td>
             {% endfor %}
         </tr>
         <tr>
+            <!-- Same as above for all the images -->
             <th>Possible Picture</th>
             {% for image in url %}
             <td> <img width="120px" height="180px" src="{{  image  }} "> </td>
@@ -19,6 +22,8 @@
         </tr>
         <tr>
             <th></th>
+            <!-- Include HTMLs for each possible tree that the user can select and be taken 
+            to the specific part of the html that talks about that tree. -->
             {% for file in html %}
             <td><a href="{{ file }}"><button>This is my tree!</button></a></td>
             {% endfor %}

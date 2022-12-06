@@ -2,6 +2,8 @@
 
 {% block main %}
 <h1 class="header">Tree Finder</h1>
+<!-- Suggestions for people to use so they can actually witness what the website does without having to blindly 
+guess at trees.  -->
 <div id="block2">
     <p class="highlight">
         <strong>
@@ -17,6 +19,8 @@
 </div>
 <form action="/finder" method="post">
     <div id="block2">
+        <!-- Displaying images and captions of each leaf type so that when the User makes a selection 
+        they know what they are selection.  -->
         <div class="row">
             <div class="column">
                 <img src="static/img/pointed-lobed.jpg" style="width:100%">
@@ -51,9 +55,13 @@
                 <div class="highlight">Miscellaneous</div>
             </div>
         </div>
+        <!-- Asking them to input one of the leaftypes that they have seen above for identification -->
         <label for="leaves" class="highlight">What does your leaf look like?</label>
         <select class="box" name="leaftype">
+            <!-- Blank value by default to avoid biases -->
             <option value=""></option>
+            <!-- All of the leaf options and their value which corresponds to one of the leaftypes in the 
+            database. -->
             <option value="Pointed Lobes">Pointed Lobes</option>
             <option value="Curved Lobes">Curved Lobes</option>
             <option value="Needles">Needles</option>
@@ -66,6 +74,7 @@
     </div>
     <div id="block2">
         <div class="row">
+            <!-- Once again, showing Users bark images so they have an understanding of what to pick. -->
             <div class="column">
                 <img src="static/img/lobed/pin-oak-bark.jpg" style="width:100%">
                 <div class="highlight">Slightly Smooth</div>
@@ -83,6 +92,7 @@
                 <div class="highlight">Flaky</div>
             </div>
         </div>
+        <!-- Asking them for the bark type, in accordance with what the database has. -->
         <label for="bark" class="highlight">What does your bark look like?</label>
         <select class="box" name="barktype">
             <option value=""></option>
@@ -94,6 +104,7 @@
     </div>
     <div id="block2">
         <div class="row">
+            <!-- The same pattern as the previous two categories but with the fruits that the tree has. -->
             <div class="column">
                 <img src="static/img/cone.jpg" style="width:100%">
                 <div class="highlight">Cone</div>
@@ -137,6 +148,7 @@
     </div>
     <div>
         <br>
+        <!-- A button to submit the form and be able to use python on it.  -->
         <button type="submit"> Find My Tree </button>
     </div>
 </form>
