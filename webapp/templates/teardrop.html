@@ -1,905 +1,999 @@
 {% extends "layout.html" %}
 
 {% block main %}
-  <h1 class="header">Teardrop Leaves</h1>
+<h1 class="header">Teardrop Leaves</h1>
 
-  <img src="static/img/teardrop.jpg" class="w-50 center">
+<img src="static/img/teardrop.jpg" class="w-50 center">
 
-  <div class="center-text">
-    The largest group of leaves in Harvard Yard are the teardrop shaped leaves, this category is so 
-    large that we decided to split it into 2 separate categories of teardrops! The first 8 trees in 
-    this category have ridged teardrop leaves, then the 5 after that have long teardrop shaped leaves! 
+<div class="center-text">
+  The largest group of leaves in Harvard Yard are the teardrop shaped leaves, this category is so
+  large that we decided to split it into 2 separate categories of teardrops! The first 8 trees in
+  this category have ridged teardrop leaves, then the 5 after that have long teardrop shaped leaves!
+</div>
+
+<br>
+<br>
+
+<!-- Eastern White Pine image and accordion with info-->
+<div style="margin-bottom:50%">
+  <!-- Eastern White Pine Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/american-elm.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="1">American Elm (Ulmus Americana)</a></h3>
   </div>
-    
-  <br>
-  <br>
-
-  <!-- Eastern White Pine image and accordion with info-->
-  <div style="margin-bottom:50%">
-    <!-- Eastern White Pine Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/american-elm.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="1">American Elm (Ulmus Americana)</a></h3>
-    </div>
-    <!-- Eastern White Pine Accordion with all info-->
-    <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse1" aria-expanded="true" aria-controls="EWPCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/american-elm-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The American Elm is the perfect example of a ridged teardrop leaf. </strong>
-              The leaves of the American Elm are a medium sized leaf, growing between 4 to 6 inches long. 
-              The perimeter of the leaf is entirely ridged. Each life is a waxy dark green on one side 
-              and then a much lighter shade of green on the flip side, making a start contrast between the two. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse2" aria-expanded="false" aria-controls="EWPCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/american-elm-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The American Elm bark is also a classic example of scaly bark. </strong>
-              Depending on what soil conditions the tree is grown in, the color of the bark can change. In 
-              healthier soil, the bark is a darker gray, and in more unhealthy soil the bark is a light gray shade. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="EWPHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse3" aria-expanded="false" aria-controls="EWPCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="EWPCollapse3" class="accordion-collapse collapse" aria-labelledby="EWPHeading3" data-bs-parent="#EWPAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The American Elm tree has never been able to recover from a deadly disease.</strong> 
-              Not many people think about trees when they think about viral diseases, but trees can also 
-              get sick and suffer pandemics. One example is Dutch Elm Disease, which is very efficient at 
-              killing off Elm Trees. Before the spread of the disease, American Elms could live up to 200 
-              years old, but now they rarely live past 30!
-            </div>
+  <!-- Eastern White Pine Accordion with all info-->
+  <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EWPCollapse1"
+          aria-expanded="true" aria-controls="EWPCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/american-elm-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The American Elm is the perfect example of a ridged teardrop leaf. </strong>
+            The leaves of the American Elm are a medium sized leaf, growing between 4 to 6 inches long.
+            The perimeter of the leaf is entirely ridged. Each life is a waxy dark green on one side
+            and then a much lighter shade of green on the flip side, making a start contrast between the two.
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <br> 
-
-  <div style="margin-bottom:50%">
-    <!-- Swiss Stone Pine Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/english-elm.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="2">English Elm (Ulmus Minor)</a></h3>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#EWPCollapse2" aria-expanded="false" aria-controls="EWPCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/american-elm-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The American Elm bark is also a classic example of scaly bark. </strong>
+            Depending on what soil conditions the tree is grown in, the color of the bark can change. In
+            healthier soil, the bark is a darker gray, and in more unhealthy soil the bark is a light gray shade.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Swiss Stone Pine Accordion with all info-->
-    <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse1" aria-expanded="true" aria-controls="SSPCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="SSPCollapse1" class="accordion-collapse collapse show" aria-labelledby="SSPHeading1" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/english-elm-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The leaves of English Elms look very similar to those of American Elms, but with one key difference.</strong>
-              When put side by side, these two leaves share many of the same characteristics; they both 
-              have ridges around their perimeter and share the same characteristic teardrop shape. The differences 
-              are that the English Elm has a thinner teardrop shape than the American Elm and also the English Elm 
-              leaf is larger in size than that of the American Elm. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse2" aria-expanded="false" aria-controls="SSPCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="SSPCollapse2" class="accordion-collapse collapse" aria-labelledby="SSPHeading2" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/english-elm-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the English Elm is very unique to the touch.</strong>
-              Although the bark of the English Elm looks to be similar to many other species of 
-              trees that we have seen in the yard, there is one thing that makes the English Elm stand out 
-              and it is entirely tactile. If you were to approach the bark of an English Elm and touch the bark, 
-              what you would feel is a cork-like wood, which is extremely interesting as the bark of the tree! 
-              The wood still retains it's scaly look dispite being soft to the touch!
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SSPHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse3" aria-expanded="false" aria-controls="SSPCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="SSPCollapse3" class="accordion-collapse collapse" aria-labelledby="SSPHeading3" data-bs-parent="#SSPAccordion">
-          <div class="accordion-body">
-            <div id="block">
-            <strong>The English Elm is extremely disease resistant and can grow to immense heights! </strong> 
-              In the fun fact for the American Elm, you can learn that the American Elm has suffered very greatly 
-              from a disease known as the Dutch Elm Disease, which is extremely efficient at killing American Elms 
-              and shortening their lifespans signficantly. Amazingly, the English Elm is very good at fighting off 
-              Dutch Elm Disease, which means that it has continued to grow and thrive throughout history as other 
-              species of Elms have died off. The canopy of an English Elm can grow as wide as 50 feet, which made these 
-              trees extremely popular for shade trees in old fields. 
-          </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="EWPHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#EWPCollapse3" aria-expanded="false" aria-controls="EWPCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="EWPCollapse3" class="accordion-collapse collapse" aria-labelledby="EWPHeading3"
+        data-bs-parent="#EWPAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The American Elm tree has never been able to recover from a deadly disease.</strong>
+            Not many people think about trees when they think about viral diseases, but trees can also
+            get sick and suffer pandemics. One example is Dutch Elm Disease, which is very efficient at
+            killing off Elm Trees. Before the spread of the disease, American Elms could live up to 200
+            years old, but now they rarely live past 30!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Swamp White Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Swamp White Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/beech-tree.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="3">American Beech (Fagus Grandifolia)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Swiss Stone Pine Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/english-elm.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="2">English Elm (Ulmus Minor)</a></h3>
+  </div>
+  <!-- Swiss Stone Pine Accordion with all info-->
+  <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SSPCollapse1"
+          aria-expanded="true" aria-controls="SSPCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="SSPCollapse1" class="accordion-collapse collapse show" aria-labelledby="SSPHeading1"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/english-elm-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The leaves of English Elms look very similar to those of American Elms, but with one key
+              difference.</strong>
+            When put side by side, these two leaves share many of the same characteristics; they both
+            have ridges around their perimeter and share the same characteristic teardrop shape. The differences
+            are that the English Elm has a thinner teardrop shape than the American Elm and also the English Elm
+            leaf is larger in size than that of the American Elm.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- White Oak Accordion with all info-->
-    <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse1" aria-expanded="true" aria-controls="APCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="APCollapse1" class="accordion-collapse collapse show" aria-labelledby="APHeading1" data-bs-parent="#APAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/american-beech-leaf.jpg" class="accordion-image">
-            <div id="block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SSPCollapse2" aria-expanded="false" aria-controls="SSPCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="SSPCollapse2" class="accordion-collapse collapse" aria-labelledby="SSPHeading2"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/english-elm-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the English Elm is very unique to the touch.</strong>
+            Although the bark of the English Elm looks to be similar to many other species of
+            trees that we have seen in the yard, there is one thing that makes the English Elm stand out
+            and it is entirely tactile. If you were to approach the bark of an English Elm and touch the bark,
+            what you would feel is a cork-like wood, which is extremely interesting as the bark of the tree!
+            The wood still retains it's scaly look dispite being soft to the touch!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SSPHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SSPCollapse3" aria-expanded="false" aria-controls="SSPCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="SSPCollapse3" class="accordion-collapse collapse" aria-labelledby="SSPHeading3"
+        data-bs-parent="#SSPAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The English Elm is extremely disease resistant and can grow to immense heights! </strong>
+            In the fun fact for the American Elm, you can learn that the American Elm has suffered very greatly
+            from a disease known as the Dutch Elm Disease, which is extremely efficient at killing American Elms
+            and shortening their lifespans signficantly. Amazingly, the English Elm is very good at fighting off
+            Dutch Elm Disease, which means that it has continued to grow and thrive throughout history as other
+            species of Elms have died off. The canopy of an English Elm can grow as wide as 50 feet, which made these
+            trees extremely popular for shade trees in old fields.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!--Swamp White Oak-->
+<div style="margin-bottom:50%">
+  <!-- Swamp White Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/beech-tree.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="3">American Beech (Fagus Grandifolia)</a></h3>
+  </div>
+  <!-- White Oak Accordion with all info-->
+  <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse1"
+          aria-expanded="true" aria-controls="APCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="APCollapse1" class="accordion-collapse collapse show" aria-labelledby="APHeading1"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/american-beech-leaf.jpg" class="accordion-image">
+          <div id="block">
             <strong>The American Beech leaf is an example of a ridged teardrop that is not necessarily spiky.</strong>
-              The two previous examples of ridged teardrop trees that we have seen (American Elm and English Elm), 
-              have "teeth" along their perimeter which give the leaf a spiky look. The American Beech on the other hand, 
-              envokes a ridged look by having distinct folds upward along the perimeter of the leaf. 
-            </div>
+            The two previous examples of ridged teardrop trees that we have seen (American Elm and English Elm),
+            have "teeth" along their perimeter which give the leaf a spiky look. The American Beech on the other hand,
+            envokes a ridged look by having distinct folds upward along the perimeter of the leaf.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse2" aria-expanded="false" aria-controls="APCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="APCollapse2" class="accordion-collapse collapse" aria-labelledby="APHeading2" data-bs-parent="#APAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/american-beech-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>American Beech Trees are known for their smooth bark. </strong>
-              The bark of the American Beech is very thin and smooth throughout its lifetime. The 
-              softness of the Beech Tree bark means that it is a prime tree for young couples to write 
-              messages on, but also makes it extremely susceptible to diseases such as Beech Bark Disease, 
-              which kills millions of American Beeches every year.
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse2"
+          aria-expanded="false" aria-controls="APCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="APCollapse2" class="accordion-collapse collapse" aria-labelledby="APHeading2"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/american-beech-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>American Beech Trees are known for their smooth bark. </strong>
+            The bark of the American Beech is very thin and smooth throughout its lifetime. The
+            softness of the Beech Tree bark means that it is a prime tree for young couples to write
+            messages on, but also makes it extremely susceptible to diseases such as Beech Bark Disease,
+            which kills millions of American Beeches every year.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="APHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse3" aria-expanded="false" aria-controls="APCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="APCollapse3" class="accordion-collapse collapse" aria-labelledby="APHeading3" data-bs-parent="#APAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Beech Trees are a popualar source of food for many animals.</strong> 
-              The American Beech tree grows nuts which are known as beechnuts. These beechnuts are 
-              a very popular source of food among native wildlife such as squirrels, racoons, and deer. Also, 
-              even though the bark of the American Beech is weak and susceptible to disease, the core of the tree 
-              is remarkably strong, making it unfavorable for lumberjacks because the core of the tree is too 
-              dense for most saws to cut through!
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="APHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#APCollapse3"
+          aria-expanded="false" aria-controls="APCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="APCollapse3" class="accordion-collapse collapse" aria-labelledby="APHeading3"
+        data-bs-parent="#APAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Beech Trees are a popualar source of food for many animals.</strong>
+            The American Beech tree grows nuts which are known as beechnuts. These beechnuts are
+            a very popular source of food among native wildlife such as squirrels, racoons, and deer. Also,
+            even though the bark of the American Beech is weak and susceptible to disease, the core of the tree
+            is remarkably strong, making it unfavorable for lumberjacks because the core of the tree is too
+            dense for most saws to cut through!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Scarlet Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Scarlet Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/hackberry.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="4">Hackberry (Celtis Occidentalis)</a></h3>
+<!--Scarlet Oak-->
+<div style="margin-bottom:50%">
+  <!-- Scarlet Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/hackberry.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="4">Hackberry (Celtis Occidentalis)</a></h3>
+  </div>
+  <!-- Scarlet Accordion with all info-->
+  <div class="accordion right-text w-50" id="HackAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HackHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#HackCollapse1"
+          aria-expanded="true" aria-controls="HackCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="HackCollapse1" class="accordion-collapse collapse show" aria-labelledby="HackHeading1"
+        data-bs-parent="#HackAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/hackberry-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The leaves of the Hackberry have very small teeth along the perimeter. </strong>
+            These leaves are relatively small, only growing between 1 to 2 inches long, and they have really small
+            teeth along the edges that are hard to notice from a distance. Another fact about these leaves is that
+            all Hackberry leaves are asymmetric, which can be seen in the image if you closely at the base of all of the
+            leaves.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Scarlet Accordion with all info-->
-    <div class="accordion right-text w-50" id="HackAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HackHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#HackCollapse1" aria-expanded="true" aria-controls="HackCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="HackCollapse1" class="accordion-collapse collapse show" aria-labelledby="HackHeading1" data-bs-parent="#HackAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/hackberry-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The leaves of the Hackberry have very small teeth along the perimeter. </strong>
-              These leaves are relatively small, only growing between 1 to 2 inches long, and they have really small 
-              teeth along the edges that are hard to notice from a distance. Another fact about these leaves is that 
-              all Hackberry leaves are asymmetric, which can be seen in the image if you closely at the base of all of the leaves. 
-            </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HackHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#HackCollapse2" aria-expanded="false" aria-controls="HackCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="HackCollapse2" class="accordion-collapse collapse" aria-labelledby="HackHeading2"
+        data-bs-parent="#HackAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/hackberry-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the Hackberry Tree is a smooth wood but it grows many warts on it.</strong>
+            When Hackberry Trees are young, their bark is smooth, even as smooth as Beech Trees. But, as the tree
+            ages, this smoothness goes away as warts begin to develop on the bark. Unlike most scaly barked trees which
+            start
+            as smooth then develop fissures, the Hackberry is the opposite where the scaly features come from the inside
+            of the tree going out.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HackHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#HackCollapse2" aria-expanded="false" aria-controls="HackCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="HackCollapse2" class="accordion-collapse collapse" aria-labelledby="HackHeading2" data-bs-parent="#HackAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/hackberry-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the Hackberry Tree is a smooth wood but it grows many warts on it.</strong>
-              When Hackberry Trees are young, their bark is smooth, even as smooth as Beech Trees. But, as the tree 
-              ages, this smoothness goes away as warts begin to develop on the bark. Unlike most scaly barked trees which start 
-              as smooth then develop fissures, the Hackberry is the opposite where the scaly features come from the inside 
-              of the tree going out. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="HackHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#HackCollapse3" aria-expanded="false" aria-controls="HackCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="HackCollapse3" class="accordion-collapse collapse" aria-labelledby="HackHeading3" data-bs-parent="#HackAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Hackberry Trees are well equipped to thrive in all kinds of environments!</strong> 
-              Hackberries are native to deserts in the Southern United States, but can also be grown in the 
-              wet climate of New England. This is due to the fact that this tree is extremely hardy. 
-              Although they are native to arid regions, these trees also have extremely thick bark that is flood resistant, 
-              which is something that many desert trees don't have. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="HackHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#HackCollapse3" aria-expanded="false" aria-controls="HackCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="HackCollapse3" class="accordion-collapse collapse" aria-labelledby="HackHeading3"
+        data-bs-parent="#HackAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Hackberry Trees are well equipped to thrive in all kinds of environments!</strong>
+            Hackberries are native to deserts in the Southern United States, but can also be grown in the
+            wet climate of New England. This is due to the fact that this tree is extremely hardy.
+            Although they are native to arid regions, these trees also have extremely thick bark that is flood
+            resistant,
+            which is something that many desert trees don't have.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Pin Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/birch.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="5">Silver Birch (Betula Pendula)</a></h3>
+<!--Pin Oak-->
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/birch.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="5">Silver Birch (Betula Pendula)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse1"
+          aria-expanded="true" aria-controls="CLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="CLCollapse1" class="accordion-collapse collapse show" aria-labelledby="CLHeading1"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/birch-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong> The leaves of the Silver Birches have a triangular teardrop shape with double toothed perimeters.
+            </strong>
+            A "Double Toothed" leaf means a leaf that has larger teeth along the perimeter and then each tooth
+            has an additional tooth on it. The advantage of having more teeth for a tree does not come down to
+            predators, but rather is to allow for more evaporation out of the leaf because it allows for the
+            leaf to have more surface area.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse1" aria-expanded="true" aria-controls="CLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="CLCollapse1" class="accordion-collapse collapse show" aria-labelledby="CLHeading1" data-bs-parent="#CLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/birch-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong> The leaves of the Silver Birches have a triangular teardrop shape with double toothed perimeters. </strong>
-              A "Double Toothed" leaf means a leaf that has larger teeth along the perimeter and then each tooth 
-              has an additional tooth on it. The advantage of having more teeth for a tree does not come down to 
-              predators, but rather is to allow for more evaporation out of the leaf because it allows for the 
-              leaf to have more surface area. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse2"
+          aria-expanded="false" aria-controls="CLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="CLCollapse2" class="accordion-collapse collapse" aria-labelledby="CLHeading2"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/birch-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>Birch Bark is one of the most famous tree barks and depending on when you view it is either smooth
+              or flaky. </strong>
+            The cycle of the Silver Birch Tree is one of the most famous cycles observed by trees.
+            During the Birch Tree's infancy, the bark is extremely smooth, making a beautiful white canvas
+            of the tree. Then as the tree develops, the bark begins to become extremely flaky and thin layers of
+            the bark start to come off of the tree.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse2" aria-expanded="false" aria-controls="CLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="CLCollapse2" class="accordion-collapse collapse" aria-labelledby="CLHeading2" data-bs-parent="#CLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/birch-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>Birch Bark is one of the most famous tree barks and depending on when you view it is either smooth or flaky. </strong>
-              The cycle of the Silver Birch Tree is one of the most famous cycles observed by trees. 
-              During the Birch Tree's infancy, the bark is extremely smooth, making a beautiful white canvas 
-              of the tree. Then as the tree develops, the bark begins to become extremely flaky and thin layers of 
-              the bark start to come off of the tree. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="CLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse3" aria-expanded="false" aria-controls="CLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="CLCollapse3" class="accordion-collapse collapse" aria-labelledby="CLHeading3" data-bs-parent="#CLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Birch Trees served as one of the earliest forms of paper. </strong> 
-              Since the tree naturally undergoes a shedding cycle where it loses its extremely 
-              thin white bark, it became an obvious choice for early humans to write things on. 
-              The danger of this was then that humans who wanted to use Birch Bark as paper would rip 
-              the thin bark off of the tree, which greatly damages the tree and can even kill it. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="CLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CLCollapse3"
+          aria-expanded="false" aria-controls="CLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="CLCollapse3" class="accordion-collapse collapse" aria-labelledby="CLHeading3"
+        data-bs-parent="#CLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Birch Trees served as one of the earliest forms of paper. </strong>
+            Since the tree naturally undergoes a shedding cycle where it loses its extremely
+            thin white bark, it became an obvious choice for early humans to write things on.
+            The danger of this was then that humans who wanted to use Birch Bark as paper would rip
+            the thin bark off of the tree, which greatly damages the tree and can even kill it.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br> 
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/hornbeam.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="6">Hornbeam (Carpinus Betulus)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/hornbeam.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="6">Hornbeam (Carpinus Betulus)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse1"
+          aria-expanded="true" aria-controls="DRCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="DRCollapse1" class="accordion-collapse collapse show" aria-labelledby="DRHeading1"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/hornbeam-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>Not only are Hornbeam leaves ridged, they also have hairs along their perimeters.</strong>
+            As said in the Silver Birch leaf description, the jagged edges of the leaf are not for protection
+            of the plant, but rather have a biological reason. The different edges allow for more water to be
+            evaporated out of the leaf, which is important for trees that prefer warmer climates. But, while the
+            ridged edges are not for defense, the hairs on the leaf are! The hairs on the leaf are there so that
+            little bugs that land on the leaf get the hairs stuck in them like needles and large animals who eat the
+            leaves get annoying hairs stuck to the inside of their mouths.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse1" aria-expanded="true" aria-controls="DRCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="DRCollapse1" class="accordion-collapse collapse show" aria-labelledby="DRHeading1" data-bs-parent="#DRAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/hornbeam-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>Not only are Hornbeam leaves ridged, they also have hairs along their perimeters.</strong>
-              As said in the Silver Birch leaf description, the jagged edges of the leaf are not for protection 
-              of the plant, but rather have a biological reason. The different edges allow for more water to be 
-              evaporated out of the leaf, which is important for trees that prefer warmer climates. But, while the 
-              ridged edges are not for defense, the hairs on the leaf are! The hairs on the leaf are there so that 
-              little bugs that land on the leaf get the hairs stuck in them like needles and large animals who eat the 
-              leaves get annoying hairs stuck to the inside of their mouths. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse2"
+          aria-expanded="false" aria-controls="DRCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="DRCollapse2" class="accordion-collapse collapse" aria-labelledby="DRHeading2"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/hornbeam-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The bark of the Hornbeam is a magnificent blue-gray color with a smooth texture.</strong>
+            The bark of the Hornbeam is so smooth that it has been compared to human skin, specifically
+            human muscle. This is the reason why the Hornbeam has it's other name, Muscletree! Another common
+            name for the Hackberry is the Blue Beech because it is in the Beech family and has a blue tint to
+            the gray color!
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse2" aria-expanded="false" aria-controls="DRCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="DRCollapse2" class="accordion-collapse collapse" aria-labelledby="DRHeading2" data-bs-parent="#DRAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/hornbeam-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The bark of the Hornbeam is a magnificent blue-gray color with a smooth texture.</strong>
-              The bark of the Hornbeam is so smooth that it has been compared to human skin, specifically 
-              human muscle. This is the reason why the Hornbeam has it's other name, Muscletree! Another common 
-              name for the Hackberry is the Blue Beech because it is in the Beech family and has a blue tint to 
-              the gray color!
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="DRHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse3" aria-expanded="false" aria-controls="DRCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="DRCollapse3" class="accordion-collapse collapse" aria-labelledby="DRHeading3" data-bs-parent="#DRAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Hornbeam wood is utilized in many different ways. </strong> 
-              The wood of the Hornbeam tree has been historically to make many things, ranging from 
-              axles, tool handles and butchers blocks to pianos! This is because the wood of the tree is extremely 
-              durable while also having good acoustic qualities and being not too dense that it can't be maleable.
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="DRHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#DRCollapse3"
+          aria-expanded="false" aria-controls="DRCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="DRCollapse3" class="accordion-collapse collapse" aria-labelledby="DRHeading3"
+        data-bs-parent="#DRAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Hornbeam wood is utilized in many different ways. </strong>
+            The wood of the Hornbeam tree has been historically to make many things, ranging from
+            axles, tool handles and butchers blocks to pianos! This is because the wood of the tree is extremely
+            durable while also having good acoustic qualities and being not too dense that it can't be maleable.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/zelkova.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="7">Zelkova (Zelkova Serrata)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/zelkova.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="7">Zelkova (Zelkova Serrata)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse1"
+          aria-expanded="true" aria-controls="WLCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="WLCollapse1" class="accordion-collapse collapse show" aria-labelledby="WLHeading1"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/zelkova-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>This is another tree like the American Beech that uses folding of leaves to create ridges.</strong>
+            When viewed straight on, the leaves of the Zelkova look like they are rounded, but when viewed from the side
+            you can see that the leaf actually does have ridges surrounding the perimeter. This optical illusion
+            of sorts is important in Japanese botany where this tree is native, where it used to create beautiful
+            bonsai creations.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse1" aria-expanded="true" aria-controls="WLCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="WLCollapse1" class="accordion-collapse collapse show" aria-labelledby="WLHeading1" data-bs-parent="#WLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/zelkova-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>This is another tree like the American Beech that uses folding of leaves to create ridges.</strong>
-              When viewed straight on, the leaves of the Zelkova look like they are rounded, but when viewed from the side 
-              you can see that the leaf actually does have ridges surrounding the perimeter. This optical illusion 
-              of sorts is important in Japanese botany where this tree is native, where it used to create beautiful 
-              bonsai creations. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse2"
+          aria-expanded="false" aria-controls="WLCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="WLCollapse2" class="accordion-collapse collapse" aria-labelledby="WLHeading2"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/zelkova-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The bark of the Zelkova is smooth, but with age it reveals horizontal cracks. </strong>
+            Unlike many other kinds of trees, which begin to furrow as they grow older, the Zelkova
+            remains relatively smooth with only minor horizontal furrows forming with old age. When these fissures form,
+            it exposes some of the deep orange wood that exists in the layer underneath the bark.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse2" aria-expanded="false" aria-controls="WLCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="WLCollapse2" class="accordion-collapse collapse" aria-labelledby="WLHeading2" data-bs-parent="#WLAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/zelkova-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The bark of the Zelkova is smooth, but with age it reveals horizontal cracks. </strong>
-              Unlike many other kinds of trees, which begin to furrow as they grow older, the Zelkova 
-              remains relatively smooth with only minor horizontal furrows forming with old age. When these fissures form, 
-              it exposes some of the deep orange wood that exists in the layer underneath the bark. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WLHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse3" aria-expanded="false" aria-controls="WLCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="WLCollapse3" class="accordion-collapse collapse" aria-labelledby="WLHeading3" data-bs-parent="#WLAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The berries of the Zelkova Tree are a very unique size and shape. </strong> 
-              The fruit of the Zelkova Tree are small green berries, which grow to only about a half an inch. 
-              The berries themselves are shaped as ovals, with a smaller base and a wider top. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WLHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WLCollapse3"
+          aria-expanded="false" aria-controls="WLCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="WLCollapse3" class="accordion-collapse collapse" aria-labelledby="WLHeading3"
+        data-bs-parent="#WLAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The berries of the Zelkova Tree are a very unique size and shape. </strong>
+            The fruit of the Zelkova Tree are small green berries, which grow to only about a half an inch.
+            The berries themselves are shaped as ovals, with a smaller base and a wider top.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br> 
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Red Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/crabapple.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id = "8">Crabapple (Malus Sylvestris)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Red Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/crabapple.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="8">Crabapple (Malus Sylvestris)</a></h3>
+  </div>
+  <!-- Red Oak Accordion with all info-->
+  <div class="accordion right-text w-50" id="ROAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ROHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse1"
+          aria-expanded="true" aria-controls="ROCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="ROCollapse1" class="accordion-collapse collapse show" aria-labelledby="ROHeading1"
+        data-bs-parent="#ROAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/crabapple-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The leaf of the Crabapple has a unique rounded and ridged teardrop shape. </strong>
+            The shape of the Crabapple leaf is almost a circle, but the distinct tip at the end of the leaf
+            is what puts it into the category of teardrop shaped leaves. Although most Crabapple trees
+            have green leaves, some trees are known to have red or even purple leaves in the spring months!
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Red Oak Accordion with all info-->
-    <div class="accordion right-text w-50" id="ROAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ROHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse1" aria-expanded="true" aria-controls="ROCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="ROCollapse1" class="accordion-collapse collapse show" aria-labelledby="ROHeading1" data-bs-parent="#ROAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/crabapple-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The leaf of the Crabapple has a unique rounded and ridged teardrop shape. </strong>
-              The shape of the Crabapple leaf is almost a circle, but the distinct tip at the end of the leaf 
-              is what puts it into the category of teardrop shaped leaves. Although most Crabapple trees 
-              have green leaves, some trees are known to have red or even purple leaves in the spring months! 
-            </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ROHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse2"
+          aria-expanded="false" aria-controls="ROCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="ROCollapse2" class="accordion-collapse collapse" aria-labelledby="ROHeading2"
+        data-bs-parent="#ROAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/crabapple-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The bark of the Crabapple Tree is extremely flaky.</strong>
+            As the bark of the Crabapple matures, it gets darker and more flaky. The interesting thing
+            about Crabapples is that there are actually a lot of different cross breeds of them, the same as there
+            are normal Apple Trees, which means that the barks of two different Crabapple Trees might not yield the same
+            texture!
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ROHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse2" aria-expanded="false" aria-controls="ROCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="ROCollapse2" class="accordion-collapse collapse" aria-labelledby="ROHeading2" data-bs-parent="#ROAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/crabapple-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The bark of the Crabapple Tree is extremely flaky.</strong>
-              As the bark of the Crabapple matures, it gets darker and more flaky. The interesting thing 
-              about Crabapples is that there are actually a lot of different cross breeds of them, the same as there 
-              are normal Apple Trees, which means that the barks of two different Crabapple Trees might not yield the same 
-              texture!
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ROHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse3" aria-expanded="false" aria-controls="ROCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="ROCollapse3" class="accordion-collapse collapse" aria-labelledby="ROHeading3" data-bs-parent="#ROAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Although they are not commonly eaten, Crabapples are actually edible! </strong> 
-              The fruits of the Crabapple Tree are much more tart and bitter than the apples that we eat normally, 
-              but they are still used to produce many different food products ranging from jams to butters!
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ROHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ROCollapse3"
+          aria-expanded="false" aria-controls="ROCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="ROCollapse3" class="accordion-collapse collapse" aria-labelledby="ROHeading3"
+        data-bs-parent="#ROAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Although they are not commonly eaten, Crabapples are actually edible! </strong>
+            The fruits of the Crabapple Tree are much more tart and bitter than the apples that we eat normally,
+            but they are still used to produce many different food products ranging from jams to butters!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br> 
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- White Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/saucer-magnolia.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"> <a id = "9">Saucer Magnolia (Magnolia Soulangeana)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- White Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/saucer-magnolia.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"> <a id="9">Saucer Magnolia (Magnolia Soulangeana)</a></h3>
+  </div>
+  <!-- White Oak Accordion with all info-->
+  <div class="accordion right-text w-50" id="WOAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WOHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse1"
+          aria-expanded="true" aria-controls="WOCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="WOCollapse1" class="accordion-collapse collapse show" aria-labelledby="WOHeading1"
+        data-bs-parent="#WOAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/saucer-magnolia-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The leaves of the Saucer Magnolia are generally similar to the Southern Magnolia.</strong>
+            They are smooth and leathery, and change from green in the spring and summer months,
+            to bronze/golden in the fall. When the tree is very young, the leaves are small and bright,
+            but darken with age.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- White Oak Accordion with all info-->
-    <div class="accordion right-text w-50" id="WOAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WOHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse1" aria-expanded="true" aria-controls="WOCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="WOCollapse1" class="accordion-collapse collapse show" aria-labelledby="WOHeading1" data-bs-parent="#WOAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/saucer-magnolia-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The leaves of the Saucer Magnolia are generally similar to the Southern Magnolia.</strong>
-              They are smooth and leathery, and change from green in the spring and summer months, 
-              to bronze/golden in the fall. When the tree is very young, the leaves are small and bright, 
-              but darken with age.
-            </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WOHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse2"
+          aria-expanded="false" aria-controls="WOCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="WOCollapse2" class="accordion-collapse collapse" aria-labelledby="WOHeading2"
+        data-bs-parent="#WOAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/saucer-magnolia-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The Saucer Magnolia often has multiple trunks</strong>
+            The bark itself is very smooth, light grey, and generally very thin.
+            This makes the tree very vulnerable, and leaves it unable to grow and adapt to many different environments.
+            These things constitute the main differences betwen the Saucer and Southern Magnolia, which, while arguably
+            less pretty,
+            is much more durable.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WOHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse2" aria-expanded="false" aria-controls="WOCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="WOCollapse2" class="accordion-collapse collapse" aria-labelledby="WOHeading2" data-bs-parent="#WOAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/saucer-magnolia-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The Saucer Magnolia often has multiple trunks</strong>
-              The bark itself is very smooth, light grey, and generally very thin.
-              This makes the tree very vulnerable, and leaves it unable to grow and adapt to many different environments.
-              These things constitute the main differences betwen the Saucer and Southern Magnolia, which, while arguably less pretty,
-              is much more durable. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="WOHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse3" aria-expanded="false" aria-controls="WOCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="WOCollapse3" class="accordion-collapse collapse" aria-labelledby="WOHeading3" data-bs-parent="#WOAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <img src="static/img/teardrop/saucer-magnolia-flower.jpg" class="accordion-image" style="float:right">
-            <strong>The Saucer Magnolia is one of the most popular decorative trees in the United States</strong> 
-              This is likely a result of the rare and unique assortment of pink flowers. If you want to grow your own 
-              saucer magnolia, they perform the best in full sun and could also use fertilizing once or twice a year. 
-              Lastly, to make it as pretty as can be, prune your saucer magnolia tree annually, so that it is symmetrical and 
-              organized.
-          </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="WOHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#WOCollapse3"
+          aria-expanded="false" aria-controls="WOCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="WOCollapse3" class="accordion-collapse collapse" aria-labelledby="WOHeading3"
+        data-bs-parent="#WOAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <img src="static/img/teardrop/saucer-magnolia-flower.jpg" class="accordion-image" style="float:right">
+            <strong>The Saucer Magnolia is one of the most popular decorative trees in the United States</strong>
+            This is likely a result of the rare and unique assortment of pink flowers. If you want to grow your own
+            saucer magnolia, they perform the best in full sun and could also use fertilizing once or twice a year.
+            Lastly, to make it as pretty as can be, prune your saucer magnolia tree annually, so that it is symmetrical
+            and
+            organized.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Swamp White Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Swamp White Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/white-fringe-tree.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="10">White Fringe Tree (Chionanthus Virginicus)</a></h3>
-    </div>
-    <!-- White Oak Accordion with all info-->
-    <div class="accordion right-text w-50" id="SWOAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SWOHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse1" aria-expanded="true" aria-controls="SWOCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="SWOCollapse1" class="accordion-collapse collapse show" aria-labelledby="SWOHeading1" data-bs-parent="#SWOAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/white-fringe-leaf.jpg" class="accordion-image">
-            <div id="block">
-              
-            <strong>The White Fringe is one of the last trees to gain its leaves in the spring, but the tree makes up 
+<!--Swamp White Oak-->
+<div style="margin-bottom:50%">
+  <!-- Swamp White Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/white-fringe-tree.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="10">White Fringe Tree (Chionanthus Virginicus)</a></h3>
+  </div>
+  <!-- White Oak Accordion with all info-->
+  <div class="accordion right-text w-50" id="SWOAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SWOHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse1"
+          aria-expanded="true" aria-controls="SWOCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="SWOCollapse1" class="accordion-collapse collapse show" aria-labelledby="SWOHeading1"
+        data-bs-parent="#SWOAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/white-fringe-leaf.jpg" class="accordion-image">
+          <div id="block">
+
+            <strong>The White Fringe is one of the last trees to gain its leaves in the spring, but the tree makes up
               for it with the leaves and flowers it does eventually produce.</strong>
-              Leaves are usually a bright, even artificial green, and alternate with flowers along the branches.
-              Though, they usually do play second fiddle to the bright white flowers that envelop the tree.
-            </div>
+            Leaves are usually a bright, even artificial green, and alternate with flowers along the branches.
+            Though, they usually do play second fiddle to the bright white flowers that envelop the tree.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SWOHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse2" aria-expanded="false" aria-controls="SWOCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="SWOCollapse2" class="accordion-collapse collapse" aria-labelledby="SWOHeading2" data-bs-parent="#SWOAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/white-fringe-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong>The Bark of a White Fringe Tree also closely resembles an oak's!</strong>
-              It is dark brown, furrowed, and covered in reddish-tinted scales. The tree spends a lot of time being a shrub though 
-              and does not usually have a trunk expand past 6 inches in diameter. However, the fringe tree is very adaptable to 
-              its environment, and will change the size and type of its bark with different climates and ecosystems.
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SWOHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SWOCollapse2" aria-expanded="false" aria-controls="SWOCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="SWOCollapse2" class="accordion-collapse collapse" aria-labelledby="SWOHeading2"
+        data-bs-parent="#SWOAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/white-fringe-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong>The Bark of a White Fringe Tree also closely resembles an oak's!</strong>
+            It is dark brown, furrowed, and covered in reddish-tinted scales. The tree spends a lot of time being a
+            shrub though
+            and does not usually have a trunk expand past 6 inches in diameter. However, the fringe tree is very
+            adaptable to
+            its environment, and will change the size and type of its bark with different climates and ecosystems.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="SWOHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SWOCollapse3" aria-expanded="false" aria-controls="SWOCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="SWOCollapse3" class="accordion-collapse collapse" aria-labelledby="SWOHeading3" data-bs-parent="#SWOAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>Talk about a beautiful tree... the White Fringe Tree basically wrote the book!</strong> 
-              It seems like most of the tree is a type of small white flower, which the tree gets the name "Chionanthus" (Snowy Flower) from.
-              If I could decorate the entire world with just one tree, there's a good chance it would be this one. 
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="SWOHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#SWOCollapse3" aria-expanded="false" aria-controls="SWOCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="SWOCollapse3" class="accordion-collapse collapse" aria-labelledby="SWOHeading3"
+        data-bs-parent="#SWOAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>Talk about a beautiful tree... the White Fringe Tree basically wrote the book!</strong>
+            It seems like most of the tree is a type of small white flower, which the tree gets the name "Chionanthus"
+            (Snowy Flower) from.
+            If I could decorate the entire world with just one tree, there's a good chance it would be this one.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Scarlet Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Scarlet Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/magnolia.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="11">Southern Magnolia (Magnolia Grandiflora)</a></h3>
+<!--Scarlet Oak-->
+<div style="margin-bottom:50%">
+  <!-- Scarlet Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/magnolia.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="11">Southern Magnolia (Magnolia Grandiflora)</a></h3>
+  </div>
+  <!-- Scarlet Accordion with all info-->
+  <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1"
+          aria-expanded="true" aria-controls="ScarCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/magnolia-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong> Southern Magnolia leaves are present year round.</strong>
+            They are typically dark-green and glossy on the top, and rust-colored and matte on the bottom.
+            The leaves themselves are on the larger side, on average being around 8 inches long. Like other glossy
+            leaves, the shine comes from a waxy substance produced by the cuticle, and helps
+            prevent water loss.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Scarlet Accordion with all info-->
-    <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse1" aria-expanded="true" aria-controls="ScarCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="ScarCollapse1" class="accordion-collapse collapse show" aria-labelledby="ScarHeading1" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/magnolia-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong> Southern Magnolia leaves are present year round.</strong>
-              They are typically dark-green and glossy on the top, and rust-colored and matte on the bottom.
-              The leaves themselves are on the larger side, on average being around 8 inches long. Like other glossy
-              leaves, the shine comes from a waxy substance produced by the cuticle, and helps
-              prevent water loss. 
-            </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/magnolia-bark.jpg" class="accordion-image" style="float:right; width: 23%;">
+          <div id="block">
+            <strong>Southern Magnolia bark is made distinct by the lenticels, or tiny openings of the stem for gas to
+              enter,
+              that cover the entirety of the trunk. </strong>
+            Southern Magnolia bark is usually a light gray color, pretty smooth (minus the lenticels), and very thin and
+            tall.
+            The bark is a diaphoretic, as well as a stimulant, so it has medical uses, like the treatment of malaria and
+            rheumatism.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse2" aria-expanded="false" aria-controls="ScarCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="ScarCollapse2" class="accordion-collapse collapse" aria-labelledby="ScarHeading2" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/magnolia-bark.jpg" class="accordion-image" style="float:right; width: 23%;">
-            <div id="block">
-              <strong>Southern Magnolia bark is made distinct by the lenticels, or tiny openings of the stem for gas to enter, 
-                that cover the entirety of the trunk. </strong>
-              Southern Magnolia bark is usually a light gray color, pretty smooth (minus the lenticels), and very thin and tall.
-              The bark is a diaphoretic, as well as a stimulant, so it has medical uses, like the treatment of malaria and 
-              rheumatism.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="ScarHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3" data-bs-parent="#ScarAccordion">
-          <div class="accordion-body">
-            <div id="block">
-            <strong>The Southern Magnolia is Mississippi State Tree! </strong> 
-              And for good reason! It is absolutely gorgeous, adorned with little white 
-              flowers that cascade down its branches.
-              It has tangible uses too. Check the wood your chairs and tables are made out of,
-              there's a good chance its a Southern Magnolia. 
-              </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="ScarHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#ScarCollapse3" aria-expanded="false" aria-controls="ScarCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="ScarCollapse3" class="accordion-collapse collapse" aria-labelledby="ScarHeading3"
+        data-bs-parent="#ScarAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Southern Magnolia is Mississippi State Tree! </strong>
+            And for good reason! It is absolutely gorgeous, adorned with little white
+            flowers that cascade down its branches.
+            It has tangible uses too. Check the wood your chairs and tables are made out of,
+            there's a good chance its a Southern Magnolia.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br>
+<br>
 
-  <!--Pin Oak-->
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/shingle-oak.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="12">Shingle Oak (Quercus Imbricaria)</a></h3>
+<!--Pin Oak-->
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/shingle-oak.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="12">Shingle Oak (Quercus Imbricaria)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="PinAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="PinHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#PinCollapse1"
+          aria-expanded="true" aria-controls="PinCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="PinCollapse1" class="accordion-collapse collapse show" aria-labelledby="PinHeading1"
+        data-bs-parent="#PinAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/shingle-oak-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Shingle Oak is the only oak in Harvard Yard that does not have lobed leaves. </strong>
+            For that reason, it is easily distinguishable from other oaks.
+            The leaves are teardrop shaped, smooth and shiny on the top, and around 4 to 6 inches long. Usually dark
+            green,
+            but in autumn, they change to a dark red, before eventually falling off of the branches.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="PinAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="PinHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#PinCollapse1" aria-expanded="true" aria-controls="PinCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="PinCollapse1" class="accordion-collapse collapse show" aria-labelledby="PinHeading1" data-bs-parent="#PinAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/shingle-oak-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Shingle Oak is the only oak in Harvard Yard that does not have lobed leaves. </strong>
-              For that reason, it is easily distinguishable from other oaks. 
-              The leaves are teardrop shaped, smooth and shiny on the top, and around 4 to 6 inches long. Usually dark green,
-              but in autumn, they change to a dark red, before eventually falling off of the branches. 
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="PinHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#PinCollapse2" aria-expanded="false" aria-controls="PinCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="PinCollapse2" class="accordion-collapse collapse" aria-labelledby="PinHeading2"
+        data-bs-parent="#PinAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/shingle-oak-bark.jpg" class="accordion-image" style="float:right">
+          <div id="block">
+            <strong> The Shingle Oak bark has bark similar to other oaks. </strong>
+            It is light brown, scaly, and tough, with the inside wood being reddish brown.
+            When the Shingle Oak is young, the bark is extremely soft and smooth with a light
+            green color, like a Pin Oak. But as the tree grows, the bark begins to grow very deep
+            brown furrows, which become prominent scales just like a Red or White Oak.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="PinHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#PinCollapse2" aria-expanded="false" aria-controls="PinCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="PinCollapse2" class="accordion-collapse collapse" aria-labelledby="PinHeading2" data-bs-parent="#PinAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/shingle-oak-bark.jpg" class="accordion-image" style="float:right">
-            <div id="block">
-              <strong> The Shingle Oak bark has bark similar to other oaks. </strong>
-              It is light brown, scaly, and tough, with the inside wood being reddish brown.
-              When the Shingle Oak is young, the bark is extremely soft and smooth with a light
-              green color, like a Pin Oak. But as the tree grows, the bark begins to grow very deep 
-              brown furrows, which become prominent scales just like a Red or White Oak. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="PinHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#PinCollapse3" aria-expanded="false" aria-controls="PinCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="PinCollapse3" class="accordion-collapse collapse" aria-labelledby="PinHeading3" data-bs-parent="#PinAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong>The Shingle Oak's name comes from its use in the olden days </strong> 
-              People would often use the Shingle Oak's wood to make, you guessed it, shingles. 
-              While shingles are not the most popular in modern architecture, the name still 
-              stands and references the Shingle Oak's fascinating history.
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="PinHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#PinCollapse3" aria-expanded="false" aria-controls="PinCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="PinCollapse3" class="accordion-collapse collapse" aria-labelledby="PinHeading3"
+        data-bs-parent="#PinAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong>The Shingle Oak's name comes from its use in the olden days </strong>
+            People would often use the Shingle Oak's wood to make, you guessed it, shingles.
+            While shingles are not the most popular in modern architecture, the name still
+            stands and references the Shingle Oak's fascinating history.
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <br> 
+<br>
 
-  <div style="margin-bottom:50%">
-    <!-- Pin Oak Image-->
-    <div style="text-align:left">
-      <img src="static/img/teardrop/black-gum.jpg" class="w-25 left-text">
-      <h3 class="tree-name left-text w-25"><a id="13">Black Gum (Nyssa Sylvatica)</a></h3>
+<div style="margin-bottom:50%">
+  <!-- Pin Oak Image-->
+  <div style="text-align:left">
+    <img src="static/img/teardrop/black-gum.jpg" class="w-25 left-text">
+    <h3 class="tree-name left-text w-25"><a id="13">Black Gum (Nyssa Sylvatica)</a></h3>
+  </div>
+  <!-- Pin Accordion with all info-->
+  <div class="accordion right-text w-50" id="BAccordion" style="display:inline-block">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="BHeading1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#BCollapse1"
+          aria-expanded="true" aria-controls="BCollapse1">
+          Leaves
+        </button>
+      </h2>
+      <div id="BCollapse1" class="accordion-collapse collapse show" aria-labelledby="BHeading1"
+        data-bs-parent="#BAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/black-gum-leaf.jpg" class="accordion-image">
+          <div id="block">
+            <strong>The Black Gum Leaf would make the tree a gorgeous option for landscaping your front yard! </strong>
+            They are usually alternately arranged, around 3 inches long, with a beautful natural gloss and dark green
+            hue.
+            However, in the fall, this green changes to an intense red with a multi-color array of hues of yellow,
+            orange, and purple.
+            One way to tell the difference between a Black Gum and a Sweet Gum tree is by their leaves, which are
+            generally very different
+            in shape and size, even though they belong in the same genus.
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Pin Accordion with all info-->
-    <div class="accordion right-text w-50" id="BAccordion" style="display:inline-block">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="BHeading1">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#BCollapse1" aria-expanded="true" aria-controls="BCollapse1">
-            Leaves
-          </button>
-        </h2>
-        <div id="BCollapse1" class="accordion-collapse collapse show" aria-labelledby="BHeading1" data-bs-parent="#BAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/black-gum-leaf.jpg" class="accordion-image">
-            <div id="block">
-              <strong>The Black Gum Leaf would make the tree a gorgeous option for landscaping your front yard! </strong>
-              They are usually alternately arranged, around 3 inches long, with a beautful natural gloss and dark green hue. 
-              However, in the fall, this green changes to an intense red with a multi-color array of hues of yellow, orange, and purple.
-              One way to tell the difference between a Black Gum and a Sweet Gum tree is by their leaves, which are generally very different 
-              in shape and size, even though they belong in the same genus.             
-            </div> 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="BHeading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#BCollapse2"
+          aria-expanded="false" aria-controls="BCollapse2">
+          Bark
+        </button>
+      </h2>
+      <div id="BCollapse2" class="accordion-collapse collapse" aria-labelledby="BHeading2" data-bs-parent="#BAccordion">
+        <div class="accordion-body" style="text-align:center">
+          <img src="static/img/teardrop/black-gum-bark.jpg" class="accordion-image" style="float:right; width: 24%">
+          <div id="block">
+            <strong> Black Gum bark is very distinct. </strong>
+            It is medium-gray, furrowed, with aggressively large ridges; with age, all of these aspects of the tree
+            become more and more prominent. Often, Black Gum bark is compared to very darkly colored alligator scales,
+            but the inside wood of the tree is often much lighter, and resembles oak or maple.
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="BHeading2">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#BCollapse2" aria-expanded="false" aria-controls="BCollapse2">
-            Bark
-          </button>
-        </h2>
-        <div id="BCollapse2" class="accordion-collapse collapse" aria-labelledby="BHeading2" data-bs-parent="#BAccordion">
-          <div class="accordion-body" style="text-align:center">
-            <img src="static/img/teardrop/black-gum-bark.jpg" class="accordion-image" style="float:right; width: 24%">
-            <div id="block">
-              <strong> Black Gum bark is very distinct. </strong>
-               It is  medium-gray, furrowed, with aggressively large ridges; with age, all of these aspects of the tree
-                become more and more prominent. Often, Black Gum bark is compared to very darkly colored alligator scales, 
-                but the inside wood of the tree is often much lighter, and resembles oak or maple. 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="BHeading3">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#BCollapse3" aria-expanded="false" aria-controls="BCollapse3">
-            Fun Facts
-          </button>
-        </h2>
-        <div id="BCollapse3" class="accordion-collapse collapse" aria-labelledby="BHeading3" data-bs-parent="#BAccordion">
-          <div class="accordion-body">
-            <div id="block">
-              <strong> The Black Gum Tree was a very useful tree during the colonial era. </strong> 
-              An important aspect of the Black Gum is its strong, impermeable, and durable wood. Because of these facts,
-              these trees were often cut down by colonists, with the wood being used for anything from water pipes, furniture,
-              and even boats!
-            </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="BHeading3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#BCollapse3"
+          aria-expanded="false" aria-controls="BCollapse3">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="BCollapse3" class="accordion-collapse collapse" aria-labelledby="BHeading3" data-bs-parent="#BAccordion">
+        <div class="accordion-body">
+          <div id="block">
+            <strong> The Black Gum Tree was a very useful tree during the colonial era. </strong>
+            An important aspect of the Black Gum is its strong, impermeable, and durable wood. Because of these facts,
+            these trees were often cut down by colonists, with the wood being used for anything from water pipes,
+            furniture,
+            and even boats!
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 {% endblock %}
