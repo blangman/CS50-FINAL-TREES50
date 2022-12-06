@@ -3,8 +3,10 @@
 {% block main %}
 <h1 class="header">Pointed Leaves</h1>
 
+<!-- Large Image at top of page to give Users an understanding of the leaf types they will be shown. -->
 <img src="static/img/pointed.jpg" class="w-50 center">
 
+<!-- Make an explanation for what that leaf type is and how many times it is seen in the yard. -->
 <div class="center-text">
   Another very common type of leaf in Harvard Yard is pointed leaves! These leaves are distinguishable
   by their star-like shapes and sharp edges. Pointed leaves are one of the biggest categories of leaves
@@ -14,14 +16,17 @@
 <br>
 <br>
 
-<!-- Eastern White Pine image and accordion with info-->
+<!-- SWEETGUM -->
 <div style="margin-bottom:50%">
-  <!-- Eastern White Pine Image-->
   <div style="text-align:left">
+    <!-- Start each tree with an image of it as a whole, which is put off to the left side of the screen. -->
     <img src="static/img/pointed/sweetgum.jpg" class="w-25 left-text">
+    <!-- The name of the tree along with the scientific name and an a tag which allows a url 
+    to go exactly to that place in the html file. -->
     <h3 class="tree-name left-text w-25"><a id="1">Sweetgum (Liquidambar Styraciflua)</a></h3>
   </div>
-  <!-- Eastern White Pine Accordion with all info-->
+
+  <!-- Accordion for the tree with all of the information about it and images inside of the accordion. -->
   <div class="accordion right-text w-50" id="EWPAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="EWPHeading1">
@@ -33,8 +38,12 @@
       <div id="EWPCollapse1" class="accordion-collapse collapse show" aria-labelledby="EWPHeading1"
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body" style="text-align:center">
+          <!-- What the user sees when this piece of the accordion is open. -->
+          <!-- An image about the part of the tree we are talking about, with css to discuss width in 
+          proportion to screen size. -->
           <img src="static/img/pointed/sweetgum-leaf.jpg" class="accordion-image">
           <div id="block">
+            <!-- The actual text of the research we have done. -->
             <strong>The leaves of the Sweetgum Tree are a distinct five-pointed star shape.</strong>
             More than most leaves, Sweetgum Tree leaves have a very accurate star shape. Depending on
             in what soil the Sweetgum is grown in, the leaves of the tree can either turn yellow or red in the fall.
@@ -53,6 +62,7 @@
       <div id="EWPCollapse2" class="accordion-collapse collapse" aria-labelledby="EWPHeading2"
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body" style="text-align:center">
+          <!-- Same as the description above for leaves, but with picture of bark. -->
           <img src="static/img/pointed/sweetgum-bark.jpg" class="accordion-image" style="float:right">
           <div id="block">
             <strong>The Sweetgum grows deeper ridges with age.</strong>
@@ -75,6 +85,7 @@
         data-bs-parent="#EWPAccordion">
         <div class="accordion-body">
           <div id="block">
+            <!-- Fun fact about the tree, with no image involved this time. -->
             <strong>Sweetgum Trees have extremely unique and interesting looking fruits!</strong>
             The fruits of the Sweetgum Tree are extremely interesting looking fruits. The fruit is a green sphere
             covered in spikes, which looks not unsimilar to a microscopic image of a virus! These fruits only start
@@ -89,13 +100,17 @@
 
 <br>
 
+<!-- RED MAPLE -->
+<!-- Format done in the same way as the first one -->
 <div style="margin-bottom:50%">
-  <!-- Swiss Stone Pine Image-->
+  
   <div style="text-align:left">
     <img src="static/img/pointed/red-maple.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="2">Red Maple (Acer Rubrum)</a></h3>
   </div>
-  <!-- Swiss Stone Pine Accordion with all info-->
+  
+  <!-- The only difference is that the id of the accordion and all of the controls have to be unique 
+  to this accordion within the html.  --> 
   <div class="accordion right-text w-50" id="SSPAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="SSPHeading1">
@@ -165,14 +180,14 @@
 
 <br>
 
-<!--Swamp White Oak-->
+<!-- AMERICAN SYCAMORE -->
 <div style="margin-bottom:50%">
-  <!-- Swamp White Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/pointed/american-sycamore.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="3">American Sycamore (Platanus Occidentalis)</a></h3>
   </div>
-  <!-- White Oak Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="APAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="APHeading1">
@@ -240,14 +255,14 @@
 
 <br>
 
-<!--Scarlet Oak-->
+<!-- HEDGE MAPLE -->
 <div style="margin-bottom:50%">
-  <!-- Scarlet Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/pointed/hedge-maple.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="4">Hedge Maple (Acer Campestre)</a></h3>
   </div>
-  <!-- Scarlet Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="ScarAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="ScarHeading1">
@@ -316,14 +331,14 @@
 
 <br>
 
-<!--Pin Oak-->
+<!-- NORWAY MAPLE -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/pointed/norway-maple.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="5"></a>Norway Maple (Acer Platanoides)</h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="CLAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="CLHeading1">
@@ -392,13 +407,13 @@
 
 <br>
 
+<!-- SUGAR MAPLE --> 
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
   <div style="text-align:left">
     <img src="static/img/pointed/sugar-maple.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="6">Sugar Maple (Acer Saccharum)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="DRAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="DRHeading1">
@@ -477,13 +492,14 @@
 
 <br>
 
+<!-- JAPANESE MAPLE -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/pointed/japanese-maple.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="7">Japanese Maple (Acer Palmatum)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="WLAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="WLHeading1">
@@ -561,13 +577,14 @@
 
 <br>
 
+<!-- TULIPTREE -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/pointed/tuliptree.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="8">Tuliptree (Liriodendron Tulipifera)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="TTAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="TTHeading1">
@@ -639,13 +656,14 @@
 
 <br>
 
+<!-- COMMON HOLLY -->
 <div style="margin-bottom:50%">
-  <!-- Pin Oak Image-->
+  
   <div style="text-align:left">
     <img src="static/img/pointed/holly.jpg" class="w-25 left-text">
     <h3 class="tree-name left-text w-25"><a id="9">Common Holly (Ilex Aquifolium)</a></h3>
   </div>
-  <!-- Pin Accordion with all info-->
+  
   <div class="accordion right-text w-50" id="HOLAccordion" style="display:inline-block">
     <div class="accordion-item">
       <h2 class="accordion-header" id="HOLHeading1">
